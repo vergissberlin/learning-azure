@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<quiz>
+<question type="category">
+<category><text>$course$/implement-and-manage-storage-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>HOTSPOT (Drag and Drop is not supported) You have several Azure virtual machines on a virtual network named VNet1. You configure an Azure Storage account as shown in the following exhibit.  Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic. Hot Area:</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Explanation:</strong></h5><p><img id="img344" src="https://free-braindumps.com/images/exam-dumps/AZ-104/68ef1afe-8e2e-42af-a147-1d66bfacceeb.jpg" imageviewer=""/><br/><br/><br/>Box 1: always<br/>The 10.2.9.0/24 subnet is not whitelisted.<br/><br/>Box 2: Never<br/>After you configure firewall and virtual network settings for your storage account, select Allow trusted Microsoft services to access this storage account as an exception to enable Azure Backup service to access the network restricted storage account.<br/><img id="img346" src="https://free-braindumps.com/images/exam-dumps/AZ-104/6399fb3e-718f-4c94-89f8-e745bba58088.jpg" imageviewer=""/></p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[HOTSPOT (Drag and Drop is not supported)<br/>You have several Azure virtual machines on a virtual network named VNet1.<br/>You configure an Azure Storage account as shown in the following exhibit.<br/><img id="img340" src="https://free-braindumps.com/images/exam-dumps/AZ-104/d54dfa12-4543-4511-b87a-06fe419d1cfd.jpg" imageviewer=""/><br/><br/>Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic.<br/><br/>Hot Area:<br/><img id="img342" src="https://free-braindumps.com/images/exam-dumps/AZ-104/b7da4b35-5842-4bcb-a33c-8b2cb90fc895.jpg" imageviewer=""/>]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="100">
+<text>See Explanation section for answer.</text>
+</answer>
+</question>
+
+<question type="category">
+<category><text>$course$/implement-and-manage-storage-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>HOTSPOT (Drag and Drop is not supported) You have a sync group named Sync1 that has a cloud endpoint. The cloud endpoint includes a file named File1.txt. Your on-premises network contains servers that run Windows Server 2016. The servers are configured as shown in the following table.  You add Share1 as an endpoint for Sync1. One hour later, you add Share2 as an endpoint for Sync1. For each of the following statements, select Yes if the statement is true. Otherwise, select No. Hot Area:</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Explanation:</strong></h5><p><img id="img352" src="https://free-braindumps.com/images/exam-dumps/AZ-104/5cd10737-a711-4d11-87de-0d9f1c9f6b17.jpg" imageviewer=""/><br/><br/><br/>Box 1: Yes<br/>If you add an Azure file share that has an existing set of files as a cloud endpoint to a sync group, the existing files are merged with any other files that are already on other endpoints in the sync group.<br/><br/>Box 2: No<br/>Box 3: Yes</p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[HOTSPOT (Drag and Drop is not supported)<br/>You have a sync group named Sync1 that has a cloud endpoint. The cloud endpoint includes a file named File1.txt.<br/><br/>Your on-premises network contains servers that run Windows Server 2016. The servers are configured as shown in the following table.<br/><img id="img348" src="https://free-braindumps.com/images/exam-dumps/AZ-104/9b848cdb-e0a8-4ee9-9775-1ac16aa4a135.jpg" imageviewer=""/><br/><br/>You add Share1 as an endpoint for Sync1. One hour later, you add Share2 as an endpoint for Sync1. For each of the following statements, select Yes if the statement is true. Otherwise, select No.<br/>Hot Area:<br/><img id="img350" src="https://free-braindumps.com/images/exam-dumps/AZ-104/503bed84-7af6-48b4-b889-bb007c2d34aa.jpg" imageviewer=""/>]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="100">
+<text>See Explanation section for answer.</text>
+</answer>
+</question>
+
+<question type="category">
+<category><text>$course$/implement-and-manage-storage-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>You have an Azure subscription that contains the storage accounts shown in the following table.  You need to identify which storage account can be converted to zone-redundant storage (ZRS) replication by requesting a live migration from Azure support. What should you identify?</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Explanation:</strong></h5><p>ZRS currently supports standard general-purpose v2, FileStorage and BlockBlobStorage storage account types.<br/><br/>Incorrect Answers:<br/>A, not C: Live migration is supported only for storage accounts that use LRS replication. If your account uses GRS or RA-GRS, then you need to first change your account&#39;s replication type to LRS before proceeding. This intermediary step removes the secondary endpoint provided by GRS/RA-GRS.<br/>Also, only standard storage account types support live migration. Premium storage accounts must be migrated manually.<br/>D: ZRS currently supports standard general-purpose v2, FileStorage and BlockBlobStorage storage account types.</p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[You have an Azure subscription that contains the storage accounts shown in the following table.<br/><img id="img354" src="https://free-braindumps.com/images/exam-dumps/AZ-104/1be1cc35-8f1c-4040-812c-82479beeea33.jpg" imageviewer=""/><br/><br/>You need to identify which storage account can be converted to zone-redundant storage (ZRS) replication by requesting a live migration from Azure support.<br/>What should you identify?]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="0">
+<text>storage1</text>
+</answer>
+<answer fraction="100">
+<text>storage2</text>
+</answer>
+<answer fraction="0">
+<text>storage3</text>
+</answer>
+<answer fraction="0">
+<text>storage4</text>
+</answer>
+</question>
+
+<question type="category">
+<category><text>$course$/implement-and-manage-storage-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>You have an Azure subscription that contains a storage account named account1. You plan to upload the disk files of a virtual machine to account1 from your on-premises network. The on- premises network uses a public IP address space of 131.107.1.0/24. You plan to use the disk files to provision an Azure virtual machine named VM1. VM1 will be attached to a virtual network named VNet1. VNet1 uses an IP address space of 192.168.0.0/24. You need to configure account1 to meet the following requirements: -Ensure that you can upload the disk files to account1. -Ensure that you can attach the disks to VM1. -Prevent all other access to account1. Which two actions should you perform? Each correct answer presents part of the solution. Note: Each correct selection is worth one point.</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Explanation:</strong></h5><p>A: By default, storage accounts accept connections from clients on any network. To limit access to selected networks, you must first change the default action.<br/>Azure portal<br/><br/>1. Navigate to the storage account you want to secure.<br/>2. Click on the settings menu called Firewalls and virtual networks.<br/>3. To deny access by default, choose to allow access from &#39;Selected networks&#39;. To allow traffic from all networks, choose to allow access from &#39;All networks&#39;.<br/>4. Click Save to apply your changes.<br/>E: Grant access from a Virtual Network<br/>Storage accounts can be configured to allow access only from specific Azure Virtual Networks.<br/>By enabling a Service Endpoint for Azure Storage within the Virtual Network, traffic is ensured an optimal route to the Azure Storage service. The identities of the virtual network and the subnet are also transmitted with each request.</p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[You have an Azure subscription that contains a storage account named account1.<br/><br/>You plan to upload the disk files of a virtual machine to account1 from your on-premises network. The on- premises network uses a public IP address space of 131.107.1.0/24.<br/><br/>You plan to use the disk files to provision an Azure virtual machine named VM1. VM1 will be attached to a virtual network named VNet1. VNet1 uses an IP address space of 192.168.0.0/24.<br/><br/>You need to configure account1 to meet the following requirements:<br/>-Ensure that you can upload the disk files to account1.<br/>-Ensure that you can attach the disks to VM1.<br/>-Prevent all other access to account1.<br/><br/>Which two actions should you perform? Each correct answer presents part of the solution.<br/>Note: Each correct selection is worth one point.]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="100">
+<text>From the Firewalls and virtual networks blade of account1, select Selected networks.</text>
+</answer>
+<answer fraction="0">
+<text>From the Firewalls and virtual networks blade of account1, select Allow trusted Microsoft services to access this storage account.</text>
+</answer>
+<answer fraction="0">
+<text>From the Firewalls and virtual networks blade of account1, add the 131.107.1.0/24 IP address range.</text>
+</answer>
+<answer fraction="0">
+<text>From the Firewalls and virtual networks blade of account1, add VNet1.</text>
+</answer>
+<answer fraction="100">
+<text>From the Service endpoints blade of VNet1, add a service endpoint.</text>
+</answer>
+</question>
+
+</quiz>

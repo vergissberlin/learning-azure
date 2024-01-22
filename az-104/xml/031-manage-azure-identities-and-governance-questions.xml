@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<quiz>
+<question type="category">
+<category><text>$course$/manage-azure-identities-and-governance-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>HOTSPOT (Drag and Drop is not supported) You have three Azure subscriptions named Sub1, Sub2, and Sub3 that are linked to an Azure AD tenant. The tenant contains a user named User1, a security group named Group1, and a management group named MG1. User is a member of Group1. Sub1 and Sub2 are members of MG1. Sub1 contains a resource group named RG1. RG1 contains five Azure functions. You create the following role assignments for MG1: -Group1: Reader -User1: User Access Administrator You assign User the Virtual Machine Contributor role for Sub1 and Sub2.</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Explanation:</strong></h5><p><img id="img216" src="https://free-braindumps.com/images/exam-dumps/AZ-104/6b5e27a3-f970-47ff-888d-78cd202307c5.jpg" imageviewer=""/><br/><br/>Box 1: Yes<br/>The RG1 Resource Group contains five Azure functions.<br/>The Management Group MG1 contains the role assignment: Group1 is Reader for RG1.<br/><br/>The Reader role is an Azure Resource Manager role that permits users to view storage account resources, but not modify them. It does not provide read permissions to data in Azure Storage, but only to account management resources.<br/><br/>Box 2: Yes<br/>The Management Group MG1 contains the role assignment User1: User Access Administrator<br/>Sub1 is a member of MG1.<br/>Sub1 contains a resource group named RG1.<br/><br/>The User Access Administrator role enables the user to grant other users access to Azure resources. This switch can be helpful to regain access to a subscription.<br/><br/>You can use User Access Administrator role to give another user the Owner role in the subscription.<br/><br/>Box 3: No<br/>User Access Administrator only lets you manage user access to Azure resource</p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[HOTSPOT (Drag and Drop is not supported)<br/>You have three Azure subscriptions named Sub1, Sub2, and Sub3 that are linked to an Azure AD tenant.<br/><br/>The tenant contains a user named User1, a security group named Group1, and a management group named MG1. User is a member of Group1.<br/><br/>Sub1 and Sub2 are members of MG1. Sub1 contains a resource group named RG1. RG1 contains five Azure functions.<br/><br/>You create the following role assignments for MG1:<br/><br/>-Group1: Reader<br/>-User1: User Access Administrator<br/><br/>You assign User the Virtual Machine Contributor role for Sub1 and Sub2.<br/><img id="img214" src="https://free-braindumps.com/images/exam-dumps/AZ-104/090af2f3-10c1-4dc8-bf08-d7ac3fc9e715.jpg" imageviewer=""/>]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="100">
+<text>See Explanation section for answer.</text>
+</answer>
+</question>
+
+<question type="category">
+<category><text>$course$/manage-azure-identities-and-governance-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>You have an Azure subscription that contains the resources shown in the following table.   You need to assign User1 the Storage File Data SMB Share Contributor role for share1. What should you do first?</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Explanation:</strong></h5><p>Assign share-level permissions<br/>Assign an Azure role to an Azure AD identity<br/>To assign an Azure role to an Azure AD identity, using the Azure portal, follow these steps:<br/><br/>1. In the Azure portal, go to your file share, or Create a file share.<br/>2. Select Access Control (IAM).<br/>3. Select Add a role assignment<br/>4. In the Add role assignment blade, select the appropriate built-in role (Storage File Data SMB Share Reader, Storage File Data SMB Share Contributor) from the Role list. Leave Assign access to at the default setting: Azure AD user, group, or service principal. Select the target Azure AD identity by name or email address.<br/>5. Select Review + assign to complete the role assignment operation.<br/><br/>Note: Most users should assign share-level permissions to specific Azure AD users or groups, and then configure Windows ACLs for granular access control at the directory and file level. However, alternatively you can set a default share-level permission to allow contributor, elevated contributor, or reader access to all authenticated identities.<br/><br/>We have introduced three Azure built-in roles for granting share-level permissions to users and groups:<br/><br/>Storage File Data SMB Share Reader allows read access in Azure Storage file shares over SMB.<br/>Storage File Data SMB Share Contributor allows read, write, and delete access in Azure Storage file shares over SMB.<br/>Storage File Data SMB Share Elevated Contributor allows read, write, delete, and modify Windows ACLs in Azure file shares over SMB.</p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[You have an Azure subscription that contains the resources shown in the following table.<br/><img id="img218" src="https://free-braindumps.com/images/exam-dumps/AZ-104/03585fd3-962a-4f3b-a3c4-6a0c25c3f106.jpg" imageviewer=""/> <br/><br/>You need to assign User1 the Storage File Data SMB Share Contributor role for share1.<br/>What should you do first?]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="0">
+<text>Enable identity-based data access for the file shares in storage1.</text>
+</answer>
+<answer fraction="0">
+<text>Modify the security profile for the file shares in storage1.</text>
+</answer>
+<answer fraction="0">
+<text>Select Default to Azure Active Directory authorization in the Azure portal for storage1.</text>
+</answer>
+<answer fraction="100">
+<text>Configure Access control (IAM) for share1.</text>
+</answer>
+</question>
+
+<question type="category">
+<category><text>$course$/manage-azure-identities-and-governance-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>You have an Azure subscription named Subscription1 that contains a virtual network named VNet1. VNet1 is in a resource group named RG1. Subscription1 has a user named User1. User1 has the following roles: -Reader -Security Admin -Security Reader You need to ensure that User1 can assign the Reader role for VNet1 to other users. What should you do?</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Explanation:</strong></h5><p>The User Access Administrator role enables the user to grant other users access to Azure resources.<br/><br/>Note:<br/>There are several versions of this question in the exam. The question has three possible correct answers:<br/>* Assign User1 the Access Administrator role for VNet1.<br/>* Assign User1 the User Access Administrator role for VNet1.<br/>* Assign User1 the Owner role for VNet1.<br/><br/>Other incorrect answer options you may see on the exam include the following:<br/>* Assign User1 the Contributor role for VNet1.<br/>* Remove User1 from the Security Reader and Reader roles for Subscription1. Assign User1 the Contributor role for Subscription1.<br/>* Remove User1 from the Security Reader role for Subscription1. Assign User1 the Contributor role for RG1.</p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[You have an Azure subscription named Subscription1 that contains a virtual network named VNet1. VNet1 is in a resource group named RG1.<br/><br/>Subscription1 has a user named User1. User1 has the following roles:<br/><br/>-Reader<br/>-Security Admin<br/>-Security Reader<br/><br/>You need to ensure that User1 can assign the Reader role for VNet1 to other users.<br/>What should you do?]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="0">
+<text>Remove User1 from the Security Reader role for Subscription1. Assign User1 the Contributor role for RG1.</text>
+</answer>
+<answer fraction="100">
+<text>Assign User1 the User Access Administrator role for VNet1.</text>
+</answer>
+<answer fraction="0">
+<text>Remove User1 from the Security Reader and Reader roles for Subscription1.</text>
+</answer>
+<answer fraction="0">
+<text>Assign User1 the Contributor role for VNet1.</text>
+</answer>
+</question>
+
+<question type="category">
+<category><text>$course$/manage-azure-identities-and-governance-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>HOTSPOT (Drag and Drop is not supported) You have an Azure AD tenant named adatum.com that contains the groups shown in the following table.   Adatum.com contains the users shown in the following table.   You assign an Azure Active Directory Premium P2 license to Group1 as shown in the following exhibit.   Group2 is NOT directly assigned a license. For each of the following statements, select Yes if the statement is true. Otherwise, select No.</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Explanation:</strong></h5><p><img id="img228" src="https://free-braindumps.com/images/exam-dumps/AZ-104/8e309e58-1aed-4564-8238-75e56ec04f8e.jpg" imageviewer=""/></p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[HOTSPOT (Drag and Drop is not supported)<br/>You have an Azure AD tenant named adatum.com that contains the groups shown in the following table.<br/><br/><img id="img220" src="https://free-braindumps.com/images/exam-dumps/AZ-104/440944f2-8cc5-4fe5-a0fc-cb2d78cb382b.jpg" imageviewer=""/><br/><br/>Adatum.com contains the users shown in the following table.<br/><br/><img id="img222" src="https://free-braindumps.com/images/exam-dumps/AZ-104/b919b035-a7a0-43fc-ba49-0687da2c43be.jpg" imageviewer=""/><br/><br/>You assign an Azure Active Directory Premium P2 license to Group1 as shown in the following exhibit.<br/><br/><img id="img224" src="https://free-braindumps.com/images/exam-dumps/AZ-104/dcf2a6b0-0ef7-4e91-9863-b0ef37e12d87.jpg" imageviewer=""/><br/><br/>Group2 is NOT directly assigned a license.<br/>For each of the following statements, select Yes if the statement is true. Otherwise, select No.<br/><br/><img id="img226" src="https://free-braindumps.com/images/exam-dumps/AZ-104/276f3cf2-eb12-4fde-90fe-518364a0f49a.jpg" imageviewer=""/>]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="100">
+<text>See Explanation section for answer.</text>
+</answer>
+</question>
+
+</quiz>

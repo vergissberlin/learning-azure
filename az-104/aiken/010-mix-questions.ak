@@ -5,21 +5,21 @@ Your company has an Azure Active Directory (Azure AD) subscription. You need to 
 1
 ANSWER: D
 
-Your company’s Azure subscription includes Azure virtual machines (VMs) that run Windows Server 2016. One of the VMs is backed up every day using Azure Backup Instant Restore. When the VM becomes infected with data encrypting ransomware, you decide to recover the VM’s files.  Which of the following is TRUE in this scenario?
+Your company’s Azure subscription includes Azure virtual machines (VMs) that run Windows Server 2016. One of the VMs is backed up every day using Azure Backup Instant Restore. When the VM becomes infected with data encrypting ransomware, you decide to recover the VM’s files. Which of the following is TRUE in this scenario?
 You can only recover the files to the infected VM.
 You can recover the files to any VM within the company’s subscription.
 You can only recover the files to a new VM.
 You will not be able to recover the files.
 ANSWER: A
 
-Your company’s Azure subscription includes Azure virtual machines (VMs) that run Windows Server 2016. One of the VMs is backed up every day using Azure Backup Instant Restore. When the VM becomes infected with data encrypting ransomware, you are required to restore the VM.  Which of the following actions should you take?
+Your company’s Azure subscription includes Azure virtual machines (VMs) that run Windows Server 2016. One of the VMs is backed up every day using Azure Backup Instant Restore. When the VM becomes infected with data encrypting ransomware, you are required to restore the VM. Which of the following actions should you take?
 You should restore the VM after deleting the infected VM.
 You should restore the VM to any VM within the company’s subscription.
 You should restore the VM to a new Azure VM.
 You should restore the VM to an on-premise Windows device.
 ANSWER: B
 
-You administer a solution in Azure that is currently having performance issues. You need to find the cause of the performance issues pertaining to metrics on the Azure infrastructure.  Which of the following is the tool you should use?
+You administer a solution in Azure that is currently having performance issues. You need to find the cause of the performance issues pertaining to metrics on the Azure infrastructure. Which of the following is the tool you should use?
 Azure Traffic Analytics
 Azure Monitor
 Azure Activity Log

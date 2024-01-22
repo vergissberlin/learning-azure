@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<quiz>
+<question type="category">
+<category><text>$course$/mix-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>You have an Azure virtual machine (VM) that has a single data disk. You have been tasked with attaching this data disk to another Azure VM. You need to make sure that your strategy allows for the virtual machines to be offline for the least amount of time possible. Which of the following is the action you should take FIRST?</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Reference:</strong></h5><p>https://docs.microsoft.com/en-us/azure/virtual-machines/windows/detach-disk https://docs.microsoft.com/en-us/azure/lab-services/devtest-lab-attach-detach-data-disk</p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[You have an Azure virtual machine (VM) that has a single data disk. You have been tasked with attaching this data disk to another Azure VM.<br/>You need to make sure that your strategy allows for the virtual machines to be offline for the least amount of time possible.<br/>Which of the following is the action you should take FIRST?]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="100">
+<text>Stop the VM that includes the data disk.</text>
+</answer>
+<answer fraction="0">
+<text>Stop the VM that the data disk must be attached to.</text>
+</answer>
+<answer fraction="0">
+<text>Detach the data disk.</text>
+</answer>
+<answer fraction="0">
+<text>Delete the VM that includes the data disk.</text>
+</answer>
+</question>
+
+<question type="category">
+<category><text>$course$/mix-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>Your company has an Azure subscription. You need to deploy a number of Azure virtual machines (VMs) using Azure Resource Manager (ARM) templates. You have been informed that the VMs will be included in a single availability set. You are required to make sure that the ARM template you configure allows for as many VMs as possible to remain accessible in the event of fabric failure or maintenance. Which of the following is the value that you should configure for the platformFaultDomainCount property?</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Explanation:</strong></h5><p>The number of fault domains for managed availability sets varies by region - either two or three per region.</p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[Your company has an Azure subscription.<br/>You need to deploy a number of Azure virtual machines (VMs) using Azure Resource Manager (ARM) templates. You have been informed that the VMs will be included in a single availability set.<br/>You are required to make sure that the ARM template you configure allows for as many VMs as possible to remain accessible in the event of fabric failure or maintenance.<br/><br/>Which of the following is the value that you should configure for the platformFaultDomainCount property?]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="0">
+<text>10</text>
+</answer>
+<answer fraction="0">
+<text>30</text>
+</answer>
+<answer fraction="0">
+<text>Min Value</text>
+</answer>
+<answer fraction="100">
+<text>Max Value</text>
+</answer>
+</question>
+
+<question type="category">
+<category><text>$course$/mix-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>Your company has an Azure subscription. You need to deploy a number of Azure virtual machines (VMs) using Azure Resource Manager (ARM) templates. You have been informed that the VMs will be included in a single availability set. You are required to make sure that the ARM template you configure allows for as many VMs as possible to remain accessible in the event of fabric failure or maintenance. Which of the following is the value that you should configure for the platformUpdateDomainCount property?</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Explanation:</strong></h5><p>Each virtual machine in your availability set is assigned an update domain and a fault domain by the underlying Azure platform. For a given availability set, five non-user-configurable update domains are assigned by default (Resource Manager deployments can then be increased to provide up to 20 update domains) to indicate groups of virtual machines and underlying physical hardware that can be rebooted at the same time.</p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[Your company has an Azure subscription.<br/>You need to deploy a number of Azure virtual machines (VMs) using Azure Resource Manager (ARM) templates. You have been informed that the VMs will be included in a single availability set.<br/>You are required to make sure that the ARM template you configure allows for as many VMs as possible to remain accessible in the event of fabric failure or maintenance.<br/><br/>Which of the following is the value that you should configure for the platformUpdateDomainCount property?]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="0">
+<text>10</text>
+</answer>
+<answer fraction="100">
+<text>20</text>
+</answer>
+<answer fraction="0">
+<text>30</text>
+</answer>
+<answer fraction="0">
+<text>40</text>
+</answer>
+</question>
+
+<question type="category">
+<category><text>$course$/mix-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>DRAG DROP (Drag and Drop is not supported) You have downloaded an Azure Resource Manager (ARM) template to deploy numerous virtual machines (VMs). The ARM template is based on a current VM, but must be adapted to reference an administrative password. You need to make sure that the password cannot be stored in plain text. You are preparing to create the necessary components to achieve your goal. Which of the following should you create to achieve your goal? Answer by dragging the correct option from the list to the answer area. Select and Place:</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Explanation:</strong></h5><p><img id="img8" src="https://free-braindumps.com/images/exam-dumps/AZ-104/804656e9-7fd3-4c54-8cce-384c171d8477.jpg" imageviewer=""/><br/><br/><br/>You can use a template that allows you to deploy a simple Windows VM by retrieving the password that is stored in a Key Vault. Therefore, the password is never put in plain text in the template parameter file.</p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[DRAG DROP (Drag and Drop is not supported)<br/>You have downloaded an Azure Resource Manager (ARM) template to deploy numerous virtual machines (VMs). The ARM template is based on a current VM, but must be adapted to reference an administrative password.<br/><br/>You need to make sure that the password cannot be stored in plain text. You are preparing to create the necessary components to achieve your goal.<br/><br/>Which of the following should you create to achieve your goal? Answer by dragging the correct option from the list to the answer area.<br/><br/>Select and Place:<br/><img id="img6" src="https://free-braindumps.com/images/exam-dumps/AZ-104/c656e300-4569-4022-a271-f29de6de3da8.jpg" imageviewer=""/>]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="100">
+<text>See Explanation section for answer.</text>
+</answer>
+</question>
+
+</quiz>

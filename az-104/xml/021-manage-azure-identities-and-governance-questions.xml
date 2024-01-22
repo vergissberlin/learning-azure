@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<quiz>
+<question type="category">
+<category><text>$course$/manage-azure-identities-and-governance-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>HOTSPOT (Drag and Drop is not supported) You have an Azure Active Directory (Azure AD) tenant that contains three global administrators named Admin1, Admin2, and Admin3. The tenant is associated to an Azure subscription. Access control for the subscription is configured as shown in the Access control exhibit. (Click the Access Control tab.)   You sign in to the Azure portal as Admin1 and configure the tenant as shown in the Tenant exhibit. (Click the Tenant tab.)  For each of the following statements, select Yes if the statement is true. Otherwise, select No. Hot Area:</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Explanation:</strong></h5><p><img id="img102" src="https://free-braindumps.com/images/exam-dumps/AZ-104/9eb5e17e-c227-4d03-b029-c4fc23ff7f6e.jpg" imageviewer=""/><br/><br/><br/>Box 1: No<br/>Only Admin3, the owner, can assign ownership.<br/>Box 2: Yes<br/>Box 3: No</p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[HOTSPOT (Drag and Drop is not supported)<br/>You have an Azure Active Directory (Azure AD) tenant that contains three global administrators named Admin1, Admin2, and Admin3.<br/><br/>The tenant is associated to an Azure subscription. Access control for the subscription is configured as shown in the Access control exhibit. (Click the Access Control tab.)<br/><br/><img id="img96" src="https://free-braindumps.com/images/exam-dumps/AZ-104/4e1661ae-1cab-4607-ba26-ced55f620179.jpg" imageviewer=""/><br/><br/>You sign in to the Azure portal as Admin1 and configure the tenant as shown in the Tenant exhibit. (Click the Tenant tab.)<br/><img id="img98" src="https://free-braindumps.com/images/exam-dumps/AZ-104/ad7580df-469d-4147-8b02-9a87b8f42b6c.jpg" imageviewer=""/><br/><br/>For each of the following statements, select Yes if the statement is true. Otherwise, select No.<br/>Hot Area:<br/><img id="img100" src="https://free-braindumps.com/images/exam-dumps/AZ-104/5852e5d8-b2b5-4e03-8447-e06503f20711.jpg" imageviewer=""/>]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="100">
+<text>See Explanation section for answer.</text>
+</answer>
+</question>
+
+<question type="category">
+<category><text>$course$/manage-azure-identities-and-governance-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>You have an Azure subscription named Subscription1 that contains an Azure virtual machine named VM1. VM1 is in a resource group named RG1. VM1 runs services that will be used to deploy resources to RG1. You need to ensure that a service running on VM1 can manage the resources in RG1 by using the identity of VM1. What should you do first?</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Explanation:</strong></h5><p>Managed identities for Azure resources provides Azure services with an automatically managed identity in Azure Active Directory. You can use this identity to authenticate to any service that supports Azure AD authentication, without having credentials in your code.<br/><br/>You can enable and disable the system-assigned managed identity for VM using the Azure portal.</p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[You have an Azure subscription named Subscription1 that contains an Azure virtual machine named VM1. VM1 is in a resource group named RG1.<br/><br/>VM1 runs services that will be used to deploy resources to RG1.<br/>You need to ensure that a service running on VM1 can manage the resources in RG1 by using the identity of VM1.<br/><br/>What should you do first?]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="100">
+<text>From the Azure portal, modify the Managed Identity settings of VM1</text>
+</answer>
+<answer fraction="0">
+<text>From the Azure portal, modify the Access control (IAM) settings of RG1</text>
+</answer>
+<answer fraction="0">
+<text>From the Azure portal, modify the Access control (IAM) settings of VM1</text>
+</answer>
+<answer fraction="0">
+<text>From the Azure portal, modify the Policies settings of RG1</text>
+</answer>
+</question>
+
+<question type="category">
+<category><text>$course$/manage-azure-identities-and-governance-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>You have an Azure subscription that contains a resource group named TestRG. You use TestRG to validate an Azure deployment. TestRG contains the following resources:   You need to delete TestRG. What should you do first?</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Explanation:</strong></h5><p>When you delete a resource group, all of its resources are also deleted. Deleting a resource group deletes all of its template deployments and currently stored operations.</p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[You have an Azure subscription that contains a resource group named TestRG. You use TestRG to validate an Azure deployment.<br/>TestRG contains the following resources:<br/><br/><img id="img104" src="https://free-braindumps.com/images/exam-dumps/AZ-104/32330968-7c26-4138-93ab-ed033a18040e.jpg" imageviewer=""/><br/><br/>You need to delete TestRG. What should you do first?]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="0">
+<text>Modify the backup configurations of VM1 and modify the resource lock type of VNET1</text>
+</answer>
+<answer fraction="0">
+<text>Remove the resource lock from VNET1 and delete all data in Vault1</text>
+</answer>
+<answer fraction="100">
+<text>Turn off VM1 and remove the resource lock from VNET1</text>
+</answer>
+<answer fraction="0">
+<text>Turn off VM1 and delete all data in Vault1</text>
+</answer>
+</question>
+
+<question type="category">
+<category><text>$course$/manage-azure-identities-and-governance-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>You have an Azure DNS zone named adatum.com. You need to delegate a subdomain named research.adatum.com to a different DNS server in Azure. What should you do?</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Explanation:</strong></h5><p>You need to create a name server (NS) record for the zone.</p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[You have an Azure DNS zone named adatum.com.<br/><br/>You need to delegate a subdomain named research.adatum.com to a different DNS server in Azure. <br/>What should you do?]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="100">
+<text>Create an NS record named research in the adatum.com zone.</text>
+</answer>
+<answer fraction="0">
+<text>Create an PTR record named research in the adatum.com zone.</text>
+</answer>
+<answer fraction="0">
+<text>Modify the SOA record of adatum.com.</text>
+</answer>
+<answer fraction="0">
+<text>Create an A record named *.research in the adatum.com zone.</text>
+</answer>
+</question>
+
+</quiz>

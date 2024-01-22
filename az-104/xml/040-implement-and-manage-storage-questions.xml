@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<quiz>
+<question type="category">
+<category><text>$course$/implement-and-manage-storage-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>DRAG DROP (Drag and Drop is not supported) You have an on-premises file server named Server1 that runs Windows Server 2016. You have an Azure subscription that contains an Azure file share. You deploy an Azure File Sync Storage Sync Service, and you create a sync group. You need to synchronize files from Server1 to Azure. Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order. Select and Place:</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Explanation:</strong></h5><p><img id="img358" src="https://free-braindumps.com/images/exam-dumps/AZ-104/3552612a-5350-4f89-88d3-b1ab581c15b8.jpg" imageviewer=""/><br/><br/><br/>Step 1: Install the Azure File Sync agent on Server1<br/>The Azure File Sync agent is a downloadable package that enables Windows Server to be synced with an Azure file share<br/><br/>Step 2: Register Server1.<br/>Register Windows Server with Storage Sync Service<br/>Registering your Windows Server with a Storage Sync Service establishes a trust relationship between your server (or cluster) and the Storage Sync Service.<br/><br/>Step 3: Add a server endpoint<br/>Create a sync group and a cloud endpoint.<br/>A sync group defines the sync topology for a set of files. Endpoints within a sync group are kept in sync with each other. A sync group must contain one cloud endpoint, which represents an Azure file share and one or more server endpoints. A server endpoint represents a path on registered server.</p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[DRAG DROP (Drag and Drop is not supported)<br/>You have an on-premises file server named Server1 that runs Windows Server 2016. You have an Azure subscription that contains an Azure file share.<br/>You deploy an Azure File Sync Storage Sync Service, and you create a sync group. You need to synchronize files from Server1 to Azure.<br/><br/>Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.<br/>Select and Place:<br/><img id="img356" src="https://free-braindumps.com/images/exam-dumps/AZ-104/7c074f2e-1e26-48f8-935f-0c36b9bf229e.jpg" imageviewer=""/>]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="100">
+<text>See Explanation section for answer.</text>
+</answer>
+</question>
+
+<question type="category">
+<category><text>$course$/implement-and-manage-storage-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>HOTSPOT (Drag and Drop is not supported) You plan to create an Azure Storage account in the Azure region of East US 2. You need to create a storage account that meets the following requirements: -Replicates synchronously. -Remains available if a single data center in the region fails. How should you configure the storage account? To answer, select the appropriate options in the answer area. Hot Area:</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Explanation:</strong></h5><p><img id="img362" src="https://free-braindumps.com/images/exam-dumps/AZ-104/efe176a4-484c-4dc1-b2b7-09390b5bf19c.jpg" imageviewer=""/><br/><br/><br/>Box 1: Zone-redundant storage (ZRS)<br/>Zone-redundant storage (ZRS) replicates your data synchronously across three storage clusters in a single region.<br/><br/>LRS would not remain available if a data center in the region fails GRS and RA GRS use asynchronous replication.<br/><br/>Box 2: StorageV2 (general purpose V2) ZRS only support GPv2.</p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[HOTSPOT (Drag and Drop is not supported)<br/>You plan to create an Azure Storage account in the Azure region of East US 2. You need to create a storage account that meets the following requirements:<br/>-Replicates synchronously.<br/>-Remains available if a single data center in the region fails.<br/><br/>How should you configure the storage account? To answer, select the appropriate options in the answer area.<br/><br/>Hot Area:<br/><img id="img360" src="https://free-braindumps.com/images/exam-dumps/AZ-104/4eef2cd2-eb3f-4cee-a7ed-24ace8875829.jpg" imageviewer=""/>]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="100">
+<text>See Explanation section for answer.</text>
+</answer>
+</question>
+
+<question type="category">
+<category><text>$course$/implement-and-manage-storage-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>You plan to use the Azure Import/Export service to copy files to a storage account. Which two files should you create before you prepare the drives for the import job? Each correct answer presents part of the solution. Note: Each correct selection is worth one point.</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Explanation:</strong></h5><p>B: Modify the dataset.csv file in the root folder where the tool resides. Depending on whether you want to import a file or folder or both, add entries in the dataset.csv file<br/>E: Modify the driveset.csv file in the root folder where the tool resides.</p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[You plan to use the Azure Import/Export service to copy files to a storage account.<br/>Which two files should you create before you prepare the drives for the import job? Each correct answer presents part of the solution.<br/><br/>Note: Each correct selection is worth one point.]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="0">
+<text>an XML manifest file</text>
+</answer>
+<answer fraction="100">
+<text>a dataset CSV file</text>
+</answer>
+<answer fraction="0">
+<text>a JSON configuration file</text>
+</answer>
+<answer fraction="0">
+<text>a PowerShell PS1 file</text>
+</answer>
+<answer fraction="100">
+<text>a driveset CSV file</text>
+</answer>
+</question>
+
+<question type="category">
+<category><text>$course$/implement-and-manage-storage-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>You have a Recovery Service vault that you use to test backups. The test backups contain two protected virtual machines. You need to delete the Recovery Services vault. What should you do first?</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Explanation:</strong></h5><p>You can&#39;t delete a Recovery Services vault if it is registered to a server and holds backup data. If you try to delete a vault, but can&#39;t, the vault is still configured to receive backup data.<br/><br/>Remove vault dependencies and delete vault<br/>In the vault dashboard menu, scroll down to the Protected Items section, and click Backup Items. In this menu, you can stop and delete Azure File Servers, SQL Servers in Azure VM, and Azure virtual machines.<br/><br/><img id="img364" src="https://free-braindumps.com/images/exam-dumps/AZ-104/8d89c435-e356-4f58-a9cc-d85e21e84604.jpg" imageviewer=""/></p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[You have a Recovery Service vault that you use to test backups. The test backups contain two protected virtual machines. You need to delete the Recovery Services vault. <br/>What should you do first?]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="0">
+<text>From the Recovery Service vault, delete the backup data.</text>
+</answer>
+<answer fraction="0">
+<text>Modify the disaster recovery properties of each virtual machine.</text>
+</answer>
+<answer fraction="0">
+<text>Modify the locks of each virtual machine.</text>
+</answer>
+<answer fraction="100">
+<text>From the Recovery Service vault, stop the backup of each backup item.</text>
+</answer>
+</question>
+
+</quiz>

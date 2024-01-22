@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<quiz>
+<question type="category">
+<category><text>$course$/manage-azure-identities-and-governance-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>HOTSPOT (Drag and Drop is not supported) You have an Azure subscription that contains the hierarchy shown in the following exhibit.  You create an Azure Policy definition named Policy1. To which Azure resources can you assign Policy1 and which Azure resources can you specify as exclusions from Policy1? To answer, select the appropriate options in the answer area.</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Explanation:</strong></h5><p><img id="img154" src="https://free-braindumps.com/images/exam-dumps/AZ-104/ab815393-d708-4f29-880d-b2b8b1089704.jpg" imageviewer=""/><br/><br/><br/>Box 1: Tenant Root Group, ManagementGroup1, Subscription1, RG1, and VM1<br/>Once your business rules have been formed, the policy definition or initiative is assigned to any scope of resources that Azure supports, such as management groups, subscriptions, resource groups, or individual resources.<br/><br/>Note: Azure provides four levels of scope: management groups, subscriptions, resource groups, and resources. The following image shows an example of these layers.<br/><img id="img156" src="https://free-braindumps.com/images/exam-dumps/AZ-104/8dea6e9a-1afd-45be-9bf0-9054f8537514.jpg" imageviewer=""/><br/><br/>Box 2: ManagementGroup1, Subscription1, RG1, and VM1<br/>You can exclude a subscope from the assignment.</p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[HOTSPOT (Drag and Drop is not supported)<br/>You have an Azure subscription that contains the hierarchy shown in the following exhibit.<br/><img id="img150" src="https://free-braindumps.com/images/exam-dumps/AZ-104/876b8dfc-fcc5-499f-8fbe-fe916e84804e.jpg" imageviewer=""/><br/><br/>You create an Azure Policy definition named Policy1.<br/><br/>To which Azure resources can you assign Policy1 and which Azure resources can you specify as exclusions from Policy1? To answer, select the appropriate options in the answer area.<br/><br/><img id="img152" src="https://free-braindumps.com/images/exam-dumps/AZ-104/aa9e6043-068c-40e3-89a2-505ffd530291.jpg" imageviewer=""/>]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="100">
+<text>See Explanation section for answer.</text>
+</answer>
+</question>
+
+<question type="category">
+<category><text>$course$/manage-azure-identities-and-governance-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>You have an Azure subscription that contains the following users in an Azure Active Directory tenant named contoso.onmicrosoft.com:   User1 creates a new Azure Active Directory tenant named external.contoso.onmicrosoft.com. You need to create new user accounts in external.contoso.onmicrosoft.com. Solution: You instruct User2 to create the user accounts. Does that meet the goal?</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Explanation:</strong></h5><p>B. No, a Global Administrator from one Azure AD tenant cannot create new users in another Azure AD tenant, even if they have Global Administrator privileges. Each Azure AD tenant is an isolated directory with its own set of users, resources, and administrative controls.</p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[<br/><br/><br/>You have an Azure subscription that contains the following users in an Azure Active Directory tenant named contoso.onmicrosoft.com:<br/><br/><img id="img158" src="https://free-braindumps.com/images/exam-dumps/AZ-104/01f9ff16-57c4-4fac-9727-c77967cf2738.jpg" imageviewer=""/><br/><br/>User1 creates a new Azure Active Directory tenant named external.contoso.onmicrosoft.com.<br/>You need to create new user accounts in external.contoso.onmicrosoft.com.<br/><br/>Solution: You instruct User2 to create the user accounts.<br/>Does that meet the goal?]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="0">
+<text>Yes</text>
+</answer>
+<answer fraction="100">
+<text>No</text>
+</answer>
+</question>
+
+<question type="category">
+<category><text>$course$/manage-azure-identities-and-governance-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>You have an Azure subscription that contains the following users in an Azure Active Directory tenant named contoso.onmicrosoft.com:  User1 creates a new Azure Active Directory tenant named external.contoso.onmicrosoft.com. You need to create new user accounts in external.contoso.onmicrosoft.com. Solution: You instruct User4 to create the user accounts. Does that meet the goal?</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Explanation:</strong></h5><p>Only a global administrator can add users to this tenant.</p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[<br/><br/><br/>You have an Azure subscription that contains the following users in an Azure Active Directory tenant named contoso.onmicrosoft.com:<br/><img id="img160" src="https://free-braindumps.com/images/exam-dumps/AZ-104/01f9ff16-57c4-4fac-9727-c77967cf2738.jpg" imageviewer=""/><br/><br/>User1 creates a new Azure Active Directory tenant named external.contoso.onmicrosoft.com. You need to create new user accounts in external.contoso.onmicrosoft.com.<br/><br/>Solution: You instruct User4 to create the user accounts.<br/>Does that meet the goal?]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="0">
+<text>Yes</text>
+</answer>
+<answer fraction="100">
+<text>No</text>
+</answer>
+</question>
+
+<question type="category">
+<category><text>$course$/manage-azure-identities-and-governance-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>You have an Azure subscription that contains the following users in an Azure Active Directory tenant named contoso.onmicrosoft.com:  User1 creates a new Azure Active Directory tenant named external.contoso.onmicrosoft.com. You need to create new user accounts in external.contoso.onmicrosoft.com. Solution: You instruct User3 to create the user accounts. Does that meet the goal?</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Explanation:</strong></h5><p>Only a global administrator can add users to this tenant.</p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[<br/><br/><br/>You have an Azure subscription that contains the following users in an Azure Active Directory tenant named contoso.onmicrosoft.com:<br/><img id="img162" src="https://free-braindumps.com/images/exam-dumps/AZ-104/01f9ff16-57c4-4fac-9727-c77967cf2738.jpg" imageviewer=""/><br/><br/>User1 creates a new Azure Active Directory tenant named external.contoso.onmicrosoft.com. You need to create new user accounts in external.contoso.onmicrosoft.com.<br/><br/>Solution: You instruct User3 to create the user accounts.<br/>Does that meet the goal?]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="0">
+<text>Yes</text>
+</answer>
+<answer fraction="100">
+<text>No</text>
+</answer>
+</question>
+
+</quiz>

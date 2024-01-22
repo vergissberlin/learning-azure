@@ -1,0 +1,23 @@
+HOTSPOT (Drag and Drop is not supported) You have several Azure virtual machines on a virtual network named VNet1. You configure an Azure Storage account as shown in the following exhibit.  Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic. Hot Area:
+See Explanation section for answer.
+ANSWER: A
+
+HOTSPOT (Drag and Drop is not supported) You have a sync group named Sync1 that has a cloud endpoint. The cloud endpoint includes a file named File1.txt. Your on-premises network contains servers that run Windows Server 2016. The servers are configured as shown in the following table.  You add Share1 as an endpoint for Sync1. One hour later, you add Share2 as an endpoint for Sync1. For each of the following statements, select Yes if the statement is true. Otherwise, select No. Hot Area:
+See Explanation section for answer.
+ANSWER: A
+
+You have an Azure subscription that contains the storage accounts shown in the following table.  You need to identify which storage account can be converted to zone-redundant storage (ZRS) replication by requesting a live migration from Azure support. What should you identify?
+storage1
+storage2
+storage3
+storage4
+ANSWER: B
+
+You have an Azure subscription that contains a storage account named account1. You plan to upload the disk files of a virtual machine to account1 from your on-premises network. The on- premises network uses a public IP address space of 131.107.1.0/24. You plan to use the disk files to provision an Azure virtual machine named VM1. VM1 will be attached to a virtual network named VNet1. VNet1 uses an IP address space of 192.168.0.0/24. You need to configure account1 to meet the following requirements: -Ensure that you can upload the disk files to account1. -Ensure that you can attach the disks to VM1. -Prevent all other access to account1. Which two actions should you perform? Each correct answer presents part of the solution. Note: Each correct selection is worth one point.
+From the Firewalls and virtual networks blade of account1, select Selected networks.
+From the Firewalls and virtual networks blade of account1, select Allow trusted Microsoft services to access this storage account.
+From the Firewalls and virtual networks blade of account1, add the 131.107.1.0/24 IP address range.
+From the Firewalls and virtual networks blade of account1, add VNet1.
+From the Service endpoints blade of VNet1, add a service endpoint.
+ANSWER: A, E
+

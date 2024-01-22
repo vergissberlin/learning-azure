@@ -1,0 +1,27 @@
+::Q153 DRAG DROP (Drag and Drop is not supported) You have an on-premises file server named Server1 that runs Windows Server 2016. You have an Azure subscription that contains an Azure file share. You deploy an Azure File Sync Storage Sync Service, and you create a sync group. You need to synchronize files from Server1 to Azure. Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order. Select and Place:::
+{
+ =See Explanation section for answer.
+}
+
+::Q154 HOTSPOT (Drag and Drop is not supported) You plan to create an Azure Storage account in the Azure region of East US 2. You need to create a storage account that meets the following requirements: -Replicates synchronously. -Remains available if a single data center in the region fails. How should you configure the storage account? To answer, select the appropriate options in the answer area. Hot Area:::
+{
+ =See Explanation section for answer.
+}
+
+::Q155 You plan to use the Azure Import/Export service to copy files to a storage account. Which two files should you create before you prepare the drives for the import job? Each correct answer presents part of the solution. Note: Each correct selection is worth one point.::
+{
+ an XML manifest file
+~=a dataset CSV file
+~a JSON configuration file
+~a PowerShell PS1 file
+~=a driveset CSV file
+}
+
+::Q156 You have a Recovery Service vault that you use to test backups. The test backups contain two protected virtual machines. You need to delete the Recovery Services vault. What should you do first?::
+{
+ From the Recovery Service vault, delete the backup data.
+~Modify the disaster recovery properties of each virtual machine.
+~Modify the locks of each virtual machine.
+~=From the Recovery Service vault, stop the backup of each backup item.
+}
+

@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<quiz>
+<question type="category">
+<category><text>$course$/manage-azure-identities-and-governance-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>DRAG DROP (Drag and Drop is not supported) You have an Azure subscription that is used by four departments in your company. The subscription contains 10 resource groups. Each department uses resources in several resource groups. You need to send a report to the finance department. The report must detail the costs for each department. Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order. Select and Place:</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Explanation:</strong></h5><p><img id="img62" src="https://free-braindumps.com/images/exam-dumps/AZ-104/0f20a04f-58ed-4a32-bd8a-cbe7d8693615.jpg" imageviewer=""/><br/><br/><br/>Box 1: Assign a tag to each resource.<br/><br/>You apply tags to your Azure resources giving metadata to logically organize them into a taxonomy. After you apply tags, you can retrieve all the resources in your subscription with that tag name and value. Each resource or resource group can have a maximum of 15 tag name/value pairs. Tags applied to the resource group are not inherited by the resources in that resource group.<br/><br/>Box 2: From the Cost analysis blade, filter the view by tag<br/>After you get your services running, regularly check how much they&#39;re costing you. You can see the current spend and burn rate in Azure portal.<br/><br/>1. Visit the Subscriptions blade in Azure portal and select a subscription. You should see the cost breakdown and burn rate in the popup blade.<br/>2. Click Cost analysis in the list to the left to see the cost breakdown by resource. Wait 24 hours after you add a service for the data to populate.<br/>3. You can filter by different properties like tags, resource group, and timespan. Click Apply to confirm the filters and Download if you want to export the view to a Comma-Separated Values (.csv) file.<br/>Box 3: Download the usage report</p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[DRAG DROP (Drag and Drop is not supported)<br/>You have an Azure subscription that is used by four departments in your company. The subscription contains 10 resource groups. Each department uses resources in several resource groups.<br/><br/>You need to send a report to the finance department. The report must detail the costs for each department.<br/><br/>Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.<br/>Select and Place:<br/><br/><img id="img60" src="https://free-braindumps.com/images/exam-dumps/AZ-104/643b1874-a4cd-4e7b-bdd7-96f35131f2fe.jpg" imageviewer=""/>]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="100">
+<text>See Explanation section for answer.</text>
+</answer>
+</question>
+
+<question type="category">
+<category><text>$course$/manage-azure-identities-and-governance-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>You have an Azure subscription named Subscription1 that contains an Azure Log Analytics workspace named Workspace1. You need to view the error from a table named Event. Which query should you run in Workspace1?</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Reference:</strong></h5><p>https://docs.microsoft.com/en-us/azure/azure-monitor/log-query/search-queries https://docs.microsoft.com/en-us/azure/azure-monitor/log-query/get-started-portal</p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[You have an Azure subscription named Subscription1 that contains an Azure Log Analytics workspace named Workspace1.<br/>You need to view the error from a table named Event. <br/>Which query should you run in Workspace1?]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="0">
+<text>Get-Event Event | where {$_. EventType == "error"}</text>
+</answer>
+<answer fraction="100">
+<text>Event | search "error"</text>
+</answer>
+<answer fraction="0">
+<text>select * from Event where EnventType == "error"</text>
+</answer>
+<answer fraction="0">
+<text>Event | where EventType is "error"</text>
+</answer>
+</question>
+
+<question type="category">
+<category><text>$course$/manage-azure-identities-and-governance-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>HOTSPOT (Drag and Drop is not supported) You have an Azure subscription that contains a virtual network named VNET1 in the East US 2 region. You have the following resources in an Azure Resource Manager template.  For each of the following statements, select Yes if the statement is true. Otherwise, select No. Hot Area:</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Explanation:</strong></h5><p><img id="img68" src="https://free-braindumps.com/images/exam-dumps/AZ-104/09a66ea9-9ee6-4838-9128-4dac8cc858bb.jpg" imageviewer=""/><br/><br/><br/>Box 1: Yes<br/>Box 2: Yes<br/>VM1 is in Zone1, while VM2 is on Zone2.<br/>Box 3: No</p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[HOTSPOT (Drag and Drop is not supported)<br/>You have an Azure subscription that contains a virtual network named VNET1 in the East US 2 region. You have the following resources in an Azure Resource Manager template.<br/><img id="img64" src="https://free-braindumps.com/images/exam-dumps/AZ-104/7dde91c8-e4a1-4c23-80d8-34e8af9bb598.jpg" imageviewer=""/><br/><br/>For each of the following statements, select Yes if the statement is true. Otherwise, select No.<br/>Hot Area:<br/><br/><img id="img66" src="https://free-braindumps.com/images/exam-dumps/AZ-104/d3f8b86f-f762-4a99-bafe-65145928cb71.jpg" imageviewer=""/>]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="100">
+<text>See Explanation section for answer.</text>
+</answer>
+</question>
+
+<question type="category">
+<category><text>$course$/manage-azure-identities-and-governance-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>You have an Azure subscription named Subscription1. Subscription1 contains the resource groups in the following table.  RG1 has a web app named WebApp1. WebApp1 is located in West Europe. You move WebApp1 to RG2. What is the effect of the move?</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Explanation:</strong></h5><p>You can move an app to another App Service plan, as long as the source plan and the target plan are in the same resource group and geographical region.<br/>The region in which your app runs is the region of the App Service plan it&#39;s in. However, you cannot change an App Service plan&#39;s region.</p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[You have an Azure subscription named Subscription1. Subscription1 contains the resource groups in the following table.<br/><img id="img70" src="https://free-braindumps.com/images/exam-dumps/AZ-104/da85b6fa-d09f-4cef-b3d3-076fb87d0d1c.jpg" imageviewer=""/><br/><br/>RG1 has a web app named WebApp1. WebApp1 is located in West Europe. You move WebApp1 to RG2.<br/>What is the effect of the move?]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="100">
+<text>The App Service plan for WebApp1 remains in West Europe. Policy2 applies to WebApp1.</text>
+</answer>
+<answer fraction="0">
+<text>The App Service plan for WebApp1 moves to North Europe. Policy2 applies to WebApp1.</text>
+</answer>
+<answer fraction="0">
+<text>The App Service plan for WebApp1 remains in West Europe. Policy1 applies to WebApp1.</text>
+</answer>
+<answer fraction="0">
+<text>The App Service plan for WebApp1 moves to North Europe. Policy1 applies to WebApp1.</text>
+</answer>
+</question>
+
+</quiz>

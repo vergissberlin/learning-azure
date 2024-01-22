@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<quiz>
+<question type="category">
+<category><text>$course$/manage-azure-identities-and-governance-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>You have an Azure Active Directory (Azure AD) tenant named contoso.com. You have a CSV file that contains the names and email addresses of 500 external users. You need to create a guest user account in contoso.com for each of the 500 external users. Solution: From Azure AD in the Azure portal, you use the Bulk invite users operation. Does this meet the goal?</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Explanation:</strong></h5><p>Use the New-AzureADMSInvitation cmdlet which is used to invite a new external user to your directory.</p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[<br/><br/><br/>You have an Azure Active Directory (Azure AD) tenant named contoso.com.<br/>You have a CSV file that contains the names and email addresses of 500 external users.<br/>You need to create a guest user account in contoso.com for each of the 500 external users.<br/><br/>Solution: From Azure AD in the Azure portal, you use the Bulk invite users operation.<br/>Does this meet the goal?]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="0">
+<text>Yes</text>
+</answer>
+<answer fraction="100">
+<text>No</text>
+</answer>
+</question>
+
+<question type="category">
+<category><text>$course$/manage-azure-identities-and-governance-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>HOTSPOT (Drag and Drop is not supported) You have an Azure subscription that is linked to an Azure AD tenant. The tenant contains the custom role-based access control (RBAC) roles shown in the following table.   From the Azure portal, you need to create two custom roles named Role3 and Role4. Role3 will be an Azure subscription role. Role4 will be an Azure AD role. Which roles can you clone to create the new roles? To answer, select the appropriate options in the answer area.</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Explanation:</strong></h5><p><img id="img170" src="https://free-braindumps.com/images/exam-dumps/AZ-104/726d7eca-ec39-4286-a41e-daa354606eec.jpg" imageviewer=""/><br/><br/><br/>Box 1: Role1 and built-in Azure subscription roles only.<br/>Role3 will be an Azure subscription role.<br/><br/>Note: Clone a role<br/>If an existing role does not quite have the permissions you need, you can clone it and then modify the permissions. Follow these steps to start cloning a role.<br/><br/>1. In the Azure portal, open a subscription or resource group where you want the custom role to be assignable and then open Access control (IAM).<br/><br/>The following screenshot shows the Access control (IAM) page opened for a subscription.<br/><br/><img id="img172" src="https://free-braindumps.com/images/exam-dumps/AZ-104/335c7cd8-68fb-4047-a233-5f3a84497b1e.jpg" imageviewer=""/> <br/><br/>2. Click the Roles tab to see a list of all the built-in and custom roles.<br/>3. Search for a role you want to clone such as the Billing Reader role.<br/>4. At the end of the row, click the ellipsis (...) and then click Clone.<br/><br/><img id="img174" src="https://free-braindumps.com/images/exam-dumps/AZ-104/f5a79f95-3afe-41f4-ac52-2302d1425eeb.jpg" imageviewer=""/><br/><br/>This opens the custom roles editor with the Clone a role option selected.<br/><br/>Box 2: Built-in Azure AD roles only<br/>Role4 will be an Azure AD role.</p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[HOTSPOT (Drag and Drop is not supported)<br/>You have an Azure subscription that is linked to an Azure AD tenant. The tenant contains the custom role-based access control (RBAC) roles shown in the following table.<br/><br/><img id="img166" src="https://free-braindumps.com/images/exam-dumps/AZ-104/78dcbeb5-d1a9-4800-9513-f7f93b43b83b.jpg" imageviewer=""/><br/><br/>From the Azure portal, you need to create two custom roles named Role3 and Role4. Role3 will be an Azure subscription role. Role4 will be an Azure AD role.<br/><br/>Which roles can you clone to create the new roles? To answer, select the appropriate options in the answer area.<br/><br/><img id="img168" src="https://free-braindumps.com/images/exam-dumps/AZ-104/0505e02a-fd6c-49aa-9723-aee6aebb5168.jpg" imageviewer=""/>]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="100">
+<text>See Explanation section for answer.</text>
+</answer>
+</question>
+
+<question type="category">
+<category><text>$course$/manage-azure-identities-and-governance-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>DRAG DROP (Drag and Drop is not supported) You have an Azure subscription named Sub1 that contains two users named User1 and User2. You need to assign role-based access control (RBAC) roles to User1 and User2. The users must be able to perform the following tasks in Sub1: •User1 must view the data in any storage account. •User2 must assign users the Contributor role for storage accounts. The solution must use the principle of least privilege. Which RBAC role should you assign to each user? To answer, drag the appropriate roles to the correct users. Each role may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Explanation:</strong></h5><p><img id="img178" src="https://free-braindumps.com/images/exam-dumps/AZ-104/50f6f2f1-2d3e-46c2-96dd-6f415cd3f44d.jpg" imageviewer=""/><br/><br/><br/>Box 1: Reader and Data Access<br/>User1 must view the data in any storage account.<br/><br/>RBAC Reader and Data Access<br/>Let’s you view everything but will not let you delete or create a storage account or contained resource. It will also allow read/write access to all data contained in a storage account via access to storage account keys.<br/><br/>Box 2: Owner<br/>User2 must assign users the Contributor role for storage accounts.<br/><br/>Owner - Grants full access to manage all resources, including the ability to assign roles in Azure RBAC.<br/><br/>Incorrect:<br/>* Contributor<br/>Grants full access to manage all resources, but does not allow you to assign roles in Azure RBAC, manage assignments in Azure Blueprints, or share image galleries.<br/><br/>* Storage Account Contributor<br/>Permits management of storage accounts. Provides access to the account key, which can be used to access data via Shared Key authorization.</p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[DRAG DROP (Drag and Drop is not supported)<br/>You have an Azure subscription named Sub1 that contains two users named User1 and User2.<br/><br/>You need to assign role-based access control (RBAC) roles to User1 and User2. The users must be able to perform the following tasks in Sub1:<br/><br/>•User1 must view the data in any storage account.<br/>•User2 must assign users the Contributor role for storage accounts.<br/><br/>The solution must use the principle of least privilege.<br/><br/>Which RBAC role should you assign to each user? To answer, drag the appropriate roles to the correct users. Each role may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.<br/><br/><br/><img id="img176" src="https://free-braindumps.com/images/exam-dumps/AZ-104/86ad8ad6-3082-40bc-9b97-6a424c4298a8.jpg" imageviewer=""/>]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="100">
+<text>See Explanation section for answer.</text>
+</answer>
+</question>
+
+<question type="category">
+<category><text>$course$/manage-azure-identities-and-governance-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>You have an Azure subscription that contains 10 virtual machines, a key vault named Vault1, and a network security group (NSG) named NSG1. All the resources are deployed to the East US Azure region. The virtual machines are protected by using NSG1. NSG1 is configured to block all outbound traffic to the internet. You need to ensure that the virtual machines can access Vault1. The solution must use the principle of least privilege and minimize administrative effort What should you configure as the destination of the outbound security rule for NSG1?</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Explanation:</strong></h5><p>Virtual network service tags<br/>A service tag represents a group of IP address prefixes from a given Azure service. Microsoft manages the address prefixes encompassed by the service tag and automatically updates the service tag as addresses change, minimizing the complexity of frequent updates to network security rules.<br/><br/>Available service tags<br/>The following table includes all the service tags available for use in network security group rules.<br/><br/>The columns indicate whether the tag:<br/>Is suitable for rules that cover inbound or outbound traffic.<br/>Supports regional scope.<br/>Is usable in Azure Firewall rules as a destination rule only for inbound or outbound traffic.<br/><br/>* Service Tag AzureKeyVault<br/>Purpose Azure Key Vault.<br/>Suitable for Outbound traffic<br/>Can be regional<br/>Can use Azure Firewall<br/><br/>* Etc.</p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[You have an Azure subscription that contains 10 virtual machines, a key vault named Vault1, and a network security group (NSG) named NSG1. All the resources are deployed to the East US Azure region.<br/><br/>The virtual machines are protected by using NSG1. NSG1 is configured to block all outbound traffic to the internet.<br/><br/>You need to ensure that the virtual machines can access Vault1. The solution must use the principle of least privilege and minimize administrative effort<br/><br/>What should you configure as the destination of the outbound security rule for NSG1?]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="0">
+<text>an application security group</text>
+</answer>
+<answer fraction="100">
+<text>a service tag</text>
+</answer>
+<answer fraction="0">
+<text>an IP address range</text>
+</answer>
+</question>
+
+</quiz>

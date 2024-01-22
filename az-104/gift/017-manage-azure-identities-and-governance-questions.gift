@@ -1,0 +1,26 @@
+::Q61 DRAG DROP (Drag and Drop is not supported) You have an Azure subscription that is used by four departments in your company. The subscription contains 10 resource groups. Each department uses resources in several resource groups. You need to send a report to the finance department. The report must detail the costs for each department. Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order. Select and Place:::
+{
+ =See Explanation section for answer.
+}
+
+::Q62 You have an Azure subscription named Subscription1 that contains an Azure Log Analytics workspace named Workspace1. You need to view the error from a table named Event. Which query should you run in Workspace1?::
+{
+ Get-Event Event | where {$_. EventType == "error"}
+~=Event | search "error"
+~select * from Event where EnventType == "error"
+~Event | where EventType is "error"
+}
+
+::Q63 HOTSPOT (Drag and Drop is not supported) You have an Azure subscription that contains a virtual network named VNET1 in the East US 2 region. You have the following resources in an Azure Resource Manager template.  For each of the following statements, select Yes if the statement is true. Otherwise, select No. Hot Area:::
+{
+ =See Explanation section for answer.
+}
+
+::Q64 You have an Azure subscription named Subscription1. Subscription1 contains the resource groups in the following table.  RG1 has a web app named WebApp1. WebApp1 is located in West Europe. You move WebApp1 to RG2. What is the effect of the move?::
+{
+ =The App Service plan for WebApp1 remains in West Europe. Policy2 applies to WebApp1.
+~The App Service plan for WebApp1 moves to North Europe. Policy2 applies to WebApp1.
+~The App Service plan for WebApp1 remains in West Europe. Policy1 applies to WebApp1.
+~The App Service plan for WebApp1 moves to North Europe. Policy1 applies to WebApp1.
+}
+

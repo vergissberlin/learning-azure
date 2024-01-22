@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<quiz>
+<question type="category">
+<category><text>$course$/manage-azure-identities-and-governance-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>You have an Azure subscription named Subscription1 that contains a virtual network named VNet1. VNet1 is in a resource group named RG1. Subscription1 has a user named User1. User1 has the following roles: -Reader -Security Admin -Security Reader You need to ensure that User1 can assign the Reader role for VNet1 to other users. What should you do?</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Explanation:</strong></h5><p>Contributor<br/>Need to be Owner. The correct scope is VNET1.<br/>Owner - Has full access to all resources including the right to delegate access to others.<br/><br/>Incorrect:<br/>* Contributor - Can create and manage all types of Azure resources but can&#39;t grant access to others.<br/><br/>Note: Identify the needed scope<br/>When you assign roles, you must specify a scope. Scope is the set of resources the access applies to. In Azure, you can specify a scope at four levels from broad to narrow: management group, subscription, resource group, and resource.<br/><img id="img202" src="https://free-braindumps.com/images/exam-dumps/AZ-104/6b51b5c9-4e11-4821-aed4-462b771daf6a.jpg" imageviewer=""/></p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[You have an Azure subscription named Subscription1 that contains a virtual network named VNet1. VNet1 is in a resource group named RG1.<br/><br/>Subscription1 has a user named User1. User1 has the following roles:<br/><br/>-Reader<br/>-Security Admin<br/>-Security Reader<br/><br/>You need to ensure that User1 can assign the Reader role for VNet1 to other users.<br/>What should you do?]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="0">
+<text>Remove User1 from the Security Reader role for Subscription1. Assign User1 the Contributor role for RG1.</text>
+</answer>
+<answer fraction="100">
+<text>Assign User1 the Owner role for VNet1.</text>
+</answer>
+<answer fraction="0">
+<text>Remove User1 from the Security Reader and Reader roles for Subscription1. Assign User1 the Contributor role for Subscription1.</text>
+</answer>
+<answer fraction="0">
+<text>Assign User1 the Contributor role for VNet1.</text>
+</answer>
+</question>
+
+<question type="category">
+<category><text>$course$/manage-azure-identities-and-governance-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>Your on-premises network contains a VPN gateway. You have an Azure subscription that contains the resources shown in the following table.  You need to ensure that all the traffic from VM1 to storage1 travels across the Microsoft backbone network. What should you configure?</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Explanation:</strong></h5><p>You can use private endpoints for your Azure Storage accounts to allow clients on a virtual network (VNet) to securely access data over a Private Link. The private endpoint uses a separate IP address from the VNet address space for each storage account service. Network traffic between the clients on the VNet and the storage account traverses over the VNet and a private link on the Microsoft backbone network, eliminating exposure from the public internet.</p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[Your on-premises network contains a VPN gateway.<br/>You have an Azure subscription that contains the resources shown in the following table.<br/><img id="img204" src="https://free-braindumps.com/images/exam-dumps/AZ-104/22c5021f-d608-4fbe-80ff-903206e05128.jpg" imageviewer=""/><br/><br/>You need to ensure that all the traffic from VM1 to storage1 travels across the Microsoft backbone network. <br/>What should you configure?]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="0">
+<text>Azure Application Gateway</text>
+</answer>
+<answer fraction="100">
+<text>private endpoints</text>
+</answer>
+<answer fraction="0">
+<text>a network security group (NSG)</text>
+</answer>
+<answer fraction="0">
+<text>Azure Virtual WAN</text>
+</answer>
+</question>
+
+<question type="category">
+<category><text>$course$/manage-azure-identities-and-governance-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>HOTSPOT (Drag and Drop is not supported) You have an Azure subscription that contains a user named User1 and the resources shown in the following table.  NSG1 is associated to networkinterface1. User1 has role assignments for NSG1 as shown in the following table.  For each of the following statements, select Yes if the statement is true. Otherwise, select No.</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Explanation:</strong></h5><p><img id="img212" src="https://free-braindumps.com/images/exam-dumps/AZ-104/c4f94ea8-2d9d-40e1-8111-ad4302a39004.jpg" imageviewer=""/><br/><br/><br/>Box 1: Yes<br/>User1 is Storage Account Contributor of RG1.<br/><br/>Classic Storage Account Contributor<br/>Lets you manage classic storage accounts, but not access to them.<br/>Actions include:<br/>* Microsoft.ClassicStorage/storageAccounts/*<br/>Create and manage storage accounts<br/><br/>Box 2: No<br/><br/>User1 is a Contributor of NSG1. Networkinterface1 is in NSG1.<br/>However, the DNS settings of Networkinterface1 is in the scope of RG1, not the scope of NSG1.<br/>At the NSG1 scope User1 is only reader.<br/><br/>Note: Example: Change DNS settings on a network interface<br/>$nic = Get-AzNetworkInterface -ResourceGroupName &#34;ResourceGroup1&#34; -Name &#34;NetworkInterface1&#34;<br/>$nic.DnsSettings.DnsServers.Add(&#34;192.168.1.100&#34;)<br/>$nic | Set-AzNetworkInterface<br/><br/>The first command gets a network interface named NetworkInterface1 that exists within resource group ResourceGroup1. The second command adds DNS server 192.168.1.100 to this interface. The third command applies these changes to the network interface. To remove a DNS server, follow the commands listed above, but replace &#34;.Add&#34; with &#34;.Remove&#34; in the second command.<br/><br/>Box 3: Yes<br/>User1 is a Contributor of NSG1. Networkinterface1 is in NSG1.<br/><br/>Contributor - Grants full access to manage all resources, but does not allow you to assign roles in Azure RBAC, manage assignments in Azure Blueprints, or share image galleries.<br/><br/>Actions include: * Create and manage resources of all types<br/><br/>Note: You can use an Azure network security group to filter network traffic between Azure resources in an Azure virtual network. A network security group contains security rules that allow or deny inbound network traffic to, or outbound network traffic from, several types of Azure resources. For each rule, you can specify source and destination, port, and protocol.</p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[HOTSPOT (Drag and Drop is not supported)<br/>You have an Azure subscription that contains a user named User1 and the resources shown in the following table.<br/><br/><img id="img206" src="https://free-braindumps.com/images/exam-dumps/AZ-104/c9c23ebb-198d-4c6a-b3d7-c1b18b8e330c.jpg" imageviewer=""/><br/>NSG1 is associated to networkinterface1.<br/><br/>User1 has role assignments for NSG1 as shown in the following table.<br/><img id="img208" src="https://free-braindumps.com/images/exam-dumps/AZ-104/64dcd490-de2f-45a3-9534-56b5936d5e84.jpg" imageviewer=""/><br/><br/>For each of the following statements, select Yes if the statement is true. Otherwise, select No.<br/><img id="img210" src="https://free-braindumps.com/images/exam-dumps/AZ-104/757a032b-d528-4e0b-8162-4371ec2aba12.jpg" imageviewer=""/>]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="100">
+<text>See Explanation section for answer.</text>
+</answer>
+</question>
+
+<question type="category">
+<category><text>$course$/manage-azure-identities-and-governance-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>You have an Azure subscription named Subscription1 that contains a virtual network named VNet1. VNet1 is in a resource group named RG1. Subscription1 has a user named User1. User1 has the following roles: -Reader -Security Admin -Security Reader You need to ensure that User1 can assign the Reader role for VNet1 to other users. What should you do?</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Explanation:</strong></h5><p>The User Access Administrator role enables the user to grant other users access to Azure resources.<br/><br/>Note:<br/>There are several versions of this question in the exam. The question has three possible correct answers:<br/>* Assign User1 the Access Administrator role for VNet1.<br/>* Assign User1 the User Access Administrator role for VNet1.<br/>* Assign User1 the Owner role for VNet1.<br/><br/>Other incorrect answer options you may see on the exam include the following:<br/>* Assign User1 the Contributor role for VNet1.<br/>* Remove User1 from the Security Reader and Reader roles for Subscription1. Assign User1 the Contributor role for Subscription1.<br/>* Remove User1 from the Security Reader role for Subscription1. Assign User1 the Contributor role for RG1.</p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[You have an Azure subscription named Subscription1 that contains a virtual network named VNet1. VNet1 is in a resource group named RG1.<br/><br/>Subscription1 has a user named User1. User1 has the following roles:<br/><br/>-Reader<br/>-Security Admin<br/>-Security Reader<br/><br/>You need to ensure that User1 can assign the Reader role for VNet1 to other users.<br/>What should you do?]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="0">
+<text>Remove User1 from the Security Reader role for Subscription1. Assign User1 the Contributor role for RG1.</text>
+</answer>
+<answer fraction="100">
+<text>Assign User1 the Access Administrator role for VNet1.</text>
+</answer>
+<answer fraction="0">
+<text>Remove User1 from the Security Reader and Reader roles for Subscription1. Assign User1 the Contributor role for Subscription1.</text>
+</answer>
+<answer fraction="0">
+<text>Assign User1 the Network Contributor role for RG1.</text>
+</answer>
+</question>
+
+</quiz>

@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<quiz>
+<question type="category">
+<category><text>$course$/manage-azure-identities-and-governance-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>HOTSPOT (Drag and Drop is not supported) You have the Azure management groups shown in the following table:   You add Azure subscriptions to the management groups as shown in the following table:  You create the Azure policies shown in the following table:   For each of the following statements, select Yes if the statement is true. Otherwise, select No. Hot Area:</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Explanation:</strong></h5><p><img id="img34" src="https://free-braindumps.com/images/exam-dumps/AZ-104/e9912abe-a5e8-4da1-8882-3caf4fdad605.jpg" imageviewer=""/><br/><br/><br/>Box 1: No<br/>Virtual networks are not allowed at the root and is inherited. Deny overrides allowed.<br/><br/>Box 2: Yes<br/>Virtual Machines can be created on a Management Group provided the user has the required RBAC permissions.<br/><br/>Box 3: Yes<br/>Subscriptions can be moved between Management Groups provided the user has the required RBAC permissions.</p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[HOTSPOT (Drag and Drop is not supported)<br/>You have the Azure management groups shown in the following table:<br/><br/><img id="img26" src="https://free-braindumps.com/images/exam-dumps/AZ-104/91e23b08-7969-4c80-a895-44030e618ce0.jpg" imageviewer=""/><br/><br/>You add Azure subscriptions to the management groups as shown in the following table:<br/><img id="img28" src="https://free-braindumps.com/images/exam-dumps/AZ-104/68a5ae96-9c9d-4f77-b334-6092b6880350.jpg" imageviewer=""/><br/><br/>You create the Azure policies shown in the following table:<br/><br/><img id="img30" src="https://free-braindumps.com/images/exam-dumps/AZ-104/95060409-6ef4-4ea9-a432-03d627c84fa9.jpg" imageviewer=""/><br/><br/>For each of the following statements, select Yes if the statement is true. Otherwise, select No.<br/>Hot Area:<br/><br/><img id="img32" src="https://free-braindumps.com/images/exam-dumps/AZ-104/1b41270a-2232-4607-ab5e-f86530a4b851.jpg" imageviewer=""/>]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="100">
+<text>See Explanation section for answer.</text>
+</answer>
+</question>
+
+<question type="category">
+<category><text>$course$/manage-azure-identities-and-governance-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>You have an Azure policy as shown in the following exhibit:   What is the effect of the policy?</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Explanation:</strong></h5><p>You are prevented from creating Azure SQL servers anywhere in Subscription 1 with the exception of ContosoRG1</p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[You have an Azure policy as shown in the following exhibit:<br/><br/><img id="img36" src="https://free-braindumps.com/images/exam-dumps/AZ-104/019495b7-09a5-4f86-8880-dabdf0200693.jpg" imageviewer=""/><br/><br/>What is the effect of the policy?]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="0">
+<text>You are prevented from creating Azure SQL servers anywhere in Subscription 1.</text>
+</answer>
+<answer fraction="100">
+<text>You can create Azure SQL servers in ContosoRG1 only.</text>
+</answer>
+<answer fraction="0">
+<text>You are prevented from creating Azure SQL Servers in ContosoRG1 only.</text>
+</answer>
+<answer fraction="0">
+<text>You can create Azure SQL servers in any resource group within Subscription 1.</text>
+</answer>
+</question>
+
+<question type="category">
+<category><text>$course$/manage-azure-identities-and-governance-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>HOTSPOT (Drag and Drop is not supported) You have an Azure subscription that contains the resources shown in the following table:  You assign a policy to RG6 as shown in the following table:  To RG6, you apply the tag: RGroup: RG6. You deploy a virtual network named VNET2 to RG6. Which tags apply to VNET1 and VNET2? To answer, select the appropriate options in the answer area. Hot Area:</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Explanation:</strong></h5><p><img id="img44" src="https://free-braindumps.com/images/exam-dumps/AZ-104/6ff9b392-ee8e-43f0-9d51-83ea2b5d99c4.jpg" imageviewer=""/><br/><br/><br/>VNET1: Department: D1, and Label:Value1 only.<br/>Tags applied to the resource group or subscription are not inherited by the resources.<br/><br/>Note: Azure Policy allows you to use either built-in or custom-defined policy definitions and assign them to either a specific resource group or across a whole Azure subscription.<br/><br/>VNET2: Label:Value1 only.<br/><br/>Incorrect Answers:<br/>RGROUP: RG6<br/>Tags applied to the resource group or subscription are not inherited by the resources.</p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[HOTSPOT (Drag and Drop is not supported)<br/>You have an Azure subscription that contains the resources shown in the following table:<br/><img id="img38" src="https://free-braindumps.com/images/exam-dumps/AZ-104/04723220-fee2-40c7-9d16-3467a40a1c36.jpg" imageviewer=""/><br/><br/>You assign a policy to RG6 as shown in the following table:<br/><img id="img40" src="https://free-braindumps.com/images/exam-dumps/AZ-104/f43298da-3579-41f0-87ea-de926afcc15b.jpg" imageviewer=""/><br/><br/>To RG6, you apply the tag: RGroup: RG6.<br/>You deploy a virtual network named VNET2 to RG6.<br/><br/>Which tags apply to VNET1 and VNET2? To answer, select the appropriate options in the answer area.<br/>Hot Area:<br/><img id="img42" src="https://free-braindumps.com/images/exam-dumps/AZ-104/dab7bb98-a794-4e27-b669-6726bc003fb2.jpg" imageviewer=""/>]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="100">
+<text>See Explanation section for answer.</text>
+</answer>
+</question>
+
+<question type="category">
+<category><text>$course$/manage-azure-identities-and-governance-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>You have an Azure subscription named AZPT1 that contains the resources shown in the following table:  You create a new Azure subscription named AZPT2. You need to identify which resources can be moved to AZPT2. Which resources should you identify?</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Explanation:</strong></h5><p>You can move a VM and its associated resources to a different subscription by using the Azure portal.<br/>You can now move an Azure Recovery Service (ASR) Vault to either a new resource group within the current subscription or to a new subscription.</p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[You have an Azure subscription named AZPT1 that contains the resources shown in the following table:<br/><img id="img46" src="https://free-braindumps.com/images/exam-dumps/AZ-104/240ff83d-975b-41c2-95c8-9b982a6cc98e.jpg" imageviewer=""/><br/><br/>You create a new Azure subscription named AZPT2.<br/>You need to identify which resources can be moved to AZPT2. <br/>Which resources should you identify?]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="0">
+<text>VM1, storage1, VNET1, and VM1Managed only</text>
+</answer>
+<answer fraction="0">
+<text>VM1 and VM1Managed only</text>
+</answer>
+<answer fraction="100">
+<text>VM1, storage1, VNET1, VM1Managed, and RVAULT1</text>
+</answer>
+<answer fraction="0">
+<text>RVAULT1 only</text>
+</answer>
+</question>
+
+</quiz>

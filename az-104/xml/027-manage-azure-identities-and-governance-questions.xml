@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<quiz>
+<question type="category">
+<category><text>$course$/manage-azure-identities-and-governance-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>You have two Azure subscriptions named Sub1 and Sub2. An administrator creates a custom role that has an assignable scope to a resource group named RG1 in Sub1. You need to ensure that you can apply the custom role to any resource group in Sub1 and Sub2. The solution must minimize administrative effort. What should you do?</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Explanation:</strong></h5><p>Can be used as:<br/>&#34;AssignableScopes&#34;: [<br/> &#34;/subscriptions/{Sub1}&#34;,<br/> &#34;/subscriptions/{Sub2}&#34;,<br/><br/>Note: Custom role example:<br/>The following shows what a custom role looks like as displayed using Azure PowerShell in JSON format. This custom role can be used for monitoring and restarting virtual machines.<br/><br/>{<br/> &#34;Name&#34;: &#34;Virtual Machine Operator&#34;,<br/> &#34;Id&#34;: &#34;88888888-8888-8888-8888-888888888888&#34;,<br/> &#34;IsCustom&#34;: true,<br/> &#34;Description&#34;: &#34;Can monitor and restart virtual machines.&#34;,<br/> &#34;Actions&#34;: [<br/> &#34;Microsoft.Storage/*/read&#34;,<br/> &#34;Microsoft.Network/*/read&#34;,<br/> &#34;Microsoft.Compute/*/read&#34;,<br/> &#34;Microsoft.Compute/virtualMachines/start/action&#34;,<br/> &#34;Microsoft.Compute/virtualMachines/restart/action&#34;,<br/> &#34;Microsoft.Authorization/*/read&#34;,<br/> &#34;Microsoft.ResourceHealth/availabilityStatuses/read&#34;,<br/> &#34;Microsoft.Resources/subscriptions/resourceGroups/read&#34;,<br/> &#34;Microsoft.Insights/alertRules/*&#34;,<br/> &#34;Microsoft.Insights/diagnosticSettings/*&#34;,<br/> &#34;Microsoft.Support/*&#34;<br/> ],<br/> &#34;NotActions&#34;: [],<br/> &#34;DataActions&#34;: [],<br/> &#34;NotDataActions&#34;: [],<br/> &#34;AssignableScopes&#34;: [<br/> &#34;/subscriptions/{subscriptionId1}&#34;,<br/> &#34;/subscriptions/{subscriptionId2}&#34;,<br/> &#34;/providers/Microsoft.Management/managementGroups/{groupId1}&#34;<br/> ]<br/>}</p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[You have two Azure subscriptions named Sub1 and Sub2.<br/>An administrator creates a custom role that has an assignable scope to a resource group named RG1 in Sub1.<br/><br/>You need to ensure that you can apply the custom role to any resource group in Sub1 and Sub2. The solution must minimize administrative effort.<br/><br/>What should you do?]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="100">
+<text>Select the custom role and add Sub1 and Sub2 to the assignable scopes. Remove RG1 from the assignable scopes.</text>
+</answer>
+<answer fraction="0">
+<text>Create a new custom role for Sub1. Create a new custom role for Sub2. Remove the role from RG1.</text>
+</answer>
+<answer fraction="0">
+<text>Create a new custom role for Sub1 and add Sub2 to the assignable scopes. Remove the role from RG1.</text>
+</answer>
+<answer fraction="0">
+<text>Select the custom role and add Sub1 to the assignable scopes. Remove RG1 from the assignable scopes. Create a new custom role for Sub2.</text>
+</answer>
+</question>
+
+<question type="category">
+<category><text>$course$/manage-azure-identities-and-governance-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>You have an Azure Subscription that contains a storage account named storageacct1234 and two users named User1 and User2. You assign User1 the roles shown in the following exhibit.   Which two actions can User1 perform? Each correct answer presents a complete solution. Note: Each correct selection is worth one point.</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Explanation:</strong></h5><p>For example, if you assign the Storage Blob Data Contributor role to user Mary at the level of a container named sample-container, then Mary is granted read, write, and delete access to all of the blobs in that container. However, if Mary wants to view a blob in the Azure portal, then the Storage Blob Data Contributor role by itself will not provide sufficient permissions to navigate through the portal to the blob in order to view it. The additional permissions are required to navigate through the portal and view the other resources that are visible there.</p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[You have an Azure Subscription that contains a storage account named storageacct1234 and two users named User1 and User2.<br/><br/>You assign User1 the roles shown in the following exhibit.<br/><br/><img id="img164" src="https://free-braindumps.com/images/exam-dumps/AZ-104/9f872c2b-e4ee-4f48-835f-9f81b80f1e80.jpg" imageviewer=""/><br/><br/>Which two actions can User1 perform? Each correct answer presents a complete solution.<br/>Note: Each correct selection is worth one point.]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="0">
+<text>Assign roles to User2 for storageacct1234.</text>
+</answer>
+<answer fraction="100">
+<text>Upload blob data to storageacct1234.</text>
+</answer>
+<answer fraction="0">
+<text>Modify the firewall of storageacct1234.</text>
+</answer>
+<answer fraction="100">
+<text>View blob data in storageacct1234.</text>
+</answer>
+<answer fraction="0">
+<text>View file shares in storageacct1234.</text>
+</answer>
+</question>
+
+<question type="category">
+<category><text>$course$/manage-azure-identities-and-governance-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>You have an Azure subscription named Subscription1 that contains an Azure Log Analytics workspace named Workspace1. You need to view the error events from a table named Event. Which query should you run in Workspace1?</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Explanation:</strong></h5><p>The search operator provides a multi-table/multi-column search experience.<br/><br/>The syntax is:<br/>Table_name | search &#34;search term&#34;<br/><br/>Note:<br/>There are several versions of this question in the exam. The question has three possible correct answers:<br/>1. search in (Event) &#34;error&#34;<br/>2. Event | search &#34;error&#34;<br/>3. Event | where EventType == &#34;error&#34;<br/><br/>Other incorrect answer options you may see on the exam include the following:<br/>1. Get-Event Event | where {$_.EventTye –eq &#34;error&#34;}<br/>2. Event | where EventType is &#34;error&#34;<br/>3. select * from Event where EventType is &#34;error&#34;<br/>4. search in (Event) * | where EventType –eq &#34;error&#34;</p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[You have an Azure subscription named Subscription1 that contains an Azure Log Analytics workspace named Workspace1.<br/><br/>You need to view the error events from a table named Event.<br/>Which query should you run in Workspace1?]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="0">
+<text>select * from Event where EventType == "error"</text>
+</answer>
+<answer fraction="100">
+<text>Event | search "error"</text>
+</answer>
+<answer fraction="0">
+<text>Event | where EventType is "error"</text>
+</answer>
+<answer fraction="0">
+<text>Get-Event Event | where {$_.EventType == "error"}</text>
+</answer>
+</question>
+
+<question type="category">
+<category><text>$course$/manage-azure-identities-and-governance-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>You have an Azure App Services web app named App1. You plan to deploy App1 by using Web Deploy. You need to ensure that the developers of App1 can use their Azure AD credentials to deploy content to App1. The solution must use the principle of least privilege. What should you do?</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Explanation:</strong></h5><p>C. Assign the Website Contributor role to the developers.<br/>To allow the developers of App1 to use their Azure AD credentials to deploy content to App1 using Web Deploy, you should assign the Website Contributor role to the developers. This role provides the necessary permissions for developers to deploy content to the web app, but does not grant them excessive permissions that could be used to make unwanted changes.<br/>Option A is not recommended as it would grant excessive permissions to the developers, which could be used to make unwanted changes.<br/>Option B and D are not relevant to the scenario as the question is specifically asking for how to use Azure AD credentials for Web Deploy, not FTPS.<br/>Option C is a potential solution, but the Website Contributor role provides a more targeted and appropriate level of permissions for the scenario.</p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[You have an Azure App Services web app named App1.<br/>You plan to deploy App1 by using Web Deploy.<br/><br/>You need to ensure that the developers of App1 can use their Azure AD credentials to deploy content to App1. The solution must use the principle of least privilege.<br/><br/>What should you do?]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="0">
+<text>Assign the Owner role to the developers</text>
+</answer>
+<answer fraction="0">
+<text>Configure app-level credentials for FTPS</text>
+</answer>
+<answer fraction="100">
+<text>Assign the Website Contributor role to the developers</text>
+</answer>
+<answer fraction="0">
+<text>Configure user-level credentials for FTPS</text>
+</answer>
+</question>
+
+</quiz>

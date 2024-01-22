@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<quiz>
+<question type="category">
+<category><text>$course$/mix-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>Your company has a Microsoft SQL Server Always On availability group configured on their Azure virtual machines (VMs). You need to configure an Azure internal load balancer as a listener for the availability group. Solution: You set Session persistence to Client IP. Does the solution meet the goal?</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Reference:</strong></h5><p>https://docs.microsoft.com/en-us/azure/virtual-machines/windows/sql/virtual-machines-windows-portal-sqlalwayson-int-listener</p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[<br/>Your company has a Microsoft SQL Server Always On availability group configured on their Azure virtual machines (VMs).<br/>You need to configure an Azure internal load balancer as a listener for the availability group.<br/><br/>Solution: You set Session persistence to Client IP.<br/>Does the solution meet the goal?]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="0">
+<text>Yes</text>
+</answer>
+<answer fraction="100">
+<text>No</text>
+</answer>
+</question>
+
+<question type="category">
+<category><text>$course$/mix-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>Your company has a Microsoft SQL Server Always On availability group configured on their Azure virtual machines (VMs). You need to configure an Azure internal load balancer as a listener for the availability group. Solution: You enable Floating IP. Does the solution meet the goal?</text></name>
+<generalfeedback format="html"><text><![CDATA[]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[<br/>Your company has a Microsoft SQL Server Always On availability group configured on their Azure virtual machines (VMs).<br/>You need to configure an Azure internal load balancer as a listener for the availability group.<br/><br/>Solution: You enable Floating IP.<br/>Does the solution meet the goal?]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="100">
+<text>Yes</text>
+</answer>
+<answer fraction="0">
+<text>No</text>
+</answer>
+</question>
+
+<question type="category">
+<category><text>$course$/mix-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>Your company has two on-premises servers named SRV01 and SRV02. Developers have created an application that runs on SRV01. The application calls a service on SRV02 by IP address. You plan to migrate the application on Azure virtual machines (VMs). You have configured two VMs on a single subnet in an Azure virtual network. You need to configure the two VMs with static internal IP addresses. What should you do?</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Explanation:</strong></h5><p>Specify a static internal IP for a previously created VM<br/>If you want to set a static IP address for a VM that you previously created, you can do so by using the following cmdlets. If you already set an IP address for the VM and you want to change it to a different IP address, you’ll need to remove the existing static IP address before running these cmdlets. See the instructions below to remove a static IP.<br/>For this procedure, you’ll use the Update-AzureVMcmdlet. The Update-AzureVMcmdlet restarts the VM as part of the update process. The DIP that you specify will be assigned after the VM restarts. In this example, we set the IP address for VM2, which is located in cloud service StaticDemo.<br/>Get-AzureVM -ServiceNameStaticDemo -Name VM2 | Set-AzureStaticVNetIP -IPAddress 192.168.4.7 | Update-AzureVM</p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[Your company has two on-premises servers named SRV01 and SRV02. Developers have created an application that runs on SRV01. The application calls a service on SRV02 by IP address.<br/>You plan to migrate the application on Azure virtual machines (VMs). You have configured two VMs on a single subnet in an Azure virtual network.<br/>You need to configure the two VMs with static internal IP addresses. <br/>What should you do?]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="0">
+<text>Run the New-AzureRMVMConfig PowerShell cmdlet.</text>
+</answer>
+<answer fraction="0">
+<text>Run the Set-AzureSubnet PowerShell cmdlet.</text>
+</answer>
+<answer fraction="0">
+<text>Modify the VM properties in the Azure Management Portal.</text>
+</answer>
+<answer fraction="0">
+<text>Modify the IP properties in Windows Network and Sharing Center.</text>
+</answer>
+<answer fraction="100">
+<text>Run the Set-AzureStaticVNetIP PowerShell cmdlet.</text>
+</answer>
+</question>
+
+<question type="category">
+<category><text>$course$/mix-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>Your company has an Azure Active Directory (Azure AD) subscription. You need to deploy five virtual machines (VMs) to your company’s virtual network subnet. The VMs will each have both a public and private IP address. Inbound and outbound security rules for all of these virtual machines must be identical. Which of the following is the least amount of network interfaces needed for this configuration?</text></name>
+<generalfeedback format="html"><text><![CDATA[]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[Your company has an Azure Active Directory (Azure AD) subscription.<br/>You need to deploy five virtual machines (VMs) to your company’s virtual network subnet.<br/>The VMs will each have both a public and private IP address. Inbound and outbound security rules for all of these virtual machines must be identical.<br/>Which of the following is the least amount of network interfaces needed for this configuration?]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="100">
+<text>5</text>
+</answer>
+<answer fraction="0">
+<text>10</text>
+</answer>
+<answer fraction="0">
+<text>20</text>
+</answer>
+<answer fraction="0">
+<text>40</text>
+</answer>
+</question>
+
+</quiz>

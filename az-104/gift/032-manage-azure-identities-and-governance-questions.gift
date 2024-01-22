@@ -1,0 +1,25 @@
+::Q121 HOTSPOT (Drag and Drop is not supported) You have a hybrid deployment of Azure Active Directory (Azure AD) that contains the users shown in the following table.   You need to modify the JobTitle and UsageLocation attributes for the users. For which users can you modify the attributes from Azure AD? To answer, select the appropriate options in the answer area.::
+{
+ =See Explanation section for answer.
+}
+
+::Q122 You have an Azure Active Directory (Azure AD) tenant named contoso.com. You have a CSV file that contains the names and email addresses of 500 external users. You need to create a guest user account in contoso.com for each of the 500 external users. Solution: You create a PowerShell script that runs the New-MgUser cmdlet for each external user. Does this meet the goal?::
+{
+ Yes
+~=No
+}
+
+::Q123 You have an Azure Active Directory (Azure AD) tenant named contoso.com. You have a CSV file that contains the names and email addresses of 500 external users. You need to create a guest user account in contoso.com for each of the 500 external users. Solution: You create a PowerShell script that runs the New-MgInvitation cmdlet for each external user. Does this meet the goal?::
+{
+ Yes
+~=No
+}
+
+::Q124 You have an Azure subscription named Subscription1 that contains virtual network named VNet1. VNet1 is in a resource group named RG1. A user named User1 has the following roles for Subscription1: •Reader •Security Admin •Security Reader You need to ensure that User1 can assign the Reader role for VNet1 to other users. What should you do?::
+{
+ Assign User1 the Contributor role for VNet1.
+~Assign User1 the Network Contributor role for VNet1.
+~=Assign User1 the User Access Administrator role for VNet1.
+~Remove User1 from the Security Reader and Reader roles for Subscription1. Assign User1 the Contributor role for Subscription1.
+}
+

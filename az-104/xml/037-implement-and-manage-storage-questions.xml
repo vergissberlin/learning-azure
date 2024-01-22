@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<quiz>
+<question type="category">
+<category><text>$course$/implement-and-manage-storage-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>HOTSPOT (Drag and Drop is not supported) You need to create an Azure Storage account that meets the following requirements: -Minimizes costs -Supports hot, cool, and archive blob tiers -Provides fault tolerance if a disaster affects the Azure region where the account resides How should you complete the command? To answer, select the appropriate options in the answer area. Hot Area:</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Explanation:</strong></h5><p><img id="img300" src="https://free-braindumps.com/images/exam-dumps/AZ-104/ecf3874c-1bb2-4bc6-bb12-f0aaf3c768f7.jpg" imageviewer=""/><br/><br/>Box 1: StorageV2<br/>You may only tier your object storage data to hot, cool, or archive in Blob storage and General Purpose v2 (GPv2) accounts. General Purpose v1 (GPv1) accounts do not support tiering.<br/><br/>General-purpose v2 accounts deliver the lowest per-gigabyte capacity prices for Azure Storage, as well as industry-competitive transaction prices.<br/><br/>Box 2: Standard_GRS<br/>Geo-redundant storage (GRS): Cross-regional replication to protect against region-wide unavailability.<br/><br/>Incorrect Answers:<br/>Locally-redundant storage (LRS): A simple, low-cost replication strategy. Data is replicated within a single storage scale unit.<br/><br/>Read-access geo-redundant storage (RA-GRS): Cross-regional replication with read access to the replica. RA- GRS provides read-only access to the data in the secondary location, in addition to geo-replication across two regions, but is more expensive compared to GRS.</p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[HOTSPOT (Drag and Drop is not supported)<br/>You need to create an Azure Storage account that meets the following requirements:<br/>-Minimizes costs<br/>-Supports hot, cool, and archive blob tiers<br/>-Provides fault tolerance if a disaster affects the Azure region where the account resides<br/><br/>How should you complete the command? To answer, select the appropriate options in the answer area.<br/>Hot Area:<br/><img id="img298" src="https://free-braindumps.com/images/exam-dumps/AZ-104/3777d7d1-39cb-480d-af70-5dfd3e58aa00.jpg" imageviewer=""/>]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="100">
+<text>See Explanation section for answer.</text>
+</answer>
+</question>
+
+<question type="category">
+<category><text>$course$/implement-and-manage-storage-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>You have an Azure subscription that contains the resources in the following table.  Store1 contains a file share named data. Data contains 5,000 files. You need to synchronize the files in the file share named data to an on-premises server named Server1. Which three actions should you perform? Each correct answer presents part of the solution. Note: Each correct selection is worth one point.</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Explanation:</strong></h5><p>Step 1 (C): Install the Azure File Sync agent on Server1<br/>The Azure File Sync agent is a downloadable package that enables Windows Server to be synced with an Azure file share<br/><br/>Step 2 (B): Register Server1.<br/><br/>Register Windows Server with Storage Sync Service<br/>Registering your Windows Server with a Storage Sync Service establishes a trust relationship between your server (or cluster) and the Storage Sync Service.<br/><br/>Step 3 (E): Create a sync group and a cloud endpoint.<br/>A sync group defines the sync topology for a set of files. Endpoints within a sync group are kept in sync with each other. A sync group must contain one cloud endpoint, which represents an Azure file share and one or more server endpoints. A server endpoint represents a path on registered server.</p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[You have an Azure subscription that contains the resources in the following table.<br/><img id="img302" src="https://free-braindumps.com/images/exam-dumps/AZ-104/724425bb-64c8-4e80-8489-30bc5d532f94.jpg" imageviewer=""/><br/><br/>Store1 contains a file share named data. Data contains 5,000 files.<br/><br/>You need to synchronize the files in the file share named data to an on-premises server named Server1. <br/>Which three actions should you perform? Each correct answer presents part of the solution.<br/>Note: Each correct selection is worth one point.]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="0">
+<text>Create a container instance</text>
+</answer>
+<answer fraction="100">
+<text>Register Server1</text>
+</answer>
+<answer fraction="100">
+<text>Install the Azure File Sync agent on Server1</text>
+</answer>
+<answer fraction="0">
+<text>Download an automation script</text>
+</answer>
+<answer fraction="100">
+<text>Create a sync group</text>
+</answer>
+</question>
+
+<question type="category">
+<category><text>$course$/implement-and-manage-storage-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>HOTSPOT (Drag and Drop is not supported) You have an Azure subscription that contains the resources shown in the following table.  The status of VM1 is Running. You assign an Azure policy as shown in the exhibit. (Click the Exhibit tab.)  You assign the policy by using the following parameters: -Microsoft.ClassicNetwork/virtualNetworks -Microsoft.Network/virtualNetworks -Microsoft.Compute/virtualMachines For each of the following statements, select Yes if the statement is true. Otherwise, select No. Hot Area:</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Explanation:</strong></h5><p><img id="img310" src="https://free-braindumps.com/images/exam-dumps/AZ-104/8ad592e3-75e6-41c9-9332-d27bbd932001.jpg" imageviewer=""/></p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[HOTSPOT (Drag and Drop is not supported)<br/>You have an Azure subscription that contains the resources shown in the following table.<br/><img id="img304" src="https://free-braindumps.com/images/exam-dumps/AZ-104/818650bd-5a8a-44cd-838e-3266ee5879ab.jpg" imageviewer=""/><br/><br/>The status of VM1 is Running.<br/><br/>You assign an Azure policy as shown in the exhibit. (Click the Exhibit tab.)<br/><img id="img306" src="https://free-braindumps.com/images/exam-dumps/AZ-104/655c974e-e9ad-47c0-8b15-9483539750e7.jpg" imageviewer=""/><br/><br/>You assign the policy by using the following parameters:<br/><br/>-Microsoft.ClassicNetwork/virtualNetworks<br/>-Microsoft.Network/virtualNetworks<br/>-Microsoft.Compute/virtualMachines<br/><br/>For each of the following statements, select Yes if the statement is true. Otherwise, select No.<br/>Hot Area:<br/><img id="img308" src="https://free-braindumps.com/images/exam-dumps/AZ-104/091716ec-fb25-4863-813c-e72b5873c702.jpg" imageviewer=""/>]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="100">
+<text>See Explanation section for answer.</text>
+</answer>
+</question>
+
+<question type="category">
+<category><text>$course$/implement-and-manage-storage-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>DRAG DROP (Drag and Drop is not supported) You have an Azure subscription that contains a storage account. You have an on-premises server named Server1 that runs Windows Server 2016. Server1 has 2 TB of data. You need to transfer the data to the storage account by using the Azure Import/Export service. In which order should you perform the actions? To answer, move all actions from the list of actions to the answer area and arrange them in the correct order. Select and Place:</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Explanation:</strong></h5><p><img id="img314" src="https://free-braindumps.com/images/exam-dumps/AZ-104/d5da7d24-8a62-4045-8a87-7b3c023a34a0.jpg" imageviewer=""/><br/><br/><br/>At a high level, an import job involves the following steps:<br/><br/>Step 1: Attach an external disk to Server1 and then run waimportexport.exe<br/>Determine data to be imported, number of drives you need, destination blob location for your data in Azure storage.<br/>Use the WAImportExport tool to copy data to disk drives. Encrypt the disk drives with BitLocker.<br/><br/>Step 2: From the Azure portal, create an import job.<br/>Create an import job in your target storage account in Azure portal. Upload the drive journal files.<br/><br/>Step 3: Detach the external disks from Server1 and ship the disks to an Azure data center. Provide the return address and carrier account number for shipping the drives back to you. Ship the disk drives to the shipping address provided during job creation.<br/><br/>Step 4: From the Azure portal, update the import job<br/>Update the delivery tracking number in the import job details and submit the import job. The drives are received and processed at the Azure data center.<br/>The drives are shipped using your carrier account to the return address provided in the import job.</p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[DRAG DROP (Drag and Drop is not supported)<br/>You have an Azure subscription that contains a storage account.<br/><br/>You have an on-premises server named Server1 that runs Windows Server 2016. Server1 has 2 TB of data. You need to transfer the data to the storage account by using the Azure Import/Export service.<br/>In which order should you perform the actions? To answer, move all actions from the list of actions to the answer area and arrange them in the correct order.<br/><br/>Select and Place:<br/><img id="img312" src="https://free-braindumps.com/images/exam-dumps/AZ-104/8cc455eb-8291-40d8-be91-61371afc20d2.jpg" imageviewer=""/>]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="100">
+<text>See Explanation section for answer.</text>
+</answer>
+</question>
+
+</quiz>

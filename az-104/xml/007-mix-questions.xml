@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<quiz>
+<question type="category">
+<category><text>$course$/mix-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>Your company has an Azure Active Directory (Azure AD) tenant that is configured for hybrid coexistence with the on-premises Active Directory domain. The on-premise virtual environment consists of virtual machines (VMs) running on Windows Server 2012 R2 Hyper-V host servers. You have created some PowerShell scripts to automate the configuration of newly created VMs. You plan to create several new VMs. You need a solution that ensures the scripts are run on the new VMs. Which of the following is the best solution?</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Explanation:</strong></h5><p>After you deploy a Virtual Machine you typically need to make some changes before it’s ready to use. This is something you can do manually or you could use Remote PowerShell to automate the configuration of your VM after deployment for example.<br/><br/>But now there’s a third alternative available allowing you customize your VM: the CustomScriptextension. This CustomScript extension is executed by the VM Agent and it’s very straightforward: you specify which files it needs to download from your storage account and which file it needs to execute. You can even specify arguments that need to be passed to the script. The only requirement is that you execute a .ps1 file.</p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[Your company has an Azure Active Directory (Azure AD) tenant that is configured for hybrid coexistence with the on-premises Active Directory domain.<br/><br/>The on-premise virtual environment consists of virtual machines (VMs) running on Windows Server 2012 R2 Hyper-V host servers.<br/>You have created some PowerShell scripts to automate the configuration of newly created VMs. You plan to create several new VMs.<br/><br/>You need a solution that ensures the scripts are run on the new VMs. <br/>Which of the following is the best solution?]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="100">
+<text>Configure a SetupComplete.cmd batch file in the %windir%\setup\scripts directory.</text>
+</answer>
+<answer fraction="0">
+<text>Configure a Group Policy Object (GPO) to run the scripts as logon scripts.</text>
+</answer>
+<answer fraction="0">
+<text>Configure a Group Policy Object (GPO) to run the scripts as startup scripts.</text>
+</answer>
+<answer fraction="0">
+<text>Place the scripts in a new virtual hard disk (VHD).</text>
+</answer>
+</question>
+
+<question type="category">
+<category><text>$course$/mix-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>Your company has an Azure Active Directory (Azure AD) tenant that is configured for hybrid coexistence with the on-premises Active Directory domain. You plan to deploy several new virtual machines (VMs) in Azure. The VMs will have the same operating system and custom software requirements. You configure a reference VM in the on-premise virtual environment. You then generalize the VM to create an image. You need to upload the image to Azure to ensure that it is available for selection when you create the new Azure VMs. Which PowerShell cmdlets should you use?</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Explanation:</strong></h5><p>The Add-AzVhdcmdlet uploads on-premises virtual hard disks, in .vhd file format, to a blob storage account as fixed virtual hard disks.</p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[Your company has an Azure Active Directory (Azure AD) tenant that is configured for hybrid coexistence with the on-premises Active Directory domain.<br/><br/>You plan to deploy several new virtual machines (VMs) in Azure. The VMs will have the same operating system and custom software requirements.<br/>You configure a reference VM in the on-premise virtual environment. You then generalize the VM to create an image.<br/>You need to upload the image to Azure to ensure that it is available for selection when you create the new Azure VMs.<br/><br/>Which PowerShell cmdlets should you use?]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="0">
+<text>Add-AzVM</text>
+</answer>
+<answer fraction="100">
+<text>Add-AzVhd</text>
+</answer>
+<answer fraction="0">
+<text>Add-AzImage</text>
+</answer>
+<answer fraction="0">
+<text>Add-AzImageDataDisk</text>
+</answer>
+</question>
+
+<question type="category">
+<category><text>$course$/mix-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>DRAG DROP (Drag and Drop is not supported) Your company has an Azure subscription that includes a number of Azure virtual machines (VMs), which are all part of the same virtual network. Your company also has an on-premises Hyper-V server that hosts a VM, named VM1, which must be replicated to Azure. Which of the following objects that must be created to achieve this goal? Answer by dragging the correct option from the list to the answer area. Select and Place:</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Explanation:</strong></h5><p><img id="img12" src="https://free-braindumps.com/images/exam-dumps/AZ-104/2ce4e7c7-85a0-4d22-963b-33e20c1110aa.jpg" imageviewer=""/></p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[DRAG DROP (Drag and Drop is not supported)<br/>Your company has an Azure subscription that includes a number of Azure virtual machines (VMs), which are all part of the same virtual network.<br/>Your company also has an on-premises Hyper-V server that hosts a VM, named VM1, which must be replicated to Azure.<br/><br/>Which of the following objects that must be created to achieve this goal? Answer by dragging the correct option from the list to the answer area.<br/>Select and Place:<br/><img id="img10" src="https://free-braindumps.com/images/exam-dumps/AZ-104/a6880675-ed8c-43a5-8b3a-100046ca9b14.jpg" imageviewer=""/>]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="100">
+<text>See Explanation section for answer.</text>
+</answer>
+</question>
+
+<question type="category">
+<category><text>$course$/mix-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>Your company’s Azure subscription includes two Azure networks named VirtualNetworkA and VirtualNetworkB. VirtualNetworkA includes a VPN gateway that is configured to make use of static routing. Also, a site-to-site VPN connection exists between your company’s on-premises network and VirtualNetworkA. You have configured a point-to-site VPN connection to VirtualNetworkA from a workstation running Windows 10. After configuring virtual network peering between VirtualNetworkA and VirtualNetworkB, you confirm that you are able to access VirtualNetworkB from the company’s on-premises network. However, you find that you cannot establish a connection to VirtualNetworkB from the Windows 10 workstation. You have to make sure that a connection to VirtualNetworkB can be established from the Windows 10 workstation. Solution: You choose the Allow gateway transit setting on VirtualNetworkA. Does the solution meet the goal?</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Reference:</strong></h5><p>https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-about-point-to-site-routing</p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[<br/>Your company’s Azure subscription includes two Azure networks named VirtualNetworkA and VirtualNetworkB.<br/>VirtualNetworkA includes a VPN gateway that is configured to make use of static routing. Also, a site-to-site VPN connection exists between your company’s on-premises network and VirtualNetworkA.<br/><br/>You have configured a point-to-site VPN connection to VirtualNetworkA from a workstation running Windows 10. After configuring virtual network peering between VirtualNetworkA and VirtualNetworkB, you confirm that you are able to access VirtualNetworkB from the company’s on-premises network. However, you find that you cannot establish a connection to VirtualNetworkB from the Windows 10 workstation.<br/>You have to make sure that a connection to VirtualNetworkB can be established from the Windows 10 workstation.<br/><br/>Solution: You choose the Allow gateway transit setting on VirtualNetworkA. Does the solution meet the goal?]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="0">
+<text>Yes</text>
+</answer>
+<answer fraction="100">
+<text>No</text>
+</answer>
+</question>
+
+</quiz>

@@ -1,0 +1,17 @@
+HOTSPOT (Drag and Drop is not supported) You have an Azure subscription named Sub1 that contains the blob containers shown in the following table.   Sub1 contains two users named User1 and User2. Both users are assigned the Reader role at the Sub1 scope. You have a condition named Condition1 as shown in the following exhibit.   You have a condition named Condition2 as shown in the following exhibit.   You assign roles to User1 and User2 as shown in the following table.   For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+See Explanation section for answer.
+ANSWER: A
+
+You have an Azure Active Directory (Azure AD) tenant named contoso.com. You have a CSV file that contains the names and email addresses of 500 external users. You need to create a guest user account in contoso.com for each of the 500 external users. Solution: You create a PowerShell script that runs the New-MgUser cmdlet for each user. Does this meet the goal?
+Yes
+No
+ANSWER: B
+
+HOTSPOT (Drag and Drop is not supported) You purchase a new Azure subscription. You create an Azure Resource Manager (ARM) template named deploy.json as shown in the following exhibit.   You connect to the subscription and run the following command. New-AzDeployment –Location westus –TemplateFile “deploy.json” For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+See Explanation section for answer.
+ANSWER: A
+
+HOTSPOT (Drag and Drop is not supported) You need to configure the Device settings to meet the technical requirements and the user requirements. Which two settings should you modify? To answer, select the appropriate settings in the answer area. Hot Area:
+See Explanation section for answer.
+ANSWER: A
+

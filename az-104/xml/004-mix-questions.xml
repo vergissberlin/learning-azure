@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<quiz>
+<question type="category">
+<category><text>$course$/mix-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>Your company has an Azure Active Directory (Azure AD) tenant named weyland.com that is configured for hybrid coexistence with the on-premises Active Directory domain. You have a server named DirSync1 that is configured as a DirSync server. You create a new user account in the on-premise Active Directory. You now need to replicate the user information to Azure AD immediately. Solution: You run the Start-ADSyncSyncCycle -PolicyType Initial PowerShell cmdlet. Does the solution meet the goal?</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Reference:</strong></h5><p>https://blog.kloud.com.au/2016/03/08/azure-ad-connect-manual-sync-cycle-with-powershell-startadsyncsynccycle/</p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[<br/>Your company has an Azure Active Directory (Azure AD) tenant named weyland.com that is configured for hybrid coexistence with the on-premises Active Directory domain.<br/><br/>You have a server named DirSync1 that is configured as a DirSync server.<br/>You create a new user account in the on-premise Active Directory. You now need to replicate the user information to Azure AD immediately.<br/><br/>Solution: You run the Start-ADSyncSyncCycle -PolicyType Initial PowerShell cmdlet. Does the solution meet the goal?]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="100">
+<text>Yes</text>
+</answer>
+<answer fraction="0">
+<text>No</text>
+</answer>
+</question>
+
+<question type="category">
+<category><text>$course$/mix-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>Your company has an Azure Active Directory (Azure AD) tenant named weyland.com that is configured for hybrid coexistence with the on-premises Active Directory domain. You have a server named DirSync1 that is configured as a DirSync server. You create a new user account in the on-premise Active Directory. You now need to replicate the user information to Azure AD immediately. Solution: You use Active Directory Sites and Services to force replication of the Global Catalog on a domain controller. Does the solution meet the goal?</text></name>
+<generalfeedback format="html"><text><![CDATA[]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[<br/>Your company has an Azure Active Directory (Azure AD) tenant named weyland.com that is configured for hybrid coexistence with the on-premises Active Directory domain.<br/><br/>You have a server named DirSync1 that is configured as a DirSync server.<br/>You create a new user account in the on-premise Active Directory. You now need to replicate the user information to Azure AD immediately.<br/><br/>Solution: You use Active Directory Sites and Services to force replication of the Global Catalog on a domain controller.<br/>Does the solution meet the goal?]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="0">
+<text>Yes</text>
+</answer>
+<answer fraction="100">
+<text>No</text>
+</answer>
+</question>
+
+<question type="category">
+<category><text>$course$/mix-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>Your company has an Azure Active Directory (Azure AD) tenant named weyland.com that is configured for hybrid coexistence with the on-premises Active Directory domain. You have a server named DirSync1 that is configured as a DirSync server. You create a new user account in the on-premise Active Directory. You now need to replicate the user information to Azure AD immediately. Solution: You restart the NetLogon service on a domain controller. Does the solution meet the goal?</text></name>
+<generalfeedback format="html"><text><![CDATA[]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[<br/>Your company has an Azure Active Directory (Azure AD) tenant named weyland.com that is configured for hybrid coexistence with the on-premises Active Directory domain.<br/>You have a server named DirSync1 that is configured as a DirSync server.<br/>You create a new user account in the on-premise Active Directory. You now need to replicate the user information to Azure AD immediately.<br/><br/>Solution: You restart the NetLogon service on a domain controller. Does the solution meet the goal?]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="0">
+<text>Yes</text>
+</answer>
+<answer fraction="100">
+<text>No</text>
+</answer>
+</question>
+
+<question type="category">
+<category><text>$course$/mix-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>Your company has a Microsoft Azure subscription. The company has datacenters in Los Angeles and New York. You are configuring the two datacenters as geo-clustered sites for site resiliency. You need to recommend an Azure storage redundancy option. You have the following data storage requirements: -Data must be stored on multiple nodes. -Data must be stored on nodes in separate geographic locations. -Data can be read from the secondary location as well as from the primary location. Which of the following Azure stored redundancy options should you recommend?</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Explanation:</strong></h5><p>RA-GRS allows you to have higher read availability for your storage account by providing ‘read only’ access to the data replicated to the secondary location. Once you enable this feature, the secondary location may be used to achieve higher availability in the event the data is not available in the primary region. This is an ‘opt- in’ feature which requires the storage account be geo-replicated.</p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[Your company has a Microsoft Azure subscription.<br/>The company has datacenters in Los Angeles and New York.<br/>You are configuring the two datacenters as geo-clustered sites for site resiliency. You need to recommend an Azure storage redundancy option.<br/><br/>You have the following data storage requirements:<br/>-Data must be stored on multiple nodes.<br/>-Data must be stored on nodes in separate geographic locations.<br/>-Data can be read from the secondary location as well as from the primary location.<br/><br/>Which of the following Azure stored redundancy options should you recommend?]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="0">
+<text>Geo-redundant storage</text>
+</answer>
+<answer fraction="100">
+<text>Read-only geo-redundant storage</text>
+</answer>
+<answer fraction="0">
+<text>Zone-redundant storage</text>
+</answer>
+<answer fraction="0">
+<text>Locally redundant storage</text>
+</answer>
+</question>
+
+</quiz>

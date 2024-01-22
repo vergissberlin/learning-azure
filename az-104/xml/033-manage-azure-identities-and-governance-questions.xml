@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<quiz>
+<question type="category">
+<category><text>$course$/manage-azure-identities-and-governance-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>You have an Azure subscription named Subscription1 that contains virtual network named VNet1. VNet1 is in a resource group named RG1. User named User1 has the following roles for Subscription1: •Reader •Security Admin •Security Reader You need to ensure that User1 can assign the Reader role for VNet1 to other users. What should you do?</text></name>
+<generalfeedback format="html"><text><![CDATA[]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[You have an Azure subscription named Subscription1 that contains virtual network named VNet1. VNet1 is in a resource group named RG1.<br/><br/>User named User1 has the following roles for Subscription1:<br/><br/>•Reader<br/>•Security Admin<br/>•Security Reader<br/><br/>You need to ensure that User1 can assign the Reader role for VNet1 to other users.<br/>What should you do?]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="0">
+<text>Remove User1 from the Security Reader and Reader roles for Subscription1. Assign User1 the Contributor role for Subscription1.</text>
+</answer>
+<answer fraction="0">
+<text>Remove User1 from the Security Reader role for Subscription1. Assign User1 the Contributor role for RG1.</text>
+</answer>
+<answer fraction="0">
+<text>Assign User1 the Network Contributor role for VNet1.</text>
+</answer>
+<answer fraction="100">
+<text>Assign User1 the User Access Administrator role for VNet1.</text>
+</answer>
+</question>
+
+<question type="category">
+<category><text>$course$/manage-azure-identities-and-governance-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>HOTSPOT (Drag and Drop is not supported) You have an Azure Storage account named storage1 that uses Azure Blob storage and Azure File storage. You need to use AzCopy to copy data to the blob storage and file storage in storage1. Which authentication method should you use for each type of storage? To answer, select the appropriate options in the answer area.</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Explanation:</strong></h5><p><img id="img238" src="https://free-braindumps.com/images/exam-dumps/AZ-104/7ff4b218-7863-4c1a-8150-9441b332a7a9.jpg" imageviewer=""/></p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[HOTSPOT (Drag and Drop is not supported)<br/>You have an Azure Storage account named storage1 that uses Azure Blob storage and Azure File storage.<br/><br/>You need to use AzCopy to copy data to the blob storage and file storage in storage1.<br/><br/>Which authentication method should you use for each type of storage? To answer, select the appropriate options in the answer area.<br/><br/><br/><img id="img236" src="https://free-braindumps.com/images/exam-dumps/AZ-104/ac35ef6d-b10c-4a44-97e1-f5499d696d39.jpg" imageviewer=""/>]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="100">
+<text>See Explanation section for answer.</text>
+</answer>
+</question>
+
+<question type="category">
+<category><text>$course$/manage-azure-identities-and-governance-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>HOTSPOT (Drag and Drop is not supported) You have an Azure AD tenant that contains a user named External User. External User authenticates to the tenant by using external195@gmail.com. You need to ensure that External User authenticates to the tenant by using contractor@gmail.com. Which two settings should you configure from the Overview blade? To answer, select the appropriate settings in the answer area.</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Explanation:</strong></h5><p><img id="img242" src="https://free-braindumps.com/images/exam-dumps/AZ-104/43be510f-fb68-4d6b-96ec-40e76b4d7d88.jpg" imageviewer=""/></p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[HOTSPOT (Drag and Drop is not supported)<br/>You have an Azure AD tenant that contains a user named External User.<br/><br/>External User authenticates to the tenant by using external195@gmail.com.<br/><br/>You need to ensure that External User authenticates to the tenant by using contractor@gmail.com.<br/><br/>Which two settings should you configure from the Overview blade? To answer, select the appropriate settings in the answer area.<br/><br/><br/><img id="img240" src="https://free-braindumps.com/images/exam-dumps/AZ-104/9285a0ca-0887-47ec-96cf-097e0d50c72c.jpg" imageviewer=""/>]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="100">
+<text>See Explanation section for answer.</text>
+</answer>
+</question>
+
+<question type="category">
+<category><text>$course$/manage-azure-identities-and-governance-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>You have an Azure subscription that contains the resources shown in the following table.   You need to assign Workspace1 a role to allow read, write, and delete operations for the data stored in the containers of storage1. Which role should you assign?</text></name>
+<generalfeedback format="html"><text><![CDATA[]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[You have an Azure subscription that contains the resources shown in the following table.<br/><br/><img id="img244" src="https://free-braindumps.com/images/exam-dumps/AZ-104/b2e03461-f50b-4ac7-8522-eb3f58a4dd78.jpg" imageviewer=""/><br/><br/>You need to assign Workspace1 a role to allow read, write, and delete operations for the data stored in the containers of storage1.<br/><br/>Which role should you assign?]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="0">
+<text>Storage Account Contributor</text>
+</answer>
+<answer fraction="0">
+<text>Contributor</text>
+</answer>
+<answer fraction="100">
+<text>Storage Blob Data Contributor</text>
+</answer>
+<answer fraction="0">
+<text>Reader and Data Access</text>
+</answer>
+</question>
+
+</quiz>

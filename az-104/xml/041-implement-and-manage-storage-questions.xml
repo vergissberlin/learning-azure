@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<quiz>
+<question type="category">
+<category><text>$course$/implement-and-manage-storage-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>HOTSPOT (Drag and Drop is not supported) You have an Azure subscription named Subscription1 that contains the resources shown in the following table.  In storage1, you create a blob container named blob1 and a file share named share1. Which resources can be backed up to Vault1 and Vault2? To answer, select the appropriate options in the answer area. Hot Area:</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Explanation:</strong></h5><p><img id="img370" src="https://free-braindumps.com/images/exam-dumps/AZ-104/abac85e5-cf98-4bba-a32a-0def54b51b07.jpg" imageviewer=""/><br/><br/>Box 1: VM1 only<br/>VM1 is in the same region as Vault1. File1 is not in the same region as Vautl1. SQL is not in the same region as Vault1.<br/>Blobs cannot be backup up to service vaults.<br/><br/>Note: To create a vault to protect virtual machines, the vault must be in the same region as the virtual machines.<br/><br/>Box 2: Share1 only.<br/>Storage1 is in the same region (West USA) as Vault2. Share1 is in Storage1.<br/><br/>Note: After you select Backup, the Backup pane opens and prompts you to select a storage account from a list of discovered supported storage accounts. They&#39;re either associated with this vault or present in the same region as the vault, but not yet associated to any Recovery Services vault.</p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[HOTSPOT (Drag and Drop is not supported)<br/>You have an Azure subscription named Subscription1 that contains the resources shown in the following table.<br/><img id="img366" src="https://free-braindumps.com/images/exam-dumps/AZ-104/f29b4747-82ba-4ca4-8512-747c023c9bbb.jpg" imageviewer=""/><br/><br/>In storage1, you create a blob container named blob1 and a file share named share1.<br/>Which resources can be backed up to Vault1 and Vault2? To answer, select the appropriate options in the answer area.<br/><br/>Hot Area:<br/><br/><img id="img368" src="https://free-braindumps.com/images/exam-dumps/AZ-104/be22c69d-2309-432b-b61f-72b1c2cdddc7.jpg" imageviewer=""/>]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="100">
+<text>See Explanation section for answer.</text>
+</answer>
+</question>
+
+<question type="category">
+<category><text>$course$/implement-and-manage-storage-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>You have an Azure subscription named Subscription1. You have 5 TB of data that you need to transfer to Subscription1. You plan to use an Azure Import/Export job. What can you use as the destination of the imported data?</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Explanation:</strong></h5><p>Azure Import/Export service is used to securely import large amounts of data to Azure Blob storage and Azure Files by shipping disk drives to an Azure datacenter.<br/>The maximum size of an Azure Files Resource of a file share is 5 TB. <br/>Note:<br/>There are several versions of this question in the exam. The question has two correct answers:<br/>1. Azure File Storage<br/>2. Azure Blob Storage<br/><br/>The question can have other incorrect answer options, including the following:<br/>-Azure Data Lake Store<br/>-Azure SQL Database<br/>-Azure Data Factory</p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[You have an Azure subscription named Subscription1.<br/>You have 5 TB of data that you need to transfer to Subscription1.<br/>You plan to use an Azure Import/Export job.<br/>What can you use as the destination of the imported data?]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="0">
+<text>a virtual machine</text>
+</answer>
+<answer fraction="0">
+<text>an Azure Cosmos DB database</text>
+</answer>
+<answer fraction="100">
+<text>Azure File Storage</text>
+</answer>
+<answer fraction="0">
+<text>the Azure File Sync Storage Sync Service</text>
+</answer>
+</question>
+
+<question type="category">
+<category><text>$course$/implement-and-manage-storage-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>HOTSPOT (Drag and Drop is not supported) You have an Azure subscription. You create the Azure Storage account shown in the following exhibit.  Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic. Hot Area:</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Explanation:</strong></h5><p><img id="img376" src="https://free-braindumps.com/images/exam-dumps/AZ-104/521f98f3-f62d-48cd-972d-095b43ab6fea.jpg" imageviewer=""/><br/><br/>Box 1: 3<br/>Locally Redundant Storage (LRS) provides highly durable and available storage within a single location (sub region). We maintain an equivalent of 3 copies (replicas) of your data within the primary location as described in our SOSP paper; this ensures that we can recover from common failures (disk, node, rack) without impacting your storage account’s availability and durability.<br/><br/>Box 2: Access tier<br/>Change the access tier from Hot to Cool.<br/><br/>Note: Azure storage offers different access tiers, which allow you to store blob object data in the most cost- effective manner. The available access tiers include:<br/><br/>Hot - Optimized for storing data that is accessed frequently.<br/>Cool - Optimized for storing data that is infrequently accessed and stored for at least 30 days.<br/>Archive - Optimized for storing data that is rarely accessed and stored for at least 180 days with flexible latency requirements (on the order of hours).</p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[HOTSPOT (Drag and Drop is not supported)<br/>You have an Azure subscription.<br/>You create the Azure Storage account shown in the following exhibit.<br/><img id="img372" src="https://free-braindumps.com/images/exam-dumps/AZ-104/2934a508-e2f8-45b2-9f08-26d37a6b1759.jpg" imageviewer=""/><br/><br/>Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic.<br/><br/>Hot Area:<br/><br/><img id="img374" src="https://free-braindumps.com/images/exam-dumps/AZ-104/3001c755-3978-48ff-b629-7404446f27f6.jpg" imageviewer=""/>]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="100">
+<text>See Explanation section for answer.</text>
+</answer>
+</question>
+
+<question type="category">
+<category><text>$course$/implement-and-manage-storage-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>You have an Azure Storage account named storage1. You plan to use AzCopy to copy data to storage1. You need to identify the storage services in storage1 to which you can copy the data. What should you identify?</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Explanation:</strong></h5><p>AzCopy is a command-line utility that you can use to copy blobs or files to or from a storage account.<br/><br/>Incorrect Answers:<br/>A, C, E: AzCopy does not support table and queue storage services.<br/>D: AzCopy supports file storage services, as well as blob storage services.</p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[You have an Azure Storage account named storage1. You plan to use AzCopy to copy data to storage1.<br/>You need to identify the storage services in storage1 to which you can copy the data. <br/>What should you identify?]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="0">
+<text>blob, file, table, and queue</text>
+</answer>
+<answer fraction="100">
+<text>blob and file only</text>
+</answer>
+<answer fraction="0">
+<text>file and table only</text>
+</answer>
+<answer fraction="0">
+<text>file only</text>
+</answer>
+<answer fraction="0">
+<text>blob, table, and queue only</text>
+</answer>
+</question>
+
+</quiz>

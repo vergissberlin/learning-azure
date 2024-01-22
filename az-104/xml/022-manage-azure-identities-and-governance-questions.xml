@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<quiz>
+<question type="category">
+<category><text>$course$/manage-azure-identities-and-governance-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>DRAG DROP (Drag and Drop is not supported) You have an Azure Active Directory (Azure AD) tenant that has the contoso.onmicrosoft.com domain name. You have a domain name of contoso.com registered at a third-party registrar. You need to ensure that you can create Azure AD users that have names containing a suffix of @contoso.com. Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order. Select and Place:</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Explanation:</strong></h5><p><img id="img108" src="https://free-braindumps.com/images/exam-dumps/AZ-104/e42acc11-480c-47d6-802e-f40b85255a18.jpg" imageviewer=""/><br/><br/><br/>1. Add the custom domain name to your directory<br/>2. Add a DNS entry for the domain name at the domain name registrar<br/>3. Verify the custom domain name in Azure AD</p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[DRAG DROP (Drag and Drop is not supported)<br/>You have an Azure Active Directory (Azure AD) tenant that has the contoso.onmicrosoft.com domain name. You have a domain name of contoso.com registered at a third-party registrar.<br/>You need to ensure that you can create Azure AD users that have names containing a suffix of @contoso.com.<br/><br/>Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.<br/><br/>Select and Place:<br/><img id="img106" src="https://free-braindumps.com/images/exam-dumps/AZ-104/375d3659-a73e-4851-8a45-2626ab1b53d1.jpg" imageviewer=""/>]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="100">
+<text>See Explanation section for answer.</text>
+</answer>
+</question>
+
+<question type="category">
+<category><text>$course$/manage-azure-identities-and-governance-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>You have an Azure subscription named Subscription1 that contains an Azure Log Analytics workspace named Workspace1. You need to view the error event from a table named Event. Which query should you run in Workspace1?</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Reference:</strong></h5><p>https://docs.microsoft.com/en-us/azure/azure-monitor/log-query/search-queries https://docs.microsoft.com/en-us/azure/azure-monitor/log-query/get-started-portal https://docs.microsoft.com/en-us/azure/data-explorer/kusto/query/searchoperator?pivots=azuredataexplorer</p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[You have an Azure subscription named Subscription1 that contains an Azure Log Analytics workspace named Workspace1.<br/><br/>You need to view the error event from a table named Event. <br/>Which query should you run in Workspace1?]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="0">
+<text>Get-Event Event | where {$_.EventType == "error"}</text>
+</answer>
+<answer fraction="100">
+<text>Event | search "error"</text>
+</answer>
+<answer fraction="0">
+<text>select * from Event where EventType == "error"</text>
+</answer>
+<answer fraction="0">
+<text>Event | where EventType is "error"</text>
+</answer>
+</question>
+
+<question type="category">
+<category><text>$course$/manage-azure-identities-and-governance-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>You have a registered DNS domain named contoso.com. You create a public Azure DNS zone named contoso.com. You need to ensure that records created in the contoso.com zone are resolvable from the internet. What should you do?</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Reference:</strong></h5><p>https://docs.microsoft.com/en-us/azure/dns/dns-delegate-domain-azure-dns</p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[You have a registered DNS domain named contoso.com.<br/>You create a public Azure DNS zone named contoso.com.<br/><br/>You need to ensure that records created in the contoso.com zone are resolvable from the internet.<br/>What should you do?]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="0">
+<text>Create NS records in contoso.com.</text>
+</answer>
+<answer fraction="0">
+<text>Modify the SOA record in the DNS domain registrar.</text>
+</answer>
+<answer fraction="0">
+<text>Create the SOA record in contoso.com.</text>
+</answer>
+<answer fraction="100">
+<text>Modify the NS records in the DNS domain registrar.</text>
+</answer>
+</question>
+
+<question type="category">
+<category><text>$course$/manage-azure-identities-and-governance-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>HOTSPOT (Drag and Drop is not supported) You have an Azure subscription that contains a storage account named storage1. The subscription is linked to an Azure Active Directory (Azure AD) tenant named contoso.com that syncs to an on-premises Active Directory domain. The domain contains the security principals shown in the following table.  In Azure AD, you create a user named User2. The storage1 account contains a file share named share1 and has the following configurations.   For each of the following statements, select Yes if the statement is true. Otherwise, select No.</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Explanation:</strong></h5><p><img id="img116" src="https://free-braindumps.com/images/exam-dumps/AZ-104/3a803367-8063-4239-a005-9c65ee5a6ce0.jpg" imageviewer=""/></p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[HOTSPOT (Drag and Drop is not supported)<br/>You have an Azure subscription that contains a storage account named storage1. The subscription is linked to an Azure Active Directory (Azure AD) tenant named contoso.com that syncs to an on-premises Active Directory domain.<br/><br/>The domain contains the security principals shown in the following table.<br/><img id="img110" src="https://free-braindumps.com/images/exam-dumps/AZ-104/14f43b51-3f0a-44bf-9bae-9aabf9739ded.jpg" imageviewer=""/><br/><br/>In Azure AD, you create a user named User2.<br/>The storage1 account contains a file share named share1 and has the following configurations.<br/><br/><img id="img112" src="https://free-braindumps.com/images/exam-dumps/AZ-104/9e59a51a-b499-4b5d-82ef-77030dfb2707.jpg" imageviewer=""/><br/><br/>For each of the following statements, select Yes if the statement is true. Otherwise, select No.<br/><br/><img id="img114" src="https://free-braindumps.com/images/exam-dumps/AZ-104/50b00c83-f900-4024-9deb-2724472e2ddc.jpg" imageviewer=""/>]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="100">
+<text>See Explanation section for answer.</text>
+</answer>
+</question>
+
+</quiz>

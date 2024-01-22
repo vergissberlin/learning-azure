@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<quiz>
+<question type="category">
+<category><text>$course$/mix-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>You are planning to deploy an Ubuntu Server virtual machine to your company’s Azure subscription. You are required to implement a custom deployment that includes adding a particular trusted root certification authority (CA). Which of the following should you use to create the virtual machine?</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Explanation:</strong></h5><p>The az vm create command. you need to create an Ubuntu Linux VM using a cloud-init script for configuration.<br/>For example, az vm create -g MyResourceGroup -n MyVm --image debian --custom-data MyCloudInitScript.yml</p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[You are planning to deploy an Ubuntu Server virtual machine to your company’s Azure subscription.<br/>You are required to implement a custom deployment that includes adding a particular trusted root certification authority (CA).<br/>Which of the following should you use to create the virtual machine?]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="0">
+<text>The New-AzureRmVmcmdlet.</text>
+</answer>
+<answer fraction="0">
+<text>The New-AzVMcmdlet.</text>
+</answer>
+<answer fraction="100">
+<text>The Create-AzVMcmdlet.</text>
+</answer>
+<answer fraction="0">
+<text>The azvm create command.</text>
+</answer>
+</question>
+
+<question type="category">
+<category><text>$course$/mix-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>Your company makes use of Multi-Factor Authentication for when users are not in the office. The Per Authentication option has been configured as the usage model. After the acquisition of a smaller business and the addition of the new staff to Azure Active Directory (Azure AD) obtains a different company and adding the new employees to Azure Active Directory (Azure AD), you are informed that these employees should also make use of Multi-Factor Authentication. To achieve this, the Per Enabled User setting must be set for the usage model. Solution: You reconfigure the existing usage model via the Azure portal. Does the solution meet the goal?</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Explanation:</strong></h5><p>Since it is not possible to change the usage model of an existing provider as it is right now, you have to create a new one and reactivate your existing server with activation credentials from the new provider.</p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[<br/>Your company makes use of Multi-Factor Authentication for when users are not in the office. The Per Authentication option has been configured as the usage model.<br/><br/>After the acquisition of a smaller business and the addition of the new staff to Azure Active Directory (Azure AD) obtains a different company and adding the new employees to Azure Active Directory (Azure AD), you are informed that these employees should also make use of Multi-Factor Authentication. To achieve this, the Per Enabled User setting must be set for the usage model.<br/><br/>Solution: You reconfigure the existing usage model via the Azure portal. Does the solution meet the goal?]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="0">
+<text>Yes</text>
+</answer>
+<answer fraction="100">
+<text>No</text>
+</answer>
+</question>
+
+<question type="category">
+<category><text>$course$/mix-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>Your company’s Azure solution makes use of Multi-Factor Authentication for when users are not in the office. The Per Authentication option has been configured as the usage model. After the acquisition of a smaller business and the addition of the new staff to Azure Active Directory (Azure AD) obtains a different company and adding the new employees to Azure Active Directory (Azure AD), you are informed that these employees should also make use of Multi-Factor Authentication. To achieve this, the Per Enabled User setting must be set for the usage model. Solution: You reconfigure the existing usage model via the Azure CLI. Does the solution meet the goal?</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Explanation:</strong></h5><p>Since it is not possible to change the usage model of an existing provider as it is right now, you have to create a new one and reactivate your existing server with activation credentials from the new provider.</p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[<br/>Your company’s Azure solution makes use of Multi-Factor Authentication for when users are not in the office. The Per Authentication option has been configured as the usage model.<br/><br/>After the acquisition of a smaller business and the addition of the new staff to Azure Active Directory (Azure AD) obtains a different company and adding the new employees to Azure Active Directory (Azure AD), you are informed that these employees should also make use of Multi-Factor Authentication. To achieve this, the Per Enabled User setting must be set for the usage model.<br/><br/>Solution: You reconfigure the existing usage model via the Azure CLI.<br/>Does the solution meet the goal?]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="0">
+<text>Yes</text>
+</answer>
+<answer fraction="100">
+<text>No</text>
+</answer>
+</question>
+
+<question type="category">
+<category><text>$course$/mix-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>Your company’s Azure solution makes use of Multi-Factor Authentication for when users are not in the office. The Per Authentication option has been configured as the usage model. After the acquisition of a smaller business and the addition of the new staff to Azure Active Directory (Azure AD) obtains a different company and adding the new employees to Azure Active Directory (Azure AD), you are informed that these employees should also make use of Multi-Factor Authentication. To achieve this, the Per Enabled User setting must be set for the usage model. Solution: You create a new Multi-Factor Authentication provider with a backup from the existing Multi-Factor Authentication provider data. Does the solution meet the goal?</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Explanation:</strong></h5><p>Since it is not possible to change the usage model of an existing provider as it is right now, you have to create a new one and reactivate your existing server with activation credentials from the new provider.</p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[<br/>Your company’s Azure solution makes use of Multi-Factor Authentication for when users are not in the office. The Per Authentication option has been configured as the usage model.<br/><br/>After the acquisition of a smaller business and the addition of the new staff to Azure Active Directory (Azure AD) obtains a different company and adding the new employees to Azure Active Directory (Azure AD), you are informed that these employees should also make use of Multi-Factor Authentication. To achieve this, the Per Enabled User setting must be set for the usage model.<br/><br/>Solution: You create a new Multi-Factor Authentication provider with a backup from the existing Multi-Factor Authentication provider data.<br/>Does the solution meet the goal?]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="100">
+<text>Yes</text>
+</answer>
+<answer fraction="0">
+<text>No</text>
+</answer>
+</question>
+
+</quiz>

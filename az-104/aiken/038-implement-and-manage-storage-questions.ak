@@ -1,0 +1,16 @@
+HOTSPOT (Drag and Drop is not supported) You have Azure subscription that includes following Azure file shares:  You have the following on-premises servers:  You create a Storage Sync Service named Sync1 and an Azure File Sync group named Group1. Group1 uses share1 as a cloud endpoint. You register Server1 and Server2 in Sync1. You add D:\Folder1 on Server1 as a server endpoint of Group1. For each of the following statements, select Yes if the statement is true. Otherwise, select No. Hot Area:
+See Explanation section for answer.
+ANSWER: A
+
+DRAG DROP (Drag and Drop is not supported) You have an Azure subscription named Subscription1. You create an Azure Storage account named contosostorage, and then you create a file share named data. Which UNC path should you include in a script that references files from the data file share? To answer, drag the appropriate values to the correct targets. Each value may be used once, more than once or not at all. You may need to drag the split bar between panes or scroll to view content. Select and Place:
+See Explanation section for answer.
+ANSWER: A
+
+HOTSPOT (Drag and Drop is not supported) You have an Azure subscription that contains an Azure Storage account. You plan to copy an on-premises virtual machine image to a container named vmimages. You need to create the container for the planned image. Which command should you run? To answer, select the appropriate options in the answer area. Hot Area:
+See Explanation section for answer.
+ANSWER: A
+
+HOTSPOT (Drag and Drop is not supported) You have an Azure File sync group that has the endpoints shown in the following table.  Cloud tiering is enabled for Endpoint3. You add a file named File1 to Endpoint1 and a file named File2 to Endpoint2. On which endpoints will File1 and File2 be available within 24 hours of adding the files? To answer, select the appropriate options in the answer area. Hot Area:
+See Explanation section for answer.
+ANSWER: A
+

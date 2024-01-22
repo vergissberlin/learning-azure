@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<quiz>
+<question type="category">
+<category><text>$course$/manage-azure-identities-and-governance-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>You have an Azure subscription named Subscription1 that contains a virtual network named VNet1. VNet1 is in a resource group named RG1. Subscription1 has a user named User1. User1 has the following roles: -Reader -Security Admin -Security Reader You need to ensure that User1 can assign the Reader role for VNet1 to other users. What should you do?</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Explanation:</strong></h5><p>Has full access to all resources including the right to delegate access to others.<br/><br/>Note:<br/>There are several versions of this question in the exam. The question has two possible correct answers:<br/>-Assign User1 the User Access Administrator role for VNet1.<br/>-Assign User1 the Owner role for VNet1.<br/><br/>Other incorrect answer options you may see on the exam include the following:<br/>-Remove User1 from the Security Reader and Reader roles for Subscription1. Assign User1 the Contributor role for Subscription1.<br/>-Remove User1 from the Security Reader and Reader roles for Subscription1.<br/>-Assign User1 the Network Contributor role for RG1.<br/><br/>References:<br/>https://docs.microsoft.com/en-us/azure/role-based-access-control/rbac-and-directory-admin-roles https://docs.microsoft.com/en-us/azure/role-based-access-control/overview</p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[You have an Azure subscription named Subscription1 that contains a virtual network named VNet1. VNet1 is in a resource group named RG1.<br/>Subscription1 has a user named User1. User1 has the following roles:<br/><br/>-Reader<br/>-Security Admin<br/>-Security Reader<br/><br/>You need to ensure that User1 can assign the Reader role for VNet1 to other users. <br/>What should you do?]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="0">
+<text>Remove User1 from the Security Reader role for Subscription1. Assign User1 the Contributor role for RG1.</text>
+</answer>
+<answer fraction="100">
+<text>Assign User1 the Owner role for VNet1.</text>
+</answer>
+<answer fraction="0">
+<text>Assign User1 the Contributor role for VNet1.</text>
+</answer>
+<answer fraction="0">
+<text>Assign User1 the Network Contributor role for VNet1.</text>
+</answer>
+</question>
+
+<question type="category">
+<category><text>$course$/manage-azure-identities-and-governance-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>HOTSPOT (Drag and Drop is not supported) You configure the custom role shown in the following exhibit.   Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic.</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Explanation:</strong></h5><p><img id="img148" src="https://free-braindumps.com/images/exam-dumps/AZ-104/cc49842f-d5ba-4249-a84b-8619b2a61a04.jpg" imageviewer=""/><br/><br/><br/>Box 1: roletype<br/>You need to configure Azure RBAC policy to determine who can log in to the VM. Two Azure roles are used to authorize VM login:<br/><br/>Virtual Machine Administrator Login: Users with this role assigned can log in to an Azure virtual machine with administrator privileges.<br/>Virtual Machine User Login: Users with this role assigned can log in to an Azure virtual machine with regular user privileges.<br/><br/>Note, example roletype:<br/>&#34;roleName&#34;: &#34;Virtual Machine Administrator Login&#34;,<br/> &#34;roleType&#34;: &#34;BuiltInRole&#34;,<br/> &#34;type&#34;: &#34;Microsoft.Authorization/roleDefinitions&#34;<br/><br/>Box 2: assignableScopes<br/>Azure role-based access control (Azure RBAC) is the authorization system you use to manage access to Azure resources. To grant access, you assign roles to users, groups, service principals, or managed identities at a particular scope.<br/><br/>When you assign roles, you must specify a scope. Scope is the set of resources the access applies to. In Azure, you can specify a scope at four levels from broad to narrow: management group, subscription, resource group, and resource.</p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[HOTSPOT (Drag and Drop is not supported)<br/>You configure the custom role shown in the following exhibit.<br/><br/><img id="img144" src="https://free-braindumps.com/images/exam-dumps/AZ-104/0857ce8a-9a07-47b7-a5f9-a83d8bbbc8b5.jpg" imageviewer=""/><br/><br/>Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic.<br/><br/><img id="img146" src="https://free-braindumps.com/images/exam-dumps/AZ-104/54784cae-a8e5-40e6-bd05-880c5fe0c1ae.jpg" imageviewer=""/>]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="100">
+<text>See Explanation section for answer.</text>
+</answer>
+</question>
+
+<question type="category">
+<category><text>$course$/manage-azure-identities-and-governance-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>You have an Azure subscription that contains a storage account named storage1. The storage1 account contains a file share named share1. The subscription is linked to a hybrid Azure Active Directory (Azure AD) tenant that contains a security group named Group1. You need to grant Group1 the Storage File Data SMB Share Elevated Contributor role for share1. What should you do first?</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Explanation:</strong></h5><p>Before you enable Azure AD over SMB for Azure file shares, make sure you have completed the following prerequisites:<br/>1. Select or create an Azure AD tenant.<br/>2. To support authentication with Azure AD credentials, you must enable Azure AD Domain Services for your Azure AD tenant.<br/>Etc.<br/><br/>Note: The Storage File Data SMB Share Elevated Contributor allows read, write, delete and modify NTFS permissions in Azure Storage file shares over SMB.</p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[You have an Azure subscription that contains a storage account named storage1. The storage1 account contains a file share named share1.<br/><br/>The subscription is linked to a hybrid Azure Active Directory (Azure AD) tenant that contains a security group named Group1.<br/><br/>You need to grant Group1 the Storage File Data SMB Share Elevated Contributor role for share1.<br/>What should you do first?]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="100">
+<text>Enable Active Directory Domain Service (AD DS) authentication for storage1.</text>
+</answer>
+<answer fraction="0">
+<text>Grant share-level permissions by using File Explorer.</text>
+</answer>
+<answer fraction="0">
+<text>Mount share1 by using File Explorer.</text>
+</answer>
+<answer fraction="0">
+<text>Create a private endpoint.</text>
+</answer>
+</question>
+
+<question type="category">
+<category><text>$course$/manage-azure-identities-and-governance-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>You have 15 Azure subscriptions. You have an Azure Active Directory (Azure AD) tenant that contains a security group named Group1. You plan to purchase additional Azure subscription. You need to ensure that Group1 can manage role assignments for the existing subscriptions and the planned subscriptions. The solution must meet the following requirements: -Use the principle of least privilege. -Minimize administrative effort. What should you do?</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Explanation:</strong></h5><p>The User Access Administrator role enables the user to grant other users access to Azure resources. This switch can be helpful to regain access to a subscription.<br/><br/>Management groups give you enterprise-grade management at scale no matter what type of subscriptions you might have.<br/><br/>Each directory is given a single top-level management group called the &#34;Root&#34; management group. This root management group is built into the hierarchy to have all management groups and subscriptions fold up to it. This root management group allows for global policies and Azure role assignments to be applied at the directory level.<br/><br/>Incorrect:<br/>Not C: A few directories that started using management groups early in the preview before June 25 2018 could see an issue where not all the subscriptions were within the hierarchy. The process to have all subscriptions in the hierarchy was put in place after a role or policy assignment was done on the root management group in the directory.</p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[You have 15 Azure subscriptions.<br/>You have an Azure Active Directory (Azure AD) tenant that contains a security group named Group1.<br/><br/>You plan to purchase additional Azure subscription.<br/><br/>You need to ensure that Group1 can manage role assignments for the existing subscriptions and the planned subscriptions. The solution must meet the following requirements:<br/><br/>-Use the principle of least privilege.<br/>-Minimize administrative effort.<br/><br/>What should you do?]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="0">
+<text>Assign Group1 the Owner role for the root management group.</text>
+</answer>
+<answer fraction="100">
+<text>Assign Group1 the User Access Administrator role for the root management group.</text>
+</answer>
+<answer fraction="0">
+<text>Create a new management group and assign Group1 the User Access Administrator role for the group.</text>
+</answer>
+<answer fraction="0">
+<text>Create a new management group and assign Group1 the Owner role for the group.</text>
+</answer>
+</question>
+
+</quiz>

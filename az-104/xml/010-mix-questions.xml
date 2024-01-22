@@ -1,7 +1,11 @@
 <?xml version="1.0"?>
 <quiz>
+<question type="category">
+<category><text>$course$/mix-questions</text></category>
+</question>
 <question type="multichoice">
 <name><text>Your company has an Azure Active Directory (Azure AD) subscription. You need to deploy five virtual machines (VMs) to your company’s virtual network subnet. The VMs will each have both a public and private IP address. Inbound and outbound security rules for all of these virtual machines must be identical. Which of the following is the least amount of security groups needed for this configuration?</text></name>
+<generalfeedback format="html"><text><![CDATA[]]></text></generalfeedback>
 <questiontext format="html"><text><![CDATA[Your company has an Azure Active Directory (Azure AD) subscription.<br/>You need to deploy five virtual machines (VMs) to your company’s virtual network subnet.<br/>The VMs will each have both a public and private IP address. Inbound and outbound security rules for all of these virtual machines must be identical.<br/>Which of the following is the least amount of security groups needed for this configuration?]]></text></questiontext>
 <answernumbering>abc</answernumbering>
 <answer fraction="0">
@@ -18,8 +22,12 @@
 </answer>
 </question>
 
+<question type="category">
+<category><text>$course$/mix-questions</text></category>
+</question>
 <question type="multichoice">
-<name><text>Your company’s Azure subscription includes Azure virtual machines (VMs) that run Windows Server 2016. One of the VMs is backed up every day using Azure Backup Instant Restore. When the VM becomes infected with data encrypting ransomware, you decide to recover the VM’s files.  Which of the following is TRUE in this scenario?</text></name>
+<name><text>Your company’s Azure subscription includes Azure virtual machines (VMs) that run Windows Server 2016. One of the VMs is backed up every day using Azure Backup Instant Restore. When the VM becomes infected with data encrypting ransomware, you decide to recover the VM’s files. Which of the following is TRUE in this scenario?</text></name>
+<generalfeedback format="html"><text><![CDATA[]]></text></generalfeedback>
 <questiontext format="html"><text><![CDATA[Your company’s Azure subscription includes Azure virtual machines (VMs) that run Windows Server 2016. One of the VMs is backed up every day using Azure Backup Instant Restore.<br/>When the VM becomes infected with data encrypting ransomware, you decide to recover the VM’s files. <br/>Which of the following is TRUE in this scenario?]]></text></questiontext>
 <answernumbering>abc</answernumbering>
 <answer fraction="100">
@@ -36,8 +44,12 @@
 </answer>
 </question>
 
+<question type="category">
+<category><text>$course$/mix-questions</text></category>
+</question>
 <question type="multichoice">
-<name><text>Your company’s Azure subscription includes Azure virtual machines (VMs) that run Windows Server 2016. One of the VMs is backed up every day using Azure Backup Instant Restore. When the VM becomes infected with data encrypting ransomware, you are required to restore the VM.  Which of the following actions should you take?</text></name>
+<name><text>Your company’s Azure subscription includes Azure virtual machines (VMs) that run Windows Server 2016. One of the VMs is backed up every day using Azure Backup Instant Restore. When the VM becomes infected with data encrypting ransomware, you are required to restore the VM. Which of the following actions should you take?</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Explanation:</strong></h5><p>When a VM is infected with ransomware, you should not restore the VM to the infected VM. This is because the ransomware will still be present on the VM, and it will encrypt the files again.<br/>You should also not restore the VM to any VM within the company&#39;s subscription. This is because the ransomware could spread to other VMs in the subscription.<br/>The best way to restore a VM that is infected with ransomware is to restore it to a new Azure VM. This will ensure that the ransomware is not present on the new VM.</p>]]></text></generalfeedback>
 <questiontext format="html"><text><![CDATA[Your company’s Azure subscription includes Azure virtual machines (VMs) that run Windows Server 2016. One of the VMs is backed up every day using Azure Backup Instant Restore.<br/>When the VM becomes infected with data encrypting ransomware, you are required to restore the VM. <br/>Which of the following actions should you take?]]></text></questiontext>
 <answernumbering>abc</answernumbering>
 <answer fraction="0">
@@ -54,8 +66,12 @@
 </answer>
 </question>
 
+<question type="category">
+<category><text>$course$/mix-questions</text></category>
+</question>
 <question type="multichoice">
-<name><text>You administer a solution in Azure that is currently having performance issues. You need to find the cause of the performance issues pertaining to metrics on the Azure infrastructure.  Which of the following is the tool you should use?</text></name>
+<name><text>You administer a solution in Azure that is currently having performance issues. You need to find the cause of the performance issues pertaining to metrics on the Azure infrastructure. Which of the following is the tool you should use?</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Explanation:</strong></h5><p>Metrics in Azure Monitor are stored in a time-series database which is optimized for analyzing time-stamped data. This makes metrics particularly suited for alerting and fast detection of issues.</p>]]></text></generalfeedback>
 <questiontext format="html"><text><![CDATA[You administer a solution in Azure that is currently having performance issues.<br/>You need to find the cause of the performance issues pertaining to metrics on the Azure infrastructure. <br/>Which of the following is the tool you should use?]]></text></questiontext>
 <answernumbering>abc</answernumbering>
 <answer fraction="0">

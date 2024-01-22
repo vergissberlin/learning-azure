@@ -1,0 +1,25 @@
+You have an Azure subscription named Subscription1 that contains a virtual network named VNet1. VNet1 is in a resource group named RG1. Subscription1 has a user named User1. User1 has the following roles: -Reader -Security Admin -Security Reader You need to ensure that User1 can assign the Reader role for VNet1 to other users. What should you do?
+Remove User1 from the Security Reader role for Subscription1. Assign User1 the Contributor role for RG1.
+Assign User1 the Owner role for VNet1.
+Remove User1 from the Security Reader and Reader roles for Subscription1. Assign User1 the Contributor role for Subscription1.
+Assign User1 the Contributor role for VNet1.
+ANSWER: B
+
+Your on-premises network contains a VPN gateway. You have an Azure subscription that contains the resources shown in the following table.  You need to ensure that all the traffic from VM1 to storage1 travels across the Microsoft backbone network. What should you configure?
+Azure Application Gateway
+private endpoints
+a network security group (NSG)
+Azure Virtual WAN
+ANSWER: B
+
+HOTSPOT (Drag and Drop is not supported) You have an Azure subscription that contains a user named User1 and the resources shown in the following table.  NSG1 is associated to networkinterface1. User1 has role assignments for NSG1 as shown in the following table.  For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+See Explanation section for answer.
+ANSWER: A
+
+You have an Azure subscription named Subscription1 that contains a virtual network named VNet1. VNet1 is in a resource group named RG1. Subscription1 has a user named User1. User1 has the following roles: -Reader -Security Admin -Security Reader You need to ensure that User1 can assign the Reader role for VNet1 to other users. What should you do?
+Remove User1 from the Security Reader role for Subscription1. Assign User1 the Contributor role for RG1.
+Assign User1 the Access Administrator role for VNet1.
+Remove User1 from the Security Reader and Reader roles for Subscription1. Assign User1 the Contributor role for Subscription1.
+Assign User1 the Network Contributor role for RG1.
+ANSWER: B
+

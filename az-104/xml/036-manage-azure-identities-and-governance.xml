@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<quiz>
+<question type="category">
+<category><text>$course$/manage-azure-identities-and-governance</text></category>
+</question>
+<question type="multichoice">
+<name><text>You need to meet the user requirement for Admin1. What should you do?</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Explanation:</strong></h5><p>Scenario:<br/>-Designate a new user named Admin1 as the service admin for the Azure subscription.<br/>-Admin1 must receive email alerts regarding service outages.<br/><br/>Follow these steps to change the Service Administrator in the Azure portal.<br/>1. Make sure your scenario is supported by checking the limitations for changing the Service Administrator.<br/>2. Sign in to the Azure portal as the Account Administrator.<br/>3. Open Cost Management + Billing and select a subscription.<br/>4. In the left navigation, click Properties.<br/>5. Click Service Admin.</p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[You need to meet the user requirement for Admin1. <br/>What should you do?]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="0">
+<text>From the Azure Active Directory blade, modify the Groups</text>
+</answer>
+<answer fraction="0">
+<text>From the Azure Active Directory blade, modify the Properties</text>
+</answer>
+<answer fraction="0">
+<text>From the Subscriptions blade, select the subscription, and then modify the Access control (IAM) settings</text>
+</answer>
+<answer fraction="100">
+<text>From the Subscriptions blade, select the subscription, and then modify the Properties</text>
+</answer>
+</question>
+
+<question type="category">
+<category><text>$course$/manage-azure-identities-and-governance</text></category>
+</question>
+<question type="multichoice">
+<name><text>HOTSPOT (Drag and Drop is not supported) You need to ensure that User1 can create initiative definitions, and User4 can assign initiatives to RG2. The solution must meet the technical requirements. Which role should you assign to each user? To answer, select the appropriate options in the answer area. NOTE: Each correct selection is worth one point. Hot Area:</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Explanation:</strong></h5><p><img id="img292" src="https://free-braindumps.com/images/exam-dumps/AZ-104/3fefb994-f545-416e-871d-41ab12a8aa30.jpg" imageviewer=""/></p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[HOTSPOT (Drag and Drop is not supported)<br/>You need to ensure that User1 can create initiative definitions, and User4 can assign initiatives to RG2. The solution must meet the technical requirements.<br/><br/>Which role should you assign to each user? To answer, select the appropriate options in the answer area. <br/>NOTE: Each correct selection is worth one point.<br/>Hot Area:<br/><br/><img id="img290" src="https://free-braindumps.com/images/exam-dumps/AZ-104/50f6a19a-4576-4ef8-854a-1ea4c5b4f54a.jpg" imageviewer=""/>]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="100">
+<text>See Explanation section for answer.</text>
+</answer>
+</question>
+
+<question type="category">
+<category><text>$course$/manage-azure-identities-and-governance</text></category>
+</question>
+<question type="multichoice">
+<name><text>You need to ensure that you can grant Group4 Azure RBAC read only permissions to all the Azure file shares. What should you do?</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Explanation:</strong></h5><p>Azure Files supports identity-based authentication over Server Message Block (SMB) through on-premises Active Directory Domain Services (AD DS) and Azure Active Directory Domain Services (Azure AD DS).</p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[You need to ensure that you can grant Group4 Azure RBAC read only permissions to all the Azure file shares. <br/>What should you do?]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="100">
+<text>On storage2, enable identity-based access for the file shares.</text>
+</answer>
+<answer fraction="0">
+<text>Recreate storage2 and set Hierarchical namespace to Enabled.</text>
+</answer>
+<answer fraction="0">
+<text>On storage1 and storage4, change the Account kind type to StorageV2 (general purpose v2).</text>
+</answer>
+<answer fraction="0">
+<text>Create a shared access signature (SAS) for storage1, storage2, and storage4.</text>
+</answer>
+</question>
+
+<question type="category">
+<category><text>$course$/implement-and-manage-storage-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>You have an Azure Storage account named storage1. You have an Azure Service app named App1 and an app named App2 that runs in an Azure container instance. Each app uses a managed identity. You need to ensure that App1 and App2 can read blobs from storage1. The solution must meet the following requirements: -Minimize the number of secrets used. -Ensure that App2 can only read from storage1 for the next 30 days. What should you configure in storage1 for each app? To answer, select the appropriate options in the answer area. Hot Area:</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Explanation:</strong></h5><p><img id="img296" src="https://free-braindumps.com/images/exam-dumps/AZ-104/b4a851c2-88c3-4720-ba14-ae0348d33a1b.jpg" imageviewer=""/><br/><br/><br/>App1: Access keys<br/><br/>App2: Shared access signature (SAS)<br/>A shared access signature (SAS) provides secure delegated access to resources in your storage accountwithout compromising the security of your data. With a SAS, you have granular control over how a client can access your data. You can control what resources the client may access, what permissions they have on those resources, and how long the SAS is valid, among other parameters.</p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[You have an Azure Storage account named storage1.<br/><br/>You have an Azure Service app named App1 and an app named App2 that runs in an Azure container instance. Each app uses a managed identity.<br/><br/>You need to ensure that App1 and App2 can read blobs from storage1. The solution must meet the following requirements:<br/><br/>-Minimize the number of secrets used.<br/>-Ensure that App2 can only read from storage1 for the next 30 days.<br/><br/>What should you configure in storage1 for each app? To answer, select the appropriate options in the answer area.<br/><br/>Hot Area:<br/><img id="img294" src="https://free-braindumps.com/images/exam-dumps/AZ-104/da8972da-65df-4adc-9f16-68b68d722291.jpg" imageviewer=""/>]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="100">
+<text>See Explanation section for answer.</text>
+</answer>
+</question>
+
+</quiz>

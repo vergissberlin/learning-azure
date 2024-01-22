@@ -1,0 +1,22 @@
+DRAG DROP (Drag and Drop is not supported) You have an Azure Active Directory (Azure AD) tenant that has the contoso.onmicrosoft.com domain name. You have a domain name of contoso.com registered at a third-party registrar. You need to ensure that you can create Azure AD users that have names containing a suffix of @contoso.com. Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order. Select and Place:
+See Explanation section for answer.
+ANSWER: A
+
+You have an Azure subscription named Subscription1 that contains an Azure Log Analytics workspace named Workspace1. You need to view the error event from a table named Event. Which query should you run in Workspace1?
+Get-Event Event | where {$_.EventType == "error"}
+Event | search "error"
+select * from Event where EventType == "error"
+Event | where EventType is "error"
+ANSWER: B
+
+You have a registered DNS domain named contoso.com. You create a public Azure DNS zone named contoso.com. You need to ensure that records created in the contoso.com zone are resolvable from the internet. What should you do?
+Create NS records in contoso.com.
+Modify the SOA record in the DNS domain registrar.
+Create the SOA record in contoso.com.
+Modify the NS records in the DNS domain registrar.
+ANSWER: D
+
+HOTSPOT (Drag and Drop is not supported) You have an Azure subscription that contains a storage account named storage1. The subscription is linked to an Azure Active Directory (Azure AD) tenant named contoso.com that syncs to an on-premises Active Directory domain. The domain contains the security principals shown in the following table.  In Azure AD, you create a user named User2. The storage1 account contains a file share named share1 and has the following configurations.   For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+See Explanation section for answer.
+ANSWER: A
+

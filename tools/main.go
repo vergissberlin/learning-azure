@@ -14,8 +14,8 @@ import (
 // Main function
 // TODO: Add support for multiple pages
 func main() {
-	pageStart := 10
-	pageLast := 12
+	pageStart := 2
+	pageLast := 42
 	listOfStringsToRemove := []string{
 		"After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.",
 	}
@@ -38,99 +38,110 @@ func main() {
 		// Get string after the column from the first .panel-title as a file name with lowercase and spaces replaced with dashes
 		title := doc.Find(".panel-title .pull-right").First().Text()
 		splitTitle := strings.Split(title, ":")
-		pageTitle := strings.TrimSpace(splitTitle[1])       // Trim spaces
-		pageTitle = strings.ToLower(pageTitle)              // Convert to lowercase
-		pageTitle = strings.ReplaceAll(pageTitle, " ", "-") // Replace spaces with dashes
+		if len(splitTitle) == 2 {
+			pageTitle := strings.TrimSpace(splitTitle[1])       // Trim spaces
+			pageTitle = strings.ToLower(pageTitle)              // Convert to lowercase
+			pageTitle = strings.ReplaceAll(pageTitle, " ", "-") // Replace spaces with dashes
 
-		pageString := fmt.Sprintf("%03d", pageStart)
-		fileAk, err := os.Create("../az-104/aiken/" + pageString + "-" + pageTitle + ".ak")
-		if err != nil {
-			fmt.Println(err)
-			return
-		}
-		defer fileAk.Close()
-		fileGift, err := os.Create("../az-104/gift/" + pageString + "-" + pageTitle + ".gift")
-		if err != nil {
-			fmt.Println(err)
-			return
-		}
-		defer fileGift.Close()
-		// MoodleXML
-		fileMoodleXML, err := os.Create("../az-104/xml/" + pageString + "-" + pageTitle + ".xml")
-		if err != nil {
-			fmt.Println(err)
-			return
-		}
-		defer fileMoodleXML.Close()
-		// Prepend <?xml version="1.0"?> to moodle XML file
-		fileMoodleXML.WriteString("<?xml version=\"1.0\"?>\n<quiz>\n")
-
-		doc.Find(".panel").Each(func(i int, s *goquery.Selection) {
-			// Get Question number after the column from the first .panel-title > .text-uppercase
-			questionNumber := s.Find(".panel-title > .text-uppercase").First().Text()
-
-			splitQuestionNumber := strings.Split(questionNumber, ":")
-			if len(splitQuestionNumber) == 2 {
-				questionNumber = splitQuestionNumber[1]
-				questionNumber = strings.TrimSpace(questionNumber)           // Trim spaces
-				questionNumber = strings.ReplaceAll(questionNumber, " ", "") // Remove spaces
-				questionNumber = strings.ReplaceAll(questionNumber, ".", "") // Remove dots
-			} else {
-				questionNumber = ""
-			}
-
-			question, _ := s.Find(".lead").First().Html()
-
-			// Check if the question is not empty, if it is, skip it
-			if question == "" {
+			pageString := fmt.Sprintf("%03d", pageStart)
+			fileAk, err := os.Create("../az-104/aiken/" + pageString + "-" + pageTitle + ".ak")
+			if err != nil {
+				fmt.Println(err)
 				return
 			}
-
-			// Remove the note from the question
-			re := regexp.MustCompile(`Note:.*?<br/>`)    // Regular expression to match the note
-			question = re.ReplaceAllString(question, "") // Remove the note
-
-			// Remove all strings from the list of strings to remove
-			for _, stringToRemove := range listOfStringsToRemove {
-				re = regexp.MustCompile(stringToRemove)      // Regular expression to match the string to remove
-				question = re.ReplaceAllString(question, "") // Remove the string
+			defer fileAk.Close()
+			fileGift, err := os.Create("../az-104/gift/" + pageString + "-" + pageTitle + ".gift")
+			if err != nil {
+				fmt.Println(err)
+				return
 			}
-
-			// Remove all extra spaces from the question
-			re = regexp.MustCompile(`\s+`)
-			question = re.ReplaceAllString(question, " ")
-			question = strings.TrimSpace(question)
-			question = strings.ReplaceAll(question, "  ", " ")
-
-			// Get the choices and answer
-			choices := s.Find("li").Map(func(i int, s *goquery.Selection) string {
-				return s.Text()
-			})
-			answers := s.Find("li[data-correct='True']").Map(func(i int, s *goquery.Selection) string {
-				return strconv.Itoa(s.Index())
-			})
-
-			// Convert answers from []string to []int
-			convertedAnswers := make([]int, len(answers))
-			for i, answer := range answers {
-				convertedAnswer, _ := strconv.Atoi(answer) // Convert answer from string to int
-				convertedAnswers[i] = convertedAnswer
+			defer fileGift.Close()
+			// MoodleXML
+			fileMoodleXML, err := os.Create("../az-104/xml/" + pageString + "-" + pageTitle + ".xml")
+			if err != nil {
+				fmt.Println(err)
+				return
 			}
+			defer fileMoodleXML.Close()
+			// Prepend <?xml version="1.0"?> to moodle XML file
+			fileMoodleXML.WriteString("<?xml version=\"1.0\"?>\n<quiz>\n")
 
-			gift := formatGIFT(questionNumber, question, choices, convertedAnswers)
-			writeToFile(fileGift, gift)
+			doc.Find(".panel").Each(func(i int, s *goquery.Selection) {
+				// Get Question number after the column from the first .panel-title > .text-uppercase
+				questionNumber := s.Find(".panel-title > .text-uppercase").First().Text()
 
-			moodleXML := formatMoodleXML(question, choices, convertedAnswers)
-			writeToFile(fileMoodleXML, moodleXML)
+				splitQuestionNumber := strings.Split(questionNumber, ":")
+				if len(splitQuestionNumber) == 2 {
+					questionNumber = splitQuestionNumber[1]
+					questionNumber = strings.TrimSpace(questionNumber)           // Trim spaces
+					questionNumber = strings.ReplaceAll(questionNumber, " ", "") // Remove spaces
+					questionNumber = strings.ReplaceAll(questionNumber, ".", "") // Remove dots
+				} else {
+					questionNumber = ""
+				}
 
-			aiken := formatAiken(question, choices, convertedAnswers)
-			writeToFile(fileAk, aiken)
+				question, _ := s.Find(".lead").First().Html()
 
-		})
+				// Check if the question is not empty, if it is, skip it
+				if question == "" {
+					return
+				}
 
-		// Append </quiz> to moodle XML file
-		fileMoodleXML.WriteString("</quiz>\n")
-		pageStart++
+				// Remove the note from the question
+				re := regexp.MustCompile(`Note:.*?<br/>`)    // Regular expression to match the note
+				question = re.ReplaceAllString(question, "") // Remove the note
+
+				// Remove all strings from the list of strings to remove
+				for _, stringToRemove := range listOfStringsToRemove {
+					re = regexp.MustCompile(stringToRemove)      // Regular expression to match the string to remove
+					question = re.ReplaceAllString(question, "") // Remove the string
+				}
+
+				// Remove all extra spaces from the question
+				re = regexp.MustCompile(`\s+`)
+				question = re.ReplaceAllString(question, " ")
+				question = strings.TrimSpace(question)
+				question = strings.ReplaceAll(question, "  ", " ")
+
+				// Get the choices and answer
+				choices := s.Find("li").Map(func(i int, s *goquery.Selection) string {
+					return s.Text()
+				})
+				answers := s.Find("li[data-correct='True']").Map(func(i int, s *goquery.Selection) string {
+					return strconv.Itoa(s.Index())
+				})
+
+				// Convert answers from []string to []int
+				convertedAnswers := make([]int, len(answers))
+				for i, answer := range answers {
+					convertedAnswer, _ := strconv.Atoi(answer) // Convert answer from string to int
+					convertedAnswers[i] = convertedAnswer
+				}
+
+				categoryWithPrefix := s.Find(".panel-title .pull-right").First().Text()
+				splitCategoryWithPrefix := strings.Split(categoryWithPrefix, ":")
+				category := strings.TrimSpace(splitCategoryWithPrefix[1]) // Trim spaces
+				category = strings.ToLower(category)                      // Convert to lowercase
+				category = strings.ReplaceAll(category, " ", "-")         // Replace spaces with dashes
+
+				gift := formatGIFT(questionNumber, question, choices, convertedAnswers)
+				writeToFile(fileGift, gift)
+
+				// Get feedback
+				feedback, _ := s.Find(".bg-light-yellow").Html()
+
+				moodleXML := formatMoodleXML(category, question, choices, convertedAnswers, feedback)
+				writeToFile(fileMoodleXML, moodleXML)
+
+				aiken := formatAiken(question, choices, convertedAnswers)
+				writeToFile(fileAk, aiken)
+
+			})
+
+			// Append </quiz> to moodle XML file
+			fileMoodleXML.WriteString("</quiz>\n")
+			pageStart++
+		}
 	}
 }
 
@@ -152,8 +163,10 @@ func writeToFile(file *os.File, content string) {
 // @param str The string
 // @return The string without HTML tags
 func _removeHtmlTags(str string) string {
-	re := regexp.MustCompile(`<.*?>`)   // Regular expression to match HTML tags
-	str = re.ReplaceAllString(str, " ") // Remove HTML tags
+	regHtml := regexp.MustCompile(`<.*?>`)   // Regular expression to match HTML tags
+	str = regHtml.ReplaceAllString(str, " ") // Remove HTML tags
+	str = strings.TrimSpace(str)
+	str = strings.ReplaceAll(str, "  ", " ")
 	return str
 }
 
@@ -225,9 +238,14 @@ func contains(slice []int, item int) bool {
 // @param choices The choices
 // @param answers The answers
 // @return The Moodle XML formatted question
-func formatMoodleXML(question string, choices []string, answers []int) string {
-	formatted := "<question type=\"multichoice\">\n"
+func formatMoodleXML(category string, question string, choices []string, answers []int, feedback string) string {
+
+	formatted := "<question type=\"category\">\n"
+	formatted += "<category><text>$course$/" + _removeHtmlTags(category) + "</text></category>\n"
+	formatted += "</question>\n"
+	formatted += "<question type=\"multichoice\">\n"
 	formatted += "<name><text>" + _removeHtmlTags(question) + "</text></name>\n"
+	formatted += "<generalfeedback format=\"html\"><text><![CDATA[" + feedback + "]]></text></generalfeedback>\n"
 	formatted += "<questiontext format=\"html\"><text><![CDATA[" + question + "]]></text></questiontext>\n"
 	formatted += "<answernumbering>abc</answernumbering>\n"
 	for i, choice := range choices {

@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<quiz>
+<question type="category">
+<category><text>$course$/implement-and-manage-storage-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>HOTSPOT (Drag and Drop is not supported) You have an Azure Storage account named storage1 that uses Azure Blob storage and Azure File storage. You need to use AzCopy to copy data to the blob storage and file storage in storage1. Which authentication method should you use for each type of storage? To answer, select the appropriate options in the answer area. Hot Area:</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Explanation:</strong></h5><p><img id="img380" src="https://free-braindumps.com/images/exam-dumps/AZ-104/b0066abe-50c6-4fdc-b026-ff9e7c37862c.jpg" imageviewer=""/><br/><br/><br/>You can provide authorization credentials by using Azure Active Directory (AD), or by using a Shared Access Signature (SAS) token.<br/><br/>Box 1:<br/>Both Azure Active Directory (AD) and Shared Access Signature (SAS) token are supported for Blob storage.<br/><br/>Box 2:<br/>Only Shared Access Signature (SAS) token is supported for File storage.</p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[HOTSPOT (Drag and Drop is not supported)<br/>You have an Azure Storage account named storage1 that uses Azure Blob storage and Azure File storage. You need to use AzCopy to copy data to the blob storage and file storage in storage1.<br/>Which authentication method should you use for each type of storage? To answer, select the appropriate options in the answer area.<br/><br/>Hot Area:<br/><img id="img378" src="https://free-braindumps.com/images/exam-dumps/AZ-104/8b322ece-3bb9-4e33-83a7-ce6dd993f92f.jpg" imageviewer=""/>]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="100">
+<text>See Explanation section for answer.</text>
+</answer>
+</question>
+
+<question type="category">
+<category><text>$course$/implement-and-manage-storage-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>You have an Azure subscription that contains an Azure Storage account. You plan to create an Azure container instance named container1 that will use a Docker image named Image1. Image1 contains a Microsoft SQL Server instance that requires persistent storage. You need to configure a storage service for Container1. What should you use?</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Reference:</strong></h5><p>https://azure.microsoft.com/en-us/blog/persistent-docker-volumes-with-azure-file-storage/<br/>https://docs.microsoft.com/en-us/azure/aks/concepts-storage</p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[You have an Azure subscription that contains an Azure Storage account.<br/><br/>You plan to create an Azure container instance named container1 that will use a Docker image named Image1. Image1 contains a Microsoft SQL Server instance that requires persistent storage.<br/><br/>You need to configure a storage service for Container1. <br/>What should you use?]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="100">
+<text>Azure Files</text>
+</answer>
+<answer fraction="0">
+<text>Azure Blob storage</text>
+</answer>
+<answer fraction="0">
+<text>Azure Queue storage</text>
+</answer>
+<answer fraction="0">
+<text>Azure Table storage</text>
+</answer>
+</question>
+
+<question type="category">
+<category><text>$course$/implement-and-manage-storage-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>You have an app named App1 that runs on two Azure virtual machines named VM1 and VM2. You plan to implement an Azure Availability Set for App1. The solution must ensure that App1 is available during planned maintenance of the hardware hosting VM1 and VM2. What should you include in the Availability Set?</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Explanation:</strong></h5><p>Microsoft updates, which Microsoft refers to as planned maintenance events, sometimes require that VMs be rebooted to complete the update. To reduce the impact on VMs, the Azure fabric is divided into update domains to ensure that not all VMs are rebooted at the same time.<br/><br/>Incorrect Answers:<br/>A: An update domain is a group of VMs and underlying physical hardware that can be rebooted at the same time.<br/><br/>B, C: A fault domain shares common storage as well as a common power source and network switch. It is used to protect against unplanned system failure.</p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[You have an app named App1 that runs on two Azure virtual machines named VM1 and VM2.<br/><br/>You plan to implement an Azure Availability Set for App1. The solution must ensure that App1 is available during planned maintenance of the hardware hosting VM1 and VM2.<br/><br/>What should you include in the Availability Set?]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="0">
+<text>one update domain</text>
+</answer>
+<answer fraction="0">
+<text>two fault domains</text>
+</answer>
+<answer fraction="0">
+<text>one fault domain</text>
+</answer>
+<answer fraction="100">
+<text>two update domains</text>
+</answer>
+</question>
+
+<question type="category">
+<category><text>$course$/implement-and-manage-storage-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>You have an Azure subscription named Subscription1. You have 5 TB of data that you need to transfer to Subscription1. You plan to use an Azure Import/Export job. What can you use as the destination of the imported data?</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Explanation:</strong></h5><p>Azure Import/Export service is used to securely import large amounts of data to Azure Blob storage and Azure Files by shipping disk drives to an Azure datacenter.<br/><br/>Note:<br/>There are several versions of this question in the exam. The question has two correct answers:<br/>1. Azure File Storage<br/>2. Azure Blob Storage<br/><br/>The question can have other incorrect answer options, including the following:<br/>-a virtual machine<br/>-Azure SQL Database<br/>-Azure Data Factory</p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[You have an Azure subscription named Subscription1.<br/><br/>You have 5 TB of data that you need to transfer to Subscription1. You plan to use an Azure Import/Export job.<br/>What can you use as the destination of the imported data?]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="0">
+<text>an Azure Cosmos DB database</text>
+</answer>
+<answer fraction="100">
+<text>Azure Blob storage</text>
+</answer>
+<answer fraction="0">
+<text>Azure Data Lake Store</text>
+</answer>
+<answer fraction="0">
+<text>the Azure File Sync Storage Sync Service</text>
+</answer>
+</question>
+
+</quiz>

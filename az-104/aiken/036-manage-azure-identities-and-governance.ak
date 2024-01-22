@@ -1,0 +1,22 @@
+You need to meet the user requirement for Admin1. What should you do?
+From the Azure Active Directory blade, modify the Groups
+From the Azure Active Directory blade, modify the Properties
+From the Subscriptions blade, select the subscription, and then modify the Access control (IAM) settings
+From the Subscriptions blade, select the subscription, and then modify the Properties
+ANSWER: D
+
+HOTSPOT (Drag and Drop is not supported) You need to ensure that User1 can create initiative definitions, and User4 can assign initiatives to RG2. The solution must meet the technical requirements. Which role should you assign to each user? To answer, select the appropriate options in the answer area. NOTE: Each correct selection is worth one point. Hot Area:
+See Explanation section for answer.
+ANSWER: A
+
+You need to ensure that you can grant Group4 Azure RBAC read only permissions to all the Azure file shares. What should you do?
+On storage2, enable identity-based access for the file shares.
+Recreate storage2 and set Hierarchical namespace to Enabled.
+On storage1 and storage4, change the Account kind type to StorageV2 (general purpose v2).
+Create a shared access signature (SAS) for storage1, storage2, and storage4.
+ANSWER: A
+
+You have an Azure Storage account named storage1. You have an Azure Service app named App1 and an app named App2 that runs in an Azure container instance. Each app uses a managed identity. You need to ensure that App1 and App2 can read blobs from storage1. The solution must meet the following requirements: -Minimize the number of secrets used. -Ensure that App2 can only read from storage1 for the next 30 days. What should you configure in storage1 for each app? To answer, select the appropriate options in the answer area. Hot Area:
+See Explanation section for answer.
+ANSWER: A
+

@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<quiz>
+<question type="category">
+<category><text>$course$/manage-azure-identities-and-governance-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>HOTSPOT (Drag and Drop is not supported) You have an Azure subscription named Subscription1 that has a subscription ID of c276fc76-9cd4-44c9-99a7- 4fd71546436e. You need to create a custom RBAC role named CR1 that meets the following requirements: -Can be assigned only to the resource groups in Subscription1 -Prevents the management of the access permissions for the resource groups -Allows the viewing, creating, modifying, and deleting of resources within the resource groups What should you specify in the assignable scopes and the permission elements of the definition of CR1? To answer, select the appropriate options in the answer area. Hot Area:</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Explanation:</strong></h5><p><img id="img74" src="https://free-braindumps.com/images/exam-dumps/AZ-104/2a8f0f6d-b851-42d2-b2fc-821db7e71e40.jpg" imageviewer=""/></p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[HOTSPOT (Drag and Drop is not supported)<br/>You have an Azure subscription named Subscription1 that has a subscription ID of c276fc76-9cd4-44c9-99a7- 4fd71546436e.<br/>You need to create a custom RBAC role named CR1 that meets the following requirements:<br/><br/>-Can be assigned only to the resource groups in Subscription1<br/>-Prevents the management of the access permissions for the resource groups<br/>-Allows the viewing, creating, modifying, and deleting of resources within the resource groups<br/><br/>What should you specify in the assignable scopes and the permission elements of the definition of CR1? To answer, select the appropriate options in the answer area.<br/><br/>Hot Area:<br/><br/><img id="img72" src="https://free-braindumps.com/images/exam-dumps/AZ-104/a4877c81-ef6e-4e9e-bb13-93ff9ce7447f.jpg" imageviewer=""/>]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="100">
+<text>See Explanation section for answer.</text>
+</answer>
+</question>
+
+<question type="category">
+<category><text>$course$/manage-azure-identities-and-governance-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>You have an Azure subscription. Users access the resources in the subscription from either home or from customer sites. From home, users must establish a point-to-site VPN to access the Azure resources. The users on the customer sites access the Azure resources by using site-to-site VPNs. You have a line-of-business-app named App1 that runs on several Azure virtual machine. The virtual machines run Windows Server 2016. You need to ensure that the connections to App1 are spread across all the virtual machines. What are two possible Azure services that you can use? Each correct answer presents a complete solution. Note: Each correct selection is worth one point.</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Explanation:</strong></h5><p>Network traffic from the VPN gateway is routed to the cloud application through an internal load balancer. The load balancer is located in the front-end subnet of the application.</p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[You have an Azure subscription.<br/><br/>Users access the resources in the subscription from either home or from customer sites. From home, users must establish a point-to-site VPN to access the Azure resources. The users on the customer sites access the Azure resources by using site-to-site VPNs.<br/><br/>You have a line-of-business-app named App1 that runs on several Azure virtual machine. The virtual machines run Windows Server 2016.<br/><br/>You need to ensure that the connections to App1 are spread across all the virtual machines.<br/><br/>What are two possible Azure services that you can use? Each correct answer presents a complete solution.<br/><br/>Note: Each correct selection is worth one point.]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="100">
+<text>an internal load balancer</text>
+</answer>
+<answer fraction="0">
+<text>a public load balancer</text>
+</answer>
+<answer fraction="0">
+<text>an Azure Content Delivery Network (CDN)</text>
+</answer>
+<answer fraction="0">
+<text>Traffic Manager</text>
+</answer>
+<answer fraction="100">
+<text>an Azure Application Gateway</text>
+</answer>
+</question>
+
+<question type="category">
+<category><text>$course$/manage-azure-identities-and-governance-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>You have an Azure subscription. You have 100 Azure virtual machines. You need to quickly identify underutilized virtual machines that can have their service tier changed to a less expensive offering. Which blade should you use?</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Explanation:</strong></h5><p>Advisor helps you optimize and reduce your overall Azure spend by identifying idle and underutilized resources. You can get cost recommendations from the Cost tab on the Advisor dashboard.</p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[You have an Azure subscription.<br/>You have 100 Azure virtual machines.<br/><br/>You need to quickly identify underutilized virtual machines that can have their service tier changed to a less expensive offering.<br/><br/>Which blade should you use?]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="0">
+<text>Monitor</text>
+</answer>
+<answer fraction="100">
+<text>Advisor</text>
+</answer>
+<answer fraction="0">
+<text>Metrics</text>
+</answer>
+<answer fraction="0">
+<text>Customer insights</text>
+</answer>
+</question>
+
+<question type="category">
+<category><text>$course$/manage-azure-identities-and-governance-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>HOTSPOT (Drag and Drop is not supported) You have an Azure Active Directory (Azure AD) tenant. You need to create a conditional access policy that requires all users to use multi-factor authentication when they access the Azure portal. Which three settings should you configure? To answer, select the appropriate settings in the answer area. Hot Area:</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Explanation:</strong></h5><p><img id="img78" src="https://free-braindumps.com/images/exam-dumps/AZ-104/e0b5046c-ea44-4f6f-a39d-5176448cdf80.jpg" imageviewer=""/></p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[HOTSPOT (Drag and Drop is not supported)<br/>You have an Azure Active Directory (Azure AD) tenant.<br/><br/>You need to create a conditional access policy that requires all users to use multi-factor authentication when they access the Azure portal.<br/><br/>Which three settings should you configure? To answer, select the appropriate settings in the answer area.<br/><br/>Hot Area:<br/><img id="img76" src="https://free-braindumps.com/images/exam-dumps/AZ-104/7453d4f8-91f4-4f65-801f-15ba3f4e765f.jpg" imageviewer=""/>]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="100">
+<text>See Explanation section for answer.</text>
+</answer>
+</question>
+
+</quiz>

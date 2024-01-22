@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<quiz>
+<question type="category">
+<category><text>$course$/manage-azure-identities-and-governance-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>HOTSPOT (Drag and Drop is not supported) You have an Azure subscription named Subscription1 that contains a virtual network VNet1. You add the users in the following table.  Which user can perform each configuration? To answer, select the appropriate options in the answer area.</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Explanation:</strong></h5><p><img id="img122" src="https://free-braindumps.com/images/exam-dumps/AZ-104/f51743ad-fb3d-4525-9707-d4b6671bba0f.jpg" imageviewer=""/><br/><br/><br/>Box 1: User1 and User3 only.<br/>User1: The Owner Role lets you manage everything, including access to resources.<br/>User3: The Network Contributor role lets you manage networks, including creating subnets.<br/><br/>Box 2: User1 only.<br/>The Security Admin role: In Security Center only: Can view security policies, view security states, edit security policies, view alerts and recommendations, dismiss alerts and recommendations.</p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[HOTSPOT (Drag and Drop is not supported) <br/>You have an Azure subscription named Subscription1 that contains a virtual network VNet1.<br/>You add the users in the following table.<br/><img id="img118" src="https://free-braindumps.com/images/exam-dumps/AZ-104/dcf22f73-1436-4d41-a1e1-dee80112f326.jpg" imageviewer=""/><br/><br/>Which user can perform each configuration? To answer, select the appropriate options in the answer area.<br/><br/><br/><img id="img120" src="https://free-braindumps.com/images/exam-dumps/AZ-104/efd2be33-47e5-4054-bf7b-0c4297742509.jpg" imageviewer=""/>]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="100">
+<text>See Explanation section for answer.</text>
+</answer>
+</question>
+
+<question type="category">
+<category><text>$course$/manage-azure-identities-and-governance-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>HOTSPOT (Drag and Drop is not supported) You have the Azure resources shown on the following exhibit.   You plan to track resource usage and prevent the deletion of resources. To which resources can you apply locks and tags? To answer, select the appropriate options in the answer area. Hot Area:</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Explanation:</strong></h5><p><img id="img128" src="https://free-braindumps.com/images/exam-dumps/AZ-104/fd11d81d-4d1e-4bd3-93c1-b3e97aadeb28.jpg" imageviewer=""/><br/><br/><br/>Box 1: Sub1, RG1, and VM1 only<br/>You can lock a subscription, resource group, or resource to prevent other users in your organization from accidentally deleting or modifying critical resources.<br/>Box 2: Sub1, RG1, and VM1 only<br/>You apply tags to your Azure resources, resource groups, and subscriptions.</p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[HOTSPOT (Drag and Drop is not supported)<br/>You have the Azure resources shown on the following exhibit.<br/><br/><img id="img124" src="https://free-braindumps.com/images/exam-dumps/AZ-104/4a1ff02a-3971-40e4-9f58-e5964b63918a.jpg" imageviewer=""/><br/><br/>You plan to track resource usage and prevent the deletion of resources.<br/>To which resources can you apply locks and tags? To answer, select the appropriate options in the answer area.<br/><br/>Hot Area:<br/><br/><img id="img126" src="https://free-braindumps.com/images/exam-dumps/AZ-104/e928cf7e-176b-4372-92dd-cf88325f16ba.jpg" imageviewer=""/>]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="100">
+<text>See Explanation section for answer.</text>
+</answer>
+</question>
+
+<question type="category">
+<category><text>$course$/manage-azure-identities-and-governance-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>You have an Azure Active Directory (Azure AD) tenant. You plan to delete multiple users by using Bulk delete in the Azure Active Directory admin center. You need to create and upload a file for the bulk delete. Which user attributes should you include in the file?</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Reference:</strong></h5><p>https://docs.microsoft.com/en-us/azure/active-directory/enterprise-users/users-bulk-delete</p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[You have an Azure Active Directory (Azure AD) tenant.<br/>You plan to delete multiple users by using Bulk delete in the Azure Active Directory admin center. You need to create and upload a file for the bulk delete.<br/>Which user attributes should you include in the file?]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="0">
+<text>The user principal name and usage location of each user only</text>
+</answer>
+<answer fraction="100">
+<text>The user principal name of each user only</text>
+</answer>
+<answer fraction="0">
+<text>The display name of each user only</text>
+</answer>
+<answer fraction="0">
+<text>The display name and usage location of each user only</text>
+</answer>
+<answer fraction="0">
+<text>The display name and user principal name of each user only</text>
+</answer>
+</question>
+
+<question type="category">
+<category><text>$course$/manage-azure-identities-and-governance-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>HOTSPOT (Drag and Drop is not supported) You have an Azure subscription named Sub1 that contains the Azure resources shown in the following table.   You assign an Azure policy that has the following settings: Scope: Sub1 Exclusions: Sub1/RG1/VNET1 Policy definition: Append a tag and its value to resources Policy enforcement: Enabled Tag name: Tag4 Tag value: value4 You assign tags to the resources as shown in the following table.   For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area:</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Explanation:</strong></h5><p><img id="img136" src="https://free-braindumps.com/images/exam-dumps/AZ-104/5d42be32-1c2a-4ab3-a424-1e93292f272f.jpg" imageviewer=""/><br/><br/><br/>Box 1: No<br/>The Azure Policy will add Tag4 to RG1. Box 2: No<br/>Tags applied to the resource group or subscription aren&#39;t inherited by the resources although you can enable inheritance with Azure Policy. Storage1 has Tag3: Value1 and the Azure Policy will add Tag4.<br/>Box 3: No<br/>Tags applied to the resource group or subscription aren&#39;t inherited by the resources so VNET1 does not have Tag2.<br/>VNET1 has Tag3:value2. VNET1 is excluded from the Azure Policy so Tag4 will not be added to VNET1.</p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[HOTSPOT (Drag and Drop is not supported)<br/>You have an Azure subscription named Sub1 that contains the Azure resources shown in the following table.<br/><br/><img id="img130" src="https://free-braindumps.com/images/exam-dumps/AZ-104/1dd70c4c-4d05-45e5-81ba-dc79b957008c.jpg" imageviewer=""/><br/><br/>You assign an Azure policy that has the following settings:<br/>Scope: Sub1<br/>Exclusions: Sub1/RG1/VNET1<br/>Policy definition: Append a tag and its value to resources<br/>Policy enforcement: Enabled<br/>Tag name: Tag4<br/>Tag value: value4<br/><br/>You assign tags to the resources as shown in the following table.<br/><br/><img id="img132" src="https://free-braindumps.com/images/exam-dumps/AZ-104/0b75e8de-3fe8-4eab-9830-882a6fe3aaf0.jpg" imageviewer=""/> <br/><br/>For each of the following statements, select Yes if the statement is true. Otherwise, select No. <br/>NOTE: Each correct selection is worth one point.<br/>Hot Area:<br/><br/><img id="img134" src="https://free-braindumps.com/images/exam-dumps/AZ-104/e658925a-8ac3-42eb-bae2-2d9fe2bdfb31.jpg" imageviewer=""/>]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="100">
+<text>See Explanation section for answer.</text>
+</answer>
+</question>
+
+</quiz>

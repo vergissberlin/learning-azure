@@ -1,0 +1,21 @@
+You need to ensure that an Azure Active Directory (Azure AD) user named Admin1 is assigned the required role to enable Traffic Analytics for an Azure subscription. Solution: You assign the Traffic Manager Contributor role at the subscription level to Admin1. Does this meet the goal?
+Yes
+No
+ANSWER: B
+
+You have three offices and an Azure subscription that contains an Azure Active Directory (Azure AD) tenant. You need to grant user management permissions to a local administrator in each office. What should you use?
+Azure AD roles
+administrative units
+access packages in Azure AD entitlement management
+Azure roles
+ANSWER: B
+
+You have an Azure Directory (Azure AD) tenant named Adatum and an Azure Subscription named Subscription1. Adatum contains a group named Developers. Subscription1 contains a resource group named Dev. You need to provide the Developers group with the ability to create Azure logic apps in the Dev resource group. Solution: On Dev, you assign the Logic App Contributor role to the Developers group. Does this meet the goal?
+Yes
+No
+ANSWER: A
+
+HOTSPOT (Drag and Drop is not supported) You have an Azure Load Balancer named LB1. You assign a user named User1 the roles shown in the following exhibit.   Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic. Hot Area:
+See Explanation section for answer.
+ANSWER: A
+

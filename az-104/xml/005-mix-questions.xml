@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<quiz>
+<question type="category">
+<category><text>$course$/mix-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>Your company has an azure subscription that includes a storage account, a resource group, a blob container and a file share. A colleague named Jon Ross makes use of a solitary Azure Resource Manager (ARM) template to deploy a virtual machine and an additional Azure Storage account. You want to review the ARM template that was used by Jon Ross. Solution: You access the Virtual Machine blade. Does the solution meet the goal?</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Explanation:</strong></h5><p>You should use the Resource Group blade</p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[<br/>Your company has an azure subscription that includes a storage account, a resource group, a blob container and a file share.<br/><br/>A colleague named Jon Ross makes use of a solitary Azure Resource Manager (ARM) template to deploy a virtual machine and an additional Azure Storage account.<br/>You want to review the ARM template that was used by Jon Ross.<br/><br/>Solution: You access the Virtual Machine blade.<br/>Does the solution meet the goal?]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="0">
+<text>Yes</text>
+</answer>
+<answer fraction="100">
+<text>No</text>
+</answer>
+</question>
+
+<question type="category">
+<category><text>$course$/mix-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>Your company has an azure subscription that includes a storage account, a resource group, a blob container and a file share. A colleague named Jon Ross makes use of a solitary Azure Resource Manager (ARM) template to deploy a virtual machine and an additional Azure Storage account. You want to review the ARM template that was used by Jon Ross. Solution: You access the Resource Group blade. Does the solution meet the goal?</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Explanation:</strong></h5><p>To view a template from deployment history:<br/>1.Go to the resource group for your new resource group. Notice that the portal shows the result of the last deployment. Select this link.<br/><br/><img id="img0" src="https://free-braindumps.com/images/exam-dumps/AZ-104/94a772d2-8f6f-4296-9305-0bde5b4524db.jpg" imageviewer=""/><br/><br/>2. You see a history of deployments for the group. In your case, the portal probably lists only one deployment. Select this deployment.<br/><img id="img2" src="https://free-braindumps.com/images/exam-dumps/AZ-104/7db6c921-5ebd-41f2-b87a-522ad5eb7470.jpg" imageviewer=""/><br/><br/>3. The portal displays a summary of the deployment. The summary includes the status of the deployment and its operations and the values that you provided for parameters. To see the template that you used for the deployment, select View template.<br/><br/><img id="img4" src="https://free-braindumps.com/images/exam-dumps/AZ-104/008eae4d-ef71-4ae0-9b63-be6798c784dd.jpg" imageviewer=""/></p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[<br/>Your company has an azure subscription that includes a storage account, a resource group, a blob container and a file share.<br/><br/>A colleague named Jon Ross makes use of a solitary Azure Resource Manager (ARM) template to deploy a virtual machine and an additional Azure Storage account.<br/>You want to review the ARM template that was used by Jon Ross.<br/><br/>Solution: You access the Resource Group blade.<br/>Does the solution meet the goal?]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="100">
+<text>Yes</text>
+</answer>
+<answer fraction="0">
+<text>No</text>
+</answer>
+</question>
+
+<question type="category">
+<category><text>$course$/mix-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>Your company has an azure subscription that includes a storage account, a resource group, a blob container and a file share. A colleague named Jon Ross makes use of a solitary Azure Resource Manager (ARM) template to deploy a virtual machine and an additional Azure Storage account. You want to review the ARM template that was used by Jon Ross. Solution: You access the Container blade. Does the solution meet the goal?</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Explanation:</strong></h5><p>You should use the Resource Group blade</p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[<br/>Your company has an azure subscription that includes a storage account, a resource group, a blob container and a file share.<br/><br/>A colleague named Jon Ross makes use of a solitary Azure Resource Manager (ARM) template to deploy a virtual machine and an additional Azure Storage account.<br/>You want to review the ARM template that was used by Jon Ross.<br/><br/>Solution: You access the Container blade.<br/>Does the solution meet the goal?]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="0">
+<text>Yes</text>
+</answer>
+<answer fraction="100">
+<text>No</text>
+</answer>
+</question>
+
+<question type="category">
+<category><text>$course$/mix-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>Your company has three virtual machines (VMs) that are included in an availability set. You try to resize one of the VMs, which returns an allocation failure message. It is imperative that the VM is resized. Which of the following actions should you take?</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Explanation:</strong></h5><p>If the VM you wish to resize is part of an availability set, then you must stop all VMs in the availability set before changing the size of any VM in the availability set. The reason all VMs in the availability set must be stopped before performing the resize operation to a size that requires different hardware is that all running VMs in the availability set must be using the same physical hardware cluster. Therefore, if a change of physical hardware cluster is required to change the VM size then all VMs must be first stopped and then restarted one-by-one to a different physical hardware clusters.</p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[Your company has three virtual machines (VMs) that are included in an availability set.<br/><br/>You try to resize one of the VMs, which returns an allocation failure message. It is imperative that the VM is resized.<br/>Which of the following actions should you take?]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="0">
+<text>You should only stop one of the VMs.</text>
+</answer>
+<answer fraction="0">
+<text>You should stop two of the VMs.</text>
+</answer>
+<answer fraction="100">
+<text>You should stop all three VMs.</text>
+</answer>
+<answer fraction="0">
+<text>You should remove the necessary VM from the availability set.</text>
+</answer>
+</question>
+
+</quiz>

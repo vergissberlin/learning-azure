@@ -1,0 +1,22 @@
+Your company has an azure subscription that includes a storage account, a resource group, a blob container and a file share. A colleague named Jon Ross makes use of a solitary Azure Resource Manager (ARM) template to deploy a virtual machine and an additional Azure Storage account. You want to review the ARM template that was used by Jon Ross. Solution: You access the Virtual Machine blade. Does the solution meet the goal?
+Yes
+No
+ANSWER: B
+
+Your company has an azure subscription that includes a storage account, a resource group, a blob container and a file share. A colleague named Jon Ross makes use of a solitary Azure Resource Manager (ARM) template to deploy a virtual machine and an additional Azure Storage account. You want to review the ARM template that was used by Jon Ross. Solution: You access the Resource Group blade. Does the solution meet the goal?
+Yes
+No
+ANSWER: A
+
+Your company has an azure subscription that includes a storage account, a resource group, a blob container and a file share. A colleague named Jon Ross makes use of a solitary Azure Resource Manager (ARM) template to deploy a virtual machine and an additional Azure Storage account. You want to review the ARM template that was used by Jon Ross. Solution: You access the Container blade. Does the solution meet the goal?
+Yes
+No
+ANSWER: B
+
+Your company has three virtual machines (VMs) that are included in an availability set. You try to resize one of the VMs, which returns an allocation failure message. It is imperative that the VM is resized. Which of the following actions should you take?
+You should only stop one of the VMs.
+You should stop two of the VMs.
+You should stop all three VMs.
+You should remove the necessary VM from the availability set.
+ANSWER: C
+

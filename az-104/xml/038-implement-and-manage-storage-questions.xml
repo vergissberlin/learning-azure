@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<quiz>
+<question type="category">
+<category><text>$course$/implement-and-manage-storage-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>HOTSPOT (Drag and Drop is not supported) You have Azure subscription that includes following Azure file shares:  You have the following on-premises servers:  You create a Storage Sync Service named Sync1 and an Azure File Sync group named Group1. Group1 uses share1 as a cloud endpoint. You register Server1 and Server2 in Sync1. You add D:\Folder1 on Server1 as a server endpoint of Group1. For each of the following statements, select Yes if the statement is true. Otherwise, select No. Hot Area:</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Explanation:</strong></h5><p><img id="img322" src="https://free-braindumps.com/images/exam-dumps/AZ-104/a7508f89-8b6f-4da6-b80d-909fd3622312.jpg" imageviewer=""/><br/><br/><br/>Box 1: No<br/>Group1 already has a cloud endpoint named Share1.<br/>A sync group must contain one cloud endpoint, which represents an Azure file share and one or more server endpoints.<br/><br/>Box 2: Yes<br/>Yes, one or more server endpoints can be added to the sync group.<br/><br/>Box 3: Yes<br/>Yes, one or more server endpoints can be added to the sync group.</p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[HOTSPOT (Drag and Drop is not supported)<br/>You have Azure subscription that includes following Azure file shares:<br/><img id="img316" src="https://free-braindumps.com/images/exam-dumps/AZ-104/4396694a-2760-44e4-9818-ff639da42d4c.jpg" imageviewer=""/><br/><br/>You have the following on-premises servers:<br/><img id="img318" src="https://free-braindumps.com/images/exam-dumps/AZ-104/fc242909-f2ea-49e1-9301-b333e4531674.jpg" imageviewer=""/><br/><br/>You create a Storage Sync Service named Sync1 and an Azure File Sync group named Group1. Group1 uses share1 as a cloud endpoint.<br/><br/>You register Server1 and Server2 in Sync1. You add D:\Folder1 on Server1 as a server endpoint of Group1. For each of the following statements, select Yes if the statement is true. Otherwise, select No.<br/>Hot Area:<br/><br/><img id="img320" src="https://free-braindumps.com/images/exam-dumps/AZ-104/f22fd137-cf55-4b1c-98f1-b78509913a72.jpg" imageviewer=""/>]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="100">
+<text>See Explanation section for answer.</text>
+</answer>
+</question>
+
+<question type="category">
+<category><text>$course$/implement-and-manage-storage-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>DRAG DROP (Drag and Drop is not supported) You have an Azure subscription named Subscription1. You create an Azure Storage account named contosostorage, and then you create a file share named data. Which UNC path should you include in a script that references files from the data file share? To answer, drag the appropriate values to the correct targets. Each value may be used once, more than once or not at all. You may need to drag the split bar between panes or scroll to view content. Select and Place:</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Explanation:</strong></h5><p><img id="img326" src="https://free-braindumps.com/images/exam-dumps/AZ-104/ac510a6a-b09f-4333-80f9-988b848812fa.jpg" imageviewer=""/><br/><br/>Box 1: contosostorageThe name of account<br/>Box 2: file.core.windows.net<br/>Box 3: data<br/>The name of the file share is data.<br/><br/>Example:<br/><img id="img328" src="https://free-braindumps.com/images/exam-dumps/AZ-104/ba764094-70c4-4414-9fd5-a157588f5d46.jpg" imageviewer=""/></p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[DRAG DROP (Drag and Drop is not supported)<br/>You have an Azure subscription named Subscription1.<br/>You create an Azure Storage account named contosostorage, and then you create a file share named data.<br/><br/>Which UNC path should you include in a script that references files from the data file share? To answer, drag the appropriate values to the correct targets. Each value may be used once, more than once or not at all. You may need to drag the split bar between panes or scroll to view content.<br/><br/>Select and Place:<br/><img id="img324" src="https://free-braindumps.com/images/exam-dumps/AZ-104/8b0117cc-fc37-4b27-ab1e-22e1130c96f0.jpg" imageviewer=""/>]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="100">
+<text>See Explanation section for answer.</text>
+</answer>
+</question>
+
+<question type="category">
+<category><text>$course$/implement-and-manage-storage-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>HOTSPOT (Drag and Drop is not supported) You have an Azure subscription that contains an Azure Storage account. You plan to copy an on-premises virtual machine image to a container named vmimages. You need to create the container for the planned image. Which command should you run? To answer, select the appropriate options in the answer area. Hot Area:</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Explanation:</strong></h5><p><img id="img332" src="https://free-braindumps.com/images/exam-dumps/AZ-104/8298307b-a05b-4b51-ab5e-de020d4fb5fc.jpg" imageviewer=""/></p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[HOTSPOT (Drag and Drop is not supported)<br/>You have an Azure subscription that contains an Azure Storage account.<br/>You plan to copy an on-premises virtual machine image to a container named vmimages.<br/>You need to create the container for the planned image.<br/><br/>Which command should you run? To answer, select the appropriate options in the answer area.<br/>Hot Area:<br/><img id="img330" src="https://free-braindumps.com/images/exam-dumps/AZ-104/832e3af6-bd27-481e-8acf-fd5177dc29b8.jpg" imageviewer=""/>]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="100">
+<text>See Explanation section for answer.</text>
+</answer>
+</question>
+
+<question type="category">
+<category><text>$course$/implement-and-manage-storage-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>HOTSPOT (Drag and Drop is not supported) You have an Azure File sync group that has the endpoints shown in the following table.  Cloud tiering is enabled for Endpoint3. You add a file named File1 to Endpoint1 and a file named File2 to Endpoint2. On which endpoints will File1 and File2 be available within 24 hours of adding the files? To answer, select the appropriate options in the answer area. Hot Area:</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Explanation:</strong></h5><p><img id="img338" src="https://free-braindumps.com/images/exam-dumps/AZ-104/ad4f97de-bd75-4ee0-b2fc-e41259e18ab4.jpg" imageviewer=""/><br/><br/><br/>File1: Endpoint3 only<br/>Cloud Tiering: A switch to enable or disable cloud tiering. <br/>When enabled, cloud tiering will tier files to your Azure file shares. This converts on-premises file shares into a cache, rather than a complete copy of the dataset, to help you manage space efficiency on your server. With cloud tiering, infrequently used or accessed files can be tiered to Azure Files.<br/>File2: Endpoint1, Endpoint2, and Endpoint3</p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[HOTSPOT (Drag and Drop is not supported)<br/>You have an Azure File sync group that has the endpoints shown in the following table.<br/><img id="img334" src="https://free-braindumps.com/images/exam-dumps/AZ-104/6f79c66a-eed7-499b-a60f-469be3b790bc.jpg" imageviewer=""/><br/><br/>Cloud tiering is enabled for Endpoint3.<br/>You add a file named File1 to Endpoint1 and a file named File2 to Endpoint2.<br/><br/>On which endpoints will File1 and File2 be available within 24 hours of adding the files? To answer, select the appropriate options in the answer area.<br/><br/>Hot Area:<br/><img id="img336" src="https://free-braindumps.com/images/exam-dumps/AZ-104/919fca04-a4ed-4c35-aae7-147cc3534513.jpg" imageviewer=""/>]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="100">
+<text>See Explanation section for answer.</text>
+</answer>
+</question>
+
+</quiz>

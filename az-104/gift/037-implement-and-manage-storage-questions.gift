@@ -1,0 +1,24 @@
+::Q141 HOTSPOT (Drag and Drop is not supported) You need to create an Azure Storage account that meets the following requirements: -Minimizes costs -Supports hot, cool, and archive blob tiers -Provides fault tolerance if a disaster affects the Azure region where the account resides How should you complete the command? To answer, select the appropriate options in the answer area. Hot Area:::
+{
+ =See Explanation section for answer.
+}
+
+::Q142 You have an Azure subscription that contains the resources in the following table.  Store1 contains a file share named data. Data contains 5,000 files. You need to synchronize the files in the file share named data to an on-premises server named Server1. Which three actions should you perform? Each correct answer presents part of the solution. Note: Each correct selection is worth one point.::
+{
+ Create a container instance
+~=Register Server1
+~=Install the Azure File Sync agent on Server1
+~Download an automation script
+~=Create a sync group
+}
+
+::Q143 HOTSPOT (Drag and Drop is not supported) You have an Azure subscription that contains the resources shown in the following table.  The status of VM1 is Running. You assign an Azure policy as shown in the exhibit. (Click the Exhibit tab.)  You assign the policy by using the following parameters: -Microsoft.ClassicNetwork/virtualNetworks -Microsoft.Network/virtualNetworks -Microsoft.Compute/virtualMachines For each of the following statements, select Yes if the statement is true. Otherwise, select No. Hot Area:::
+{
+ =See Explanation section for answer.
+}
+
+::Q144 DRAG DROP (Drag and Drop is not supported) You have an Azure subscription that contains a storage account. You have an on-premises server named Server1 that runs Windows Server 2016. Server1 has 2 TB of data. You need to transfer the data to the storage account by using the Azure Import/Export service. In which order should you perform the actions? To answer, move all actions from the list of actions to the answer area and arrange them in the correct order. Select and Place:::
+{
+ =See Explanation section for answer.
+}
+

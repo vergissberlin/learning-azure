@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<quiz>
+<question type="category">
+<category><text>$course$/manage-azure-identities-and-governance-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>HOTSPOT (Drag and Drop is not supported) You have an Azure subscription named Sub1 that contains the blob containers shown in the following table.   Sub1 contains two users named User1 and User2. Both users are assigned the Reader role at the Sub1 scope. You have a condition named Condition1 as shown in the following exhibit.   You have a condition named Condition2 as shown in the following exhibit.   You assign roles to User1 and User2 as shown in the following table.   For each of the following statements, select Yes if the statement is true. Otherwise, select No.</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Explanation:</strong></h5><p><img id="img266" src="https://free-braindumps.com/images/exam-dumps/AZ-104/da214656-d110-4e5e-966e-99380d817f6d.jpg" imageviewer=""/></p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[HOTSPOT (Drag and Drop is not supported)<br/>You have an Azure subscription named Sub1 that contains the blob containers shown in the following table.<br/><br/><img id="img256" src="https://free-braindumps.com/images/exam-dumps/AZ-104/d8e10e57-aacb-443f-80e2-6360bf1d4fe8.jpg" imageviewer=""/><br/><br/>Sub1 contains two users named User1 and User2. Both users are assigned the Reader role at the Sub1 scope.<br/><br/>You have a condition named Condition1 as shown in the following exhibit.<br/><br/><img id="img258" src="https://free-braindumps.com/images/exam-dumps/AZ-104/f86c5ae7-f420-4b3b-8d5b-ec732b17cb5d.jpg" imageviewer=""/><br/><br/>You have a condition named Condition2 as shown in the following exhibit.<br/><br/><img id="img260" src="https://free-braindumps.com/images/exam-dumps/AZ-104/1837350a-4e5e-4e74-b2e1-4cab53d7b08a.jpg" imageviewer=""/><br/><br/>You assign roles to User1 and User2 as shown in the following table.<br/><br/><img id="img262" src="https://free-braindumps.com/images/exam-dumps/AZ-104/5b9807c7-a6cc-43f5-885c-67fe18efa871.jpg" imageviewer=""/><br/><br/>For each of the following statements, select Yes if the statement is true. Otherwise, select No.<br/><br/><br/><img id="img264" src="https://free-braindumps.com/images/exam-dumps/AZ-104/edb5746e-c45b-455f-a329-64b450de265c.jpg" imageviewer=""/>]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="100">
+<text>See Explanation section for answer.</text>
+</answer>
+</question>
+
+<question type="category">
+<category><text>$course$/manage-azure-identities-and-governance-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>You have an Azure Active Directory (Azure AD) tenant named contoso.com. You have a CSV file that contains the names and email addresses of 500 external users. You need to create a guest user account in contoso.com for each of the 500 external users. Solution: You create a PowerShell script that runs the New-MgUser cmdlet for each user. Does this meet the goal?</text></name>
+<generalfeedback format="html"><text><![CDATA[]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[<br/><br/><br/>You have an Azure Active Directory (Azure AD) tenant named contoso.com.<br/>You have a CSV file that contains the names and email addresses of 500 external users.<br/>You need to create a guest user account in contoso.com for each of the 500 external users.<br/><br/>Solution: You create a PowerShell script that runs the New-MgUser cmdlet for each user.<br/>Does this meet the goal?]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="0">
+<text>Yes</text>
+</answer>
+<answer fraction="100">
+<text>No</text>
+</answer>
+</question>
+
+<question type="category">
+<category><text>$course$/manage-azure-identities-and-governance-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>HOTSPOT (Drag and Drop is not supported) You purchase a new Azure subscription. You create an Azure Resource Manager (ARM) template named deploy.json as shown in the following exhibit.   You connect to the subscription and run the following command. New-AzDeployment –Location westus –TemplateFile “deploy.json” For each of the following statements, select Yes if the statement is true. Otherwise, select No.</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Explanation:</strong></h5><p><img id="img272" src="https://free-braindumps.com/images/exam-dumps/AZ-104/16935cda-3e50-4f29-819b-edcf21774fe4.jpg" imageviewer=""/></p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[HOTSPOT (Drag and Drop is not supported)<br/>You purchase a new Azure subscription.<br/><br/>You create an Azure Resource Manager (ARM) template named deploy.json as shown in the following exhibit.<br/><br/><img id="img268" src="https://free-braindumps.com/images/exam-dumps/AZ-104/5e14e873-008d-46f5-a6e8-90c9bcbea31b.jpg" imageviewer=""/><br/><br/>You connect to the subscription and run the following command.<br/><br/>New-AzDeployment –Location westus –TemplateFile “deploy.json”<br/><br/>For each of the following statements, select Yes if the statement is true. Otherwise, select No.<br/><br/><br/><img id="img270" src="https://free-braindumps.com/images/exam-dumps/AZ-104/09c64398-a3e5-4f50-a158-6ec4f490d265.jpg" imageviewer=""/>]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="100">
+<text>See Explanation section for answer.</text>
+</answer>
+</question>
+
+<question type="category">
+<category><text>$course$/manage-azure-identities-and-governance</text></category>
+</question>
+<question type="multichoice">
+<name><text>HOTSPOT (Drag and Drop is not supported) You need to configure the Device settings to meet the technical requirements and the user requirements. Which two settings should you modify? To answer, select the appropriate settings in the answer area. Hot Area:</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Explanation:</strong></h5><p><img id="img276" src="https://free-braindumps.com/images/exam-dumps/AZ-104/59221e70-18cd-4431-88fc-1e5d11be203d.jpg" imageviewer=""/><br/><br/>Box 1: Selected<br/>Only selected users should be able to join devices<br/><br/>Box 2: Yes<br/>Ensure that when users join devices to Azure Active Directory (Azure AD), the users use a mobile phone to verify their identity.</p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[HOTSPOT (Drag and Drop is not supported)<br/>You need to configure the Device settings to meet the technical requirements and the user requirements. <br/>Which two settings should you modify? To answer, select the appropriate settings in the answer area.<br/><br/>Hot Area:<br/><br/><img id="img274" src="https://free-braindumps.com/images/exam-dumps/AZ-104/ccb7d2f2-98fa-42ae-a1c0-9ac601bce3fb.jpg" imageviewer=""/>]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="100">
+<text>See Explanation section for answer.</text>
+</answer>
+</question>
+
+</quiz>

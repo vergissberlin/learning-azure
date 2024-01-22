@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<quiz>
+<question type="category">
+<category><text>$course$/manage-azure-identities-and-governance-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>You need to ensure that an Azure Active Directory (Azure AD) user named Admin1 is assigned the required role to enable Traffic Analytics for an Azure subscription. Solution: You assign the Traffic Manager Contributor role at the subscription level to Admin1. Does this meet the goal?</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Reference:</strong></h5><p>https://docs.microsoft.com/en-us/azure/network-watcher/traffic-analytics-faq</p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[<br/><br/>You need to ensure that an Azure Active Directory (Azure AD) user named Admin1 is assigned the required role to enable Traffic Analytics for an Azure subscription.<br/><br/>Solution: You assign the Traffic Manager Contributor role at the subscription level to Admin1. Does this meet the goal?]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="0">
+<text>Yes</text>
+</answer>
+<answer fraction="100">
+<text>No</text>
+</answer>
+</question>
+
+<question type="category">
+<category><text>$course$/manage-azure-identities-and-governance-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>You have three offices and an Azure subscription that contains an Azure Active Directory (Azure AD) tenant. You need to grant user management permissions to a local administrator in each office. What should you use?</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Reference:</strong></h5><p>https://docs.microsoft.com/en-us/azure/active-directory/roles/administrative-units</p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[You have three offices and an Azure subscription that contains an Azure Active Directory (Azure AD) tenant. You need to grant user management permissions to a local administrator in each office.<br/>What should you use?]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="0">
+<text>Azure AD roles</text>
+</answer>
+<answer fraction="100">
+<text>administrative units</text>
+</answer>
+<answer fraction="0">
+<text>access packages in Azure AD entitlement management</text>
+</answer>
+<answer fraction="0">
+<text>Azure roles</text>
+</answer>
+</question>
+
+<question type="category">
+<category><text>$course$/manage-azure-identities-and-governance-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>You have an Azure Directory (Azure AD) tenant named Adatum and an Azure Subscription named Subscription1. Adatum contains a group named Developers. Subscription1 contains a resource group named Dev. You need to provide the Developers group with the ability to create Azure logic apps in the Dev resource group. Solution: On Dev, you assign the Logic App Contributor role to the Developers group. Does this meet the goal?</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Reference:</strong></h5><p>https://docs.microsoft.com/en-us/azure/role-based-access-control/built-in-roles</p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[<br/><br/><br/>You have an Azure Directory (Azure AD) tenant named Adatum and an Azure Subscription named Subscription1. Adatum contains a group named Developers. Subscription1 contains a resource group named Dev.<br/>You need to provide the Developers group with the ability to create Azure logic apps in the Dev resource group.<br/><br/>Solution: On Dev, you assign the Logic App Contributor role to the Developers group. Does this meet the goal?]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="100">
+<text>Yes</text>
+</answer>
+<answer fraction="0">
+<text>No</text>
+</answer>
+</question>
+
+<question type="category">
+<category><text>$course$/manage-azure-identities-and-governance-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>HOTSPOT (Drag and Drop is not supported) You have an Azure Load Balancer named LB1. You assign a user named User1 the roles shown in the following exhibit.   Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic. Hot Area:</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Explanation:</strong></h5><p><img id="img142" src="https://free-braindumps.com/images/exam-dumps/AZ-104/8268c775-b022-495f-95ab-c37413cc6a59.jpg" imageviewer=""/></p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[HOTSPOT (Drag and Drop is not supported)<br/>You have an Azure Load Balancer named LB1.<br/>You assign a user named User1 the roles shown in the following exhibit.<br/><br/><img id="img138" src="https://free-braindumps.com/images/exam-dumps/AZ-104/f6a71f2f-7bdc-41ee-842a-fd8bbe42d764.jpg" imageviewer=""/><br/><br/>Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic.<br/>Hot Area:<br/><br/><img id="img140" src="https://free-braindumps.com/images/exam-dumps/AZ-104/8eb030e3-66b8-4169-b282-39785e992167.jpg" imageviewer=""/>]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="100">
+<text>See Explanation section for answer.</text>
+</answer>
+</question>
+
+</quiz>

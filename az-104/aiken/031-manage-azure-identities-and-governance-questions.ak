@@ -1,0 +1,22 @@
+HOTSPOT (Drag and Drop is not supported) You have three Azure subscriptions named Sub1, Sub2, and Sub3 that are linked to an Azure AD tenant. The tenant contains a user named User1, a security group named Group1, and a management group named MG1. User is a member of Group1. Sub1 and Sub2 are members of MG1. Sub1 contains a resource group named RG1. RG1 contains five Azure functions. You create the following role assignments for MG1: -Group1: Reader -User1: User Access Administrator You assign User the Virtual Machine Contributor role for Sub1 and Sub2.
+See Explanation section for answer.
+ANSWER: A
+
+You have an Azure subscription that contains the resources shown in the following table.   You need to assign User1 the Storage File Data SMB Share Contributor role for share1. What should you do first?
+Enable identity-based data access for the file shares in storage1.
+Modify the security profile for the file shares in storage1.
+Select Default to Azure Active Directory authorization in the Azure portal for storage1.
+Configure Access control (IAM) for share1.
+ANSWER: D
+
+You have an Azure subscription named Subscription1 that contains a virtual network named VNet1. VNet1 is in a resource group named RG1. Subscription1 has a user named User1. User1 has the following roles: -Reader -Security Admin -Security Reader You need to ensure that User1 can assign the Reader role for VNet1 to other users. What should you do?
+Remove User1 from the Security Reader role for Subscription1. Assign User1 the Contributor role for RG1.
+Assign User1 the User Access Administrator role for VNet1.
+Remove User1 from the Security Reader and Reader roles for Subscription1.
+Assign User1 the Contributor role for VNet1.
+ANSWER: B
+
+HOTSPOT (Drag and Drop is not supported) You have an Azure AD tenant named adatum.com that contains the groups shown in the following table.   Adatum.com contains the users shown in the following table.   You assign an Azure Active Directory Premium P2 license to Group1 as shown in the following exhibit.   Group2 is NOT directly assigned a license. For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+See Explanation section for answer.
+ANSWER: A
+

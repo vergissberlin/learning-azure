@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<quiz>
+<question type="category">
+<category><text>$course$/mix-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>Your company has several departments. Each department has a number of virtual machines (VMs). The company has an Azure subscription that contains a resource group named RG1. All VMs are located in RG1. You want to associate each VM with its respective department. What should you do?</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Reference:</strong></h5><p>https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-using-tags</p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[Your company has several departments. Each department has a number of virtual machines (VMs). The company has an Azure subscription that contains a resource group named RG1.<br/>All VMs are located in RG1.<br/>You want to associate each VM with its respective department. <br/>What should you do?]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="0">
+<text>Create Azure Management Groups for each depsartment.</text>
+</answer>
+<answer fraction="0">
+<text>Create a resource group for each department.</text>
+</answer>
+<answer fraction="100">
+<text>Assign tags to the virtual machines.</text>
+</answer>
+<answer fraction="0">
+<text>Modify the settings of the virtual machines.</text>
+</answer>
+</question>
+
+<question type="category">
+<category><text>$course$/mix-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>Your company has an Azure Active Directory (Azure AD) subscription. You want to implement an Azure AD conditional access policy. The policy must be configured to require members of the Global Administrators group to use Multi-Factor Authentication and an Azure AD-joined device when they connect to Azure AD from untrusted locations. Solution: You access the multi-factor authentication page to alter the user settings. Does the solution meet the goal?</text></name>
+<generalfeedback format="html"><text><![CDATA[]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[Your company has an Azure Active Directory (Azure AD) subscription. You want to implement an Azure AD conditional access policy.<br/><br/>The policy must be configured to require members of the Global Administrators group to use Multi-Factor Authentication and an Azure AD-joined device when they connect to Azure AD from untrusted locations.<br/><br/>Solution: You access the multi-factor authentication page to alter the user settings.<br/>Does the solution meet the goal?]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="0">
+<text>Yes</text>
+</answer>
+<answer fraction="100">
+<text>No</text>
+</answer>
+</question>
+
+<question type="category">
+<category><text>$course$/mix-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>Your company has an Azure Active Directory (Azure AD) subscription. You want to implement an Azure AD conditional access policy. The policy must be configured to require members of the Global Administrators group to use Multi-Factor Authentication and an Azure AD-joined device when they connect to Azure AD from untrusted locations. Solution: You access the Azure portal to alter the session control of the Azure AD conditional access policy. Does the solution meet the goal?</text></name>
+<generalfeedback format="html"><text><![CDATA[]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[<br/>Your company has an Azure Active Directory (Azure AD) subscription. You want to implement an Azure AD conditional access policy.<br/><br/>The policy must be configured to require members of the Global Administrators group to use Multi-Factor Authentication and an Azure AD-joined device when they connect to Azure AD from untrusted locations.<br/><br/>Solution: You access the Azure portal to alter the session control of the Azure AD conditional access policy. Does the solution meet the goal?]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="0">
+<text>Yes</text>
+</answer>
+<answer fraction="100">
+<text>No</text>
+</answer>
+</question>
+
+<question type="category">
+<category><text>$course$/mix-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>Your company has an Azure Active Directory (Azure AD) subscription. You want to implement an Azure AD conditional access policy. The policy must be configured to require members of the Global Administrators group to use Multi-Factor Authentication and an Azure AD-joined device when they connect to Azure AD from untrusted locations. Solution: You access the Azure portal to alter the grant control of the Azure AD conditional access policy. Does the solution meet the goal?</text></name>
+<generalfeedback format="html"><text><![CDATA[]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[<br/>Your company has an Azure Active Directory (Azure AD) subscription. You want to implement an Azure AD conditional access policy.<br/><br/>The policy must be configured to require members of the Global Administrators group to use Multi-Factor Authentication and an Azure AD-joined device when they connect to Azure AD from untrusted locations.<br/><br/>Solution: You access the Azure portal to alter the grant control of the Azure AD conditional access policy. Does the solution meet the goal?]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="100">
+<text>Yes</text>
+</answer>
+<answer fraction="0">
+<text>No</text>
+</answer>
+</question>
+
+</quiz>

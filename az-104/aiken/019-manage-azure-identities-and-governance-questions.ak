@@ -1,0 +1,22 @@
+You have an Azure Active Directory (Azure AD) tenant named contoso.onmicrosoft.com. The User administrator role is assigned to a user named Admin1. An external partner has a Microsoft account that uses the user1@outlook.com sign in. Admin1 attempts to invite the external partner to sign in to the Azure AD tenant and receives the following error message: “Unable to invite user user1@outlook.com – Generic authorization exception.” You need to ensure that Admin1 can invite the external partner to sign in to the Azure AD tenant. What should you do?
+From the Users blade, modify the External collaboration settings.
+From the Custom domain names blade, add a custom domain.
+From the Organizational relationships blade, add an identity provider.
+From the Roles and administrators blade, assign the Security administrator role to Admin1.
+ANSWER: A
+
+You have an Azure subscription that contains a user account named User1. You need to ensure that User1 can assign a policy to the tenant root management group. What should you do?
+Assign the Owner role for the Azure Subscription to User1, and then modify the default conditional access policies.
+Assign the Owner role for the Azure subscription to User1, and then instruct User1 to configure access management for Azure resources.
+Assign the Global administrator role to User1, and then instruct User1 to configure access management for Azure resources.
+Create a new management group and delegate User1 as the owner of the new management group.
+ANSWER: B
+
+HOTSPOT (Drag and Drop is not supported) You have an Azure Active Directory (Azure AD) tenant named adatum.com. Adatum.com contains the groups in the following table.   You create two user accounts that are configured as shown in the following table.  To which groups do User1 and User2 belong? To answer, select the appropriate options in the answer area. Hot Area:
+See Explanation section for answer.
+ANSWER: A
+
+HOTSPOT (Drag and Drop is not supported) You have a hybrid deployment of Azure Active Directory (Azure AD) that contains the users shown in the following table.   You need to modify the JobTitle and UsageLocation attributes for the users. For which users can you modify the attributes from Azure AD? To answer, select the appropriate options in the answer area. Hot Area:
+See Explanation section for answer.
+ANSWER: A
+

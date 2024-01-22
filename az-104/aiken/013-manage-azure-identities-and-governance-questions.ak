@@ -1,0 +1,22 @@
+HOTSPOT (Drag and Drop is not supported) You have the Azure management groups shown in the following table:   You add Azure subscriptions to the management groups as shown in the following table:  You create the Azure policies shown in the following table:   For each of the following statements, select Yes if the statement is true. Otherwise, select No. Hot Area:
+See Explanation section for answer.
+ANSWER: A
+
+You have an Azure policy as shown in the following exhibit:   What is the effect of the policy?
+You are prevented from creating Azure SQL servers anywhere in Subscription 1.
+You can create Azure SQL servers in ContosoRG1 only.
+You are prevented from creating Azure SQL Servers in ContosoRG1 only.
+You can create Azure SQL servers in any resource group within Subscription 1.
+ANSWER: B
+
+HOTSPOT (Drag and Drop is not supported) You have an Azure subscription that contains the resources shown in the following table:  You assign a policy to RG6 as shown in the following table:  To RG6, you apply the tag: RGroup: RG6. You deploy a virtual network named VNET2 to RG6. Which tags apply to VNET1 and VNET2? To answer, select the appropriate options in the answer area. Hot Area:
+See Explanation section for answer.
+ANSWER: A
+
+You have an Azure subscription named AZPT1 that contains the resources shown in the following table:  You create a new Azure subscription named AZPT2. You need to identify which resources can be moved to AZPT2. Which resources should you identify?
+VM1, storage1, VNET1, and VM1Managed only
+VM1 and VM1Managed only
+VM1, storage1, VNET1, VM1Managed, and RVAULT1
+RVAULT1 only
+ANSWER: C
+

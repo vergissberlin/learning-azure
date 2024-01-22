@@ -1,0 +1,29 @@
+You have two Azure subscriptions named Sub1 and Sub2. An administrator creates a custom role that has an assignable scope to a resource group named RG1 in Sub1. You need to ensure that you can apply the custom role to any resource group in Sub1 and Sub2. The solution must minimize administrative effort. What should you do?
+Select the custom role and add Sub1 and Sub2 to the assignable scopes. Remove RG1 from the assignable scopes.
+Create a new custom role for Sub1. Create a new custom role for Sub2. Remove the role from RG1.
+Create a new custom role for Sub1 and add Sub2 to the assignable scopes. Remove the role from RG1.
+Select the custom role and add Sub1 to the assignable scopes. Remove RG1 from the assignable scopes. Create a new custom role for Sub2.
+ANSWER: A
+
+You have an Azure Subscription that contains a storage account named storageacct1234 and two users named User1 and User2. You assign User1 the roles shown in the following exhibit.   Which two actions can User1 perform? Each correct answer presents a complete solution. Note: Each correct selection is worth one point.
+Assign roles to User2 for storageacct1234.
+Upload blob data to storageacct1234.
+Modify the firewall of storageacct1234.
+View blob data in storageacct1234.
+View file shares in storageacct1234.
+ANSWER: B, D
+
+You have an Azure subscription named Subscription1 that contains an Azure Log Analytics workspace named Workspace1. You need to view the error events from a table named Event. Which query should you run in Workspace1?
+select * from Event where EventType == "error"
+Event | search "error"
+Event | where EventType is "error"
+Get-Event Event | where {$_.EventType == "error"}
+ANSWER: B
+
+You have an Azure App Services web app named App1. You plan to deploy App1 by using Web Deploy. You need to ensure that the developers of App1 can use their Azure AD credentials to deploy content to App1. The solution must use the principle of least privilege. What should you do?
+Assign the Owner role to the developers
+Configure app-level credentials for FTPS
+Assign the Website Contributor role to the developers
+Configure user-level credentials for FTPS
+ANSWER: C
+

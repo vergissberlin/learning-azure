@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<quiz>
+<question type="category">
+<category><text>$course$/manage-azure-identities-and-governance-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>You sign up for Azure Active Directory (Azure AD) Premium. You need to add a user named admin1@contoso.com as an administrator on all the computers that will be joined to the Azure AD domain. What should you configure in Azure AD?</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Explanation:</strong></h5><p>When you connect a Windows device with Azure AD using an Azure AD join, Azure AD adds the following security principles to the local administrators group on the device:<br/>-The Azure AD global administrator role<br/>-The Azure AD device administrator role<br/>-The user performing the Azure AD join<br/><br/>In the Azure portal, you can manage the device administrator role on the Devices page. To open the Devices page:<br/>1. Sign in to your Azure portal as a global administrator or device administrator.<br/>2. On the left navbar, click Azure Active Directory.<br/>3. In the Manage section, click Devices.<br/>4. On the Devices page, click Device settings.<br/>5. To modify the device administrator role, configure Additional local administrators on Azure AD joined devices.</p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[You sign up for Azure Active Directory (Azure AD) Premium.<br/>You need to add a user named admin1@contoso.com as an administrator on all the computers that will be joined to the Azure AD domain.<br/>What should you configure in Azure AD?]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="100">
+<text>Device settings from the Devices blade</text>
+</answer>
+<answer fraction="0">
+<text>Providers from the MFA Server blade</text>
+</answer>
+<answer fraction="0">
+<text>User settings from the Users blade</text>
+</answer>
+<answer fraction="0">
+<text>General settings from the Groups blade</text>
+</answer>
+</question>
+
+<question type="category">
+<category><text>$course$/manage-azure-identities-and-governance-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>HOTSPOT (Drag and Drop is not supported) You have Azure Active Directory tenant named Contoso.com that includes following users:  Contoso.com includes following Windows 10 devices:  You create following security groups in Contoso.com:  For each of the following statements, select Yes if the statement is true. Otherwise, select No. Hot Area:</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Explanation:</strong></h5><p><img id="img56" src="https://free-braindumps.com/images/exam-dumps/AZ-104/557328b9-05df-4d78-94a7-d188fbc8d3df.jpg" imageviewer=""/><br/><br/><br/>Box 1: Yes<br/>User1 is a Cloud Device Administrator.<br/>Device2 is Azure AD joined.<br/>Group1 has the assigned to join type. User1 is the owner of Group1.<br/><br/>Note: Assigned groups - Manually add users or devices into a static group.<br/>Azure AD joined or hybrid Azure AD joined devices utilize an organizational account in Azure AD<br/><br/>Box 2: No<br/>User2 is a User Administrator.<br/>Device1 is Azure AD registered.<br/>Group1 has the assigned join type, and the owner is User1.<br/><br/>Note: Azure AD registered devices utilize an account managed by the end user, this account is either a Microsoft account or another locally managed credential.<br/><br/>Box 3: Yes<br/>User2 is a User Administrator.<br/>Device2 is Azure AD joined.<br/>Group2 has the Dynamic Device join type, and the owner is User2.</p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[HOTSPOT (Drag and Drop is not supported)<br/>You have Azure Active Directory tenant named Contoso.com that includes following users:<br/><img id="img48" src="https://free-braindumps.com/images/exam-dumps/AZ-104/3c15a6a0-e201-4bb7-b7fe-b431d25cc5b6.jpg" imageviewer=""/><br/><br/>Contoso.com includes following Windows 10 devices:<br/><img id="img50" src="https://free-braindumps.com/images/exam-dumps/AZ-104/b1fa1757-9b7f-48aa-bc85-7bd2970f5b86.jpg" imageviewer=""/><br/><br/>You create following security groups in Contoso.com:<br/><img id="img52" src="https://free-braindumps.com/images/exam-dumps/AZ-104/6412e968-d02c-45ca-98fc-0fd8f2241a7d.jpg" imageviewer=""/><br/><br/>For each of the following statements, select Yes if the statement is true. Otherwise, select No.<br/>Hot Area:<br/><br/><img id="img54" src="https://free-braindumps.com/images/exam-dumps/AZ-104/5cdf9dd0-6f78-4c63-8a3d-3fb4b4563161.jpg" imageviewer=""/>]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="100">
+<text>See Explanation section for answer.</text>
+</answer>
+</question>
+
+<question type="category">
+<category><text>$course$/manage-azure-identities-and-governance-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>You have an Azure subscription that contains a resource group named RG26. RG26 is set to the West Europe location and is used to create temporary resources for a project. RG26 contains the resources shown in the following table.  SQLDB01 is backed up to RGV1. When the project is complete, you attempt to delete RG26 from the Azure portal. The deletion fails. You need to delete RG26. What should you do first?</text></name>
+<generalfeedback format="html"><text><![CDATA[]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[You have an Azure subscription that contains a resource group named RG26.<br/><br/>RG26 is set to the West Europe location and is used to create temporary resources for a project. RG26 contains the resources shown in the following table.<br/><img id="img58" src="https://free-braindumps.com/images/exam-dumps/AZ-104/2b0ea3b8-680c-4143-944e-d07ffd7563d0.jpg" imageviewer=""/><br/><br/>SQLDB01 is backed up to RGV1.<br/><br/>When the project is complete, you attempt to delete RG26 from the Azure portal. The deletion fails. You need to delete RG26.<br/>What should you do first?]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="0">
+<text>Delete VM1</text>
+</answer>
+<answer fraction="0">
+<text>Stop VM1</text>
+</answer>
+<answer fraction="100">
+<text>Stop the backup of SQLDB01</text>
+</answer>
+<answer fraction="0">
+<text>Delete sa001</text>
+</answer>
+</question>
+
+<question type="category">
+<category><text>$course$/manage-azure-identities-and-governance-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>You have an Azure subscription named Subscription1 that contains a virtual network named VNet1. VNet1 is in a resource group named RG1. Subscription1 has a user named User1. User1 has the following roles: -Reader -Security Admin -Security Reader You need to ensure that User1 can assign the Reader role for VNet1 to other users. What should you do?</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Explanation:</strong></h5><p>Has full access to all resources including the right to delegate access to others.<br/><br/>Note:<br/>There are several versions of this question in the exam. The question has two possible correct answers:<br/>-Assign User1 the User Access Administrator role for VNet1.<br/>-Assign User1 the Owner role for VNet1.<br/><br/>Other incorrect answer options you may see on the exam include the following:<br/>-Assign User1 the Contributor role for VNet1.<br/>-Remove User1 from the Security Reader and Reader roles for Subscription1. Assign User1 the Contributor role for Subscription1.<br/>-Remove User1 from the Security Reader role for Subscription1. Assign User1 the Contributor role for RG1.</p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[You have an Azure subscription named Subscription1 that contains a virtual network named VNet1. VNet1 is in a resource group named RG1.<br/>Subscription1 has a user named User1. User1 has the following roles:<br/>-Reader<br/>-Security Admin<br/>-Security Reader<br/><br/>You need to ensure that User1 can assign the Reader role for VNet1 to other users. <br/>What should you do?]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="0">
+<text>Remove User 1 from the Security Reader role for Subscription1.</text>
+</answer>
+<answer fraction="100">
+<text>Assign User1 the User Access Administrator role for VNet1.</text>
+</answer>
+<answer fraction="0">
+<text>Assign User1 the Network Contributor role for VNet1.</text>
+</answer>
+<answer fraction="0">
+<text>Assign User1 the Network Contributor role for RG1.</text>
+</answer>
+</question>
+
+</quiz>

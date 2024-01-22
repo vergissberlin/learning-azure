@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<quiz>
+<question type="category">
+<category><text>$course$/manage-azure-identities-and-governance-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>You have an Azure AD tenant named adatum.com that contains the groups shown in the following table.  Adatum.com contains the users shown in the following table.  You assign the Azure Active Directory Premium Plan 2 license to Group1 and User4. Which users are assigned the Azure Active Directory Premium Plan 2 license?</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Explanation:</strong></h5><p>* User1 is member of Group1, which has Azure Active Directory Premium Plan 2 license directly assigned to it.<br/>* User4 has license directly assigned to it.<br/><br/>Note: Assign licenses to users or groups<br/>Make sure that anyone needing to use a licensed Azure AD service has the appropriate license. You can add the licensing rights to users or to an entire group.</p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[You have an Azure AD tenant named adatum.com that contains the groups shown in the following table.<br/><img id="img180" src="https://free-braindumps.com/images/exam-dumps/AZ-104/2c8f0fa8-9ef9-46c1-95a1-2b60ba743627.jpg" imageviewer=""/><br/><br/>Adatum.com contains the users shown in the following table.<br/><img id="img182" src="https://free-braindumps.com/images/exam-dumps/AZ-104/27b73494-51b3-4d25-aa2f-8474d03db13c.jpg" imageviewer=""/><br/><br/>You assign the Azure Active Directory Premium Plan 2 license to Group1 and User4.<br/>Which users are assigned the Azure Active Directory Premium Plan 2 license?]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="0">
+<text>User4 only</text>
+</answer>
+<answer fraction="100">
+<text>User1 and User4 only</text>
+</answer>
+<answer fraction="0">
+<text>User1, User2, and User4 only</text>
+</answer>
+<answer fraction="0">
+<text>User1, User2, User3, and User4</text>
+</answer>
+</question>
+
+<question type="category">
+<category><text>$course$/manage-azure-identities-and-governance-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>HOTSPOT (Drag and Drop is not supported) You have an Azure AD tenant named contoso.com. You have two external partner organizations named fabrikam.com and litwareinc.com. Fabrikam.com is configured as a connected organization. You create an access package as shown in the Access package exhibit. (Click the Access package tab.)   You configure the external user lifecycle settings as shown in the Lifecycle exhibit. (Click the Lifecycle tab.)  For each of the following statements, select Yes if the statement is true. Otherwise, select No.</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Explanation:</strong></h5><p><img id="img190" src="https://free-braindumps.com/images/exam-dumps/AZ-104/5b755996-c379-436a-9b40-bae9f31bbbcc.jpg" imageviewer=""/><br/><br/><br/>Box 1: Yes<br/>Access package include the setting: Users who can request access: All configured connected organizations<br/><br/>This allow users in connected organizations (other directories and domains) to request this access package.<br/><br/>Box 2: No<br/>From the first exhibit we see that Access package assignments expires after 365 days.<br/>From the second exhibit, however, we see that there is a further delay of 30 days before users are removed from Group1.<br/><br/>Box 3: Yes<br/>365+30 days is 395 days. Users will be removed after 395 days.</p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[HOTSPOT (Drag and Drop is not supported)<br/>You have an Azure AD tenant named contoso.com.<br/><br/>You have two external partner organizations named fabrikam.com and litwareinc.com. Fabrikam.com is configured as a connected organization.<br/><br/>You create an access package as shown in the Access package exhibit. (Click the Access package tab.)<br/><br/><img id="img184" src="https://free-braindumps.com/images/exam-dumps/AZ-104/33898d30-0d53-423f-a484-df46df35b9aa.jpg" imageviewer=""/><br/><br/>You configure the external user lifecycle settings as shown in the Lifecycle exhibit. (Click the Lifecycle tab.)<br/><img id="img186" src="https://free-braindumps.com/images/exam-dumps/AZ-104/41d9c6fc-0949-428d-ad3c-be4ba5a9c9c2.jpg" imageviewer=""/><br/><br/>For each of the following statements, select Yes if the statement is true. Otherwise, select No.<br/><br/><img id="img188" src="https://free-braindumps.com/images/exam-dumps/AZ-104/b7354e36-6b22-44d7-8415-72abafd108e7.jpg" imageviewer=""/>]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="100">
+<text>See Explanation section for answer.</text>
+</answer>
+</question>
+
+<question type="category">
+<category><text>$course$/manage-azure-identities-and-governance-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>You have an Azure subscription named Subscription1 that contains a virtual network named VNet1. VNet1 is in a resource group named RG1. Subscription1 has a user named User1. User1 has the following roles: •Reader •Security Admin •Security Reader You need to ensure that User1 can assign the Reader role for VNet1 to other users. What should you do?</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Explanation:</strong></h5><p>Owner role - Grants full access to manage all resources, including the ability to assign roles in Azure RBAC.<br/><br/>Incorrect:<br/>Not A, Not D:<br/>Network Contributor<br/>Lets you manage networks, but not access to them.<br/>Actions:<br/>Microsoft.Authorization/*/read - Read roles and role assignments<br/>Microsoft.Insights/alertRules/*- Create and manage a classic metric alert<br/>Microsoft.Network/* - Create and manage networks<br/>Microsoft.ResourceHealth/availabilityStatuses/read - Gets the availability statuses for all resources in the specified scope<br/>Microsoft.Resources/deployments/* - Create and manage a deployment<br/>Microsoft.Resources/subscriptions/resourceGroups/read - Gets or lists resource groups.<br/>Microsoft.Support/*- Create and update a support ticket<br/><br/>Not B:<br/>Contributor role - Grants full access to manage all resources, but does not allow you to assign roles in Azure RBAC, manage assignments in Azure Blueprints, or share image galleries.</p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[You have an Azure subscription named Subscription1 that contains a virtual network named VNet1. VNet1 is in a resource group named RG1.<br/><br/>Subscription1 has a user named User1. User1 has the following roles:<br/><br/>•Reader<br/>•Security Admin<br/>•Security Reader<br/><br/>You need to ensure that User1 can assign the Reader role for VNet1 to other users.<br/><br/>What should you do?]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="0">
+<text>Assign User1 the Network Contributor role for VNet1.</text>
+</answer>
+<answer fraction="0">
+<text>Remove User1 from the Security Reader role for Subscription1. Assign User1 the Contributor role for RG1.</text>
+</answer>
+<answer fraction="100">
+<text>Assign User1 the Owner role for VNet1.</text>
+</answer>
+<answer fraction="0">
+<text>Assign User1 the Network Contributor role for RG1.</text>
+</answer>
+</question>
+
+<question type="category">
+<category><text>$course$/manage-azure-identities-and-governance-questions</text></category>
+</question>
+<question type="multichoice">
+<name><text>HOTSPOT (Drag and Drop is not supported) You have an Azure subscription that contains the users shown in the following table.   The groups are configured as shown in the following table.   You have a resource group named RG1 as shown in the following exhibit.  For each of the following statements, select Yes if the statement is true. Otherwise, select No.</text></name>
+<generalfeedback format="html"><text><![CDATA[<h5><strong>Explanation:</strong></h5><p><img id="img200" src="https://free-braindumps.com/images/exam-dumps/AZ-104/efa624e9-7d56-4e37-8e6b-78e80161d775.jpg" imageviewer=""/><br/><br/><br/>Box 1: No<br/>Group nesting is not supported. A group can&#39;t be added as a member of a role-assignable group.<br/><br/>Box 2: No<br/>Group nesting is not supported. A group can&#39;t be added as a member of a role-assignable group.<br/><br/>Box 3: Yes</p>]]></text></generalfeedback>
+<questiontext format="html"><text><![CDATA[HOTSPOT (Drag and Drop is not supported)<br/>You have an Azure subscription that contains the users shown in the following table.<br/><br/><img id="img192" src="https://free-braindumps.com/images/exam-dumps/AZ-104/dff9b827-d1b7-48d4-8885-a42200d8daf4.jpg" imageviewer=""/><br/><br/>The groups are configured as shown in the following table.<br/><br/><img id="img194" src="https://free-braindumps.com/images/exam-dumps/AZ-104/f770b72b-73be-4de6-a4cd-bea4fe9591ff.jpg" imageviewer=""/><br/><br/>You have a resource group named RG1 as shown in the following exhibit.<br/><img id="img196" src="https://free-braindumps.com/images/exam-dumps/AZ-104/d61167ee-f887-4197-aaed-7f35b3ea0ade.jpg" imageviewer=""/><br/><br/>For each of the following statements, select Yes if the statement is true. Otherwise, select No.<br/><br/><img id="img198" src="https://free-braindumps.com/images/exam-dumps/AZ-104/9507af22-02b9-44ab-9511-844840709701.jpg" imageviewer=""/>]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="100">
+<text>See Explanation section for answer.</text>
+</answer>
+</question>
+
+</quiz>
