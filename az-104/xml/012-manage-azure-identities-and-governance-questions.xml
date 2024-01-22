@@ -8,10 +8,7 @@
 <text>See Explanation section for answer.</text>
 </answer>
 </question>
-</quiz>
 
-<?xml version="1.0"?>
-<quiz>
 <question type="multichoice">
 <name><text>You have an Azure subscription that contains an Azure Active Directory (Azure AD) tenant named contoso.com and an Azure Kubernetes Service (AKS) cluster named AKS1.  An administrator reports that she is unable to grant access to AKS1 to the users in contoso.com. You need to ensure that access to AKS1 can be granted to the contoso.com users. What should you do first?</text></name>
 <questiontext format="html"><text><![CDATA[You have an Azure subscription that contains an Azure Active Directory (Azure AD) tenant named contoso.com and an Azure Kubernetes Service (AKS) cluster named AKS1.<br/><br/>An administrator reports that she is unable to grant access to AKS1 to the users in contoso.com. You need to ensure that access to AKS1 can be granted to the contoso.com users.<br/>What should you do first?]]></text></questiontext>
@@ -29,10 +26,7 @@
 <text>From AKS1, create a namespace.</text>
 </answer>
 </question>
-</quiz>
 
-<?xml version="1.0"?>
-<quiz>
 <question type="multichoice">
 <name><text>You have a Microsoft 365 tenant and an Azure Active Directory (Azure AD) tenant named contoso.com.  You plan to grant three users named User1, User2, and User3 access to a temporary Microsoft SharePoint document library named Library1.  You need to create groups for the users. The solution must ensure that the groups are deleted automatically after 180 days.  Which two groups should you create? Each correct answer presents a complete solution. Note: Each correct selection is worth one point.</text></name>
 <questiontext format="html"><text><![CDATA[You have a Microsoft 365 tenant and an Azure Active Directory (Azure AD) tenant named contoso.com.<br/><br/>You plan to grant three users named User1, User2, and User3 access to a temporary Microsoft SharePoint document library named Library1.<br/><br/>You need to create groups for the users. The solution must ensure that the groups are deleted automatically after 180 days.<br/><br/>Which two groups should you create? Each correct answer presents a complete solution.<br/>Note: Each correct selection is worth one point.]]></text></questiontext>
@@ -53,10 +47,7 @@
 <text>a Security group that uses the Dynamic Device membership type</text>
 </answer>
 </question>
-</quiz>
 
-<?xml version="1.0"?>
-<quiz>
 <question type="multichoice">
 <name><text>HOTSPOT (Drag and Drop is not supported) You have an Azure Active Directory (Azure AD) tenant named contoso.com that contains the users shown in the following table:     User3 is the owner of Group1. Group2 is a member of Group1. You configure an access review named Review1 as shown in the following exhibit:    For each of the following statements, select Yes if the statement is true. Otherwise, select No. Hot Area:   </text></name>
 <questiontext format="html"><text><![CDATA[HOTSPOT (Drag and Drop is not supported)<br/>You have an Azure Active Directory (Azure AD) tenant named contoso.com that contains the users shown in the following table:<br/><br/><img id="img18" src="https://free-braindumps.com/images/exam-dumps/AZ-104/0447a593-3610-4fab-a383-31e36e760398.jpg" imageviewer=""/><br/><br/>User3 is the owner of Group1. Group2 is a member of Group1.<br/>You configure an access review named Review1 as shown in the following exhibit:<br/><img id="img20" src="https://free-braindumps.com/images/exam-dumps/AZ-104/99271ab9-cd94-44ad-89b8-4e4b2b580b8a.jpg" imageviewer=""/><br/><br/>For each of the following statements, select Yes if the statement is true. Otherwise, select No.<br/>Hot Area:<br/><br/><img id="img22" src="https://free-braindumps.com/images/exam-dumps/AZ-104/7dc4524b-6d84-47e3-bea3-4f53a4a2439d.jpg" imageviewer=""/>]]></text></questiontext>
@@ -65,5 +56,5 @@
 <text>See Explanation section for answer.</text>
 </answer>
 </question>
-</quiz>
 
+</quiz>

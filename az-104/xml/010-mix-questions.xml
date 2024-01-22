@@ -17,10 +17,7 @@
 <text>1</text>
 </answer>
 </question>
-</quiz>
 
-<?xml version="1.0"?>
-<quiz>
 <question type="multichoice">
 <name><text>Your company’s Azure subscription includes Azure virtual machines (VMs) that run Windows Server 2016. One of the VMs is backed up every day using Azure Backup Instant Restore. When the VM becomes infected with data encrypting ransomware, you decide to recover the VM’s files.  Which of the following is TRUE in this scenario?</text></name>
 <questiontext format="html"><text><![CDATA[Your company’s Azure subscription includes Azure virtual machines (VMs) that run Windows Server 2016. One of the VMs is backed up every day using Azure Backup Instant Restore.<br/>When the VM becomes infected with data encrypting ransomware, you decide to recover the VM’s files. <br/>Which of the following is TRUE in this scenario?]]></text></questiontext>
@@ -38,10 +35,7 @@
 <text>You will not be able to recover the files.</text>
 </answer>
 </question>
-</quiz>
 
-<?xml version="1.0"?>
-<quiz>
 <question type="multichoice">
 <name><text>Your company’s Azure subscription includes Azure virtual machines (VMs) that run Windows Server 2016. One of the VMs is backed up every day using Azure Backup Instant Restore. When the VM becomes infected with data encrypting ransomware, you are required to restore the VM.  Which of the following actions should you take?</text></name>
 <questiontext format="html"><text><![CDATA[Your company’s Azure subscription includes Azure virtual machines (VMs) that run Windows Server 2016. One of the VMs is backed up every day using Azure Backup Instant Restore.<br/>When the VM becomes infected with data encrypting ransomware, you are required to restore the VM. <br/>Which of the following actions should you take?]]></text></questiontext>
@@ -59,10 +53,7 @@
 <text>You should restore the VM to an on-premise Windows device.</text>
 </answer>
 </question>
-</quiz>
 
-<?xml version="1.0"?>
-<quiz>
 <question type="multichoice">
 <name><text>You administer a solution in Azure that is currently having performance issues. You need to find the cause of the performance issues pertaining to metrics on the Azure infrastructure.  Which of the following is the tool you should use?</text></name>
 <questiontext format="html"><text><![CDATA[You administer a solution in Azure that is currently having performance issues.<br/>You need to find the cause of the performance issues pertaining to metrics on the Azure infrastructure. <br/>Which of the following is the tool you should use?]]></text></questiontext>
@@ -80,5 +71,5 @@
 <text>Azure Advisor</text>
 </answer>
 </question>
-</quiz>
 
+</quiz>

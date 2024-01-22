@@ -20,10 +20,7 @@
 <text>VMs that have been shut down.</text>
 </answer>
 </question>
-</quiz>
 
-<?xml version="1.0"?>
-<quiz>
 <question type="multichoice">
 <name><text>   You have an Azure Active Directory (Azure AD) tenant named contoso.com. You have a CSV file that contains the names and email addresses of 500 external users. You need to create a guest user account in contoso.com for each of the 500 external users.  Solution: You create a PowerShell script that runs the New-AzureADUser cmdlet for each user. Does this meet the goal?</text></name>
 <questiontext format="html"><text><![CDATA[<br/><br/><br/>You have an Azure Active Directory (Azure AD) tenant named contoso.com.<br/>You have a CSV file that contains the names and email addresses of 500 external users.<br/>You need to create a guest user account in contoso.com for each of the 500 external users.<br/><br/>Solution: You create a PowerShell script that runs the New-AzureADUser cmdlet for each user.<br/>Does this meet the goal?]]></text></questiontext>
@@ -35,10 +32,7 @@
 <text>No</text>
 </answer>
 </question>
-</quiz>
 
-<?xml version="1.0"?>
-<quiz>
 <question type="multichoice">
 <name><text>   You have an Azure Active Directory (Azure AD) tenant named contoso.com. You have a CSV file that contains the names and email addresses of 500 external users. You need to create a guest user account in contoso.com for each of the 500 external users.  Solution: From Azure AD in the Azure portal, you use the Bulk create user operation. Does this meet the goal?</text></name>
 <questiontext format="html"><text><![CDATA[<br/><br/><br/>You have an Azure Active Directory (Azure AD) tenant named contoso.com.<br/>You have a CSV file that contains the names and email addresses of 500 external users.<br/>You need to create a guest user account in contoso.com for each of the 500 external users.<br/><br/>Solution: From Azure AD in the Azure portal, you use the Bulk create user operation.<br/>Does this meet the goal?]]></text></questiontext>
@@ -50,10 +44,7 @@
 <text>No</text>
 </answer>
 </question>
-</quiz>
 
-<?xml version="1.0"?>
-<quiz>
 <question type="multichoice">
 <name><text>   You have an Azure Active Directory (Azure AD) tenant named contoso.com. You have a CSV file that contains the names and email addresses of 500 external users. You need to create a guest user account in contoso.com for each of the 500 external users.  Solution: You create a PowerShell script that runs the New-AzureADMSInvitation cmdlet for each external user.  Does this meet the goal?</text></name>
 <questiontext format="html"><text><![CDATA[<br/><br/><br/>You have an Azure Active Directory (Azure AD) tenant named contoso.com.<br/>You have a CSV file that contains the names and email addresses of 500 external users.<br/>You need to create a guest user account in contoso.com for each of the 500 external users.<br/><br/>Solution: You create a PowerShell script that runs the New-AzureADMSInvitation cmdlet for each external user.<br/><br/>Does this meet the goal?]]></text></questiontext>
@@ -65,5 +56,5 @@
 <text>No</text>
 </answer>
 </question>
-</quiz>
 
+</quiz>

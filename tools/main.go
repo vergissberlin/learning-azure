@@ -62,6 +62,8 @@ func main() {
 			return
 		}
 		defer fileMoodleXML.Close()
+		// Prepend <?xml version="1.0"?> to moodle XML file
+		fileMoodleXML.WriteString("<?xml version=\"1.0\"?>\n<quiz>\n")
 
 		doc.Find(".panel").Each(func(i int, s *goquery.Selection) {
 			// Get Question number after the column from the first .panel-title > .text-uppercase
@@ -129,6 +131,8 @@ func main() {
 
 		})
 
+		// Append </quiz> to moodle XML file
+		fileMoodleXML.WriteString("</quiz>\n")
 		pageStart++
 	}
 }
@@ -239,6 +243,5 @@ func formatMoodleXML(question string, choices []string, answers []int) string {
 		formatted += "</answer>\n"
 	}
 	formatted += "</question>\n"
-	formatted = "<?xml version=\"1.0\"?>\n<quiz>\n" + formatted + "</quiz>\n"
 	return formatted
 }
