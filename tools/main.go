@@ -115,12 +115,17 @@ func main() {
 				convertedAnswers[i] = convertedAnswer
 			}
 
-			aiken := formatAiken(question, choices, convertedAnswers)
 			gift := formatGIFT(questionNumber, question, choices, convertedAnswers)
-			moodleXML := formatMoodleXML(question, choices, convertedAnswers)
-			writeToFile(fileAk, aiken)
 			writeToFile(fileGift, gift)
+
+			println("Choices: " + fmt.Sprint(choices))
+			println("Answers: " + fmt.Sprint(convertedAnswers))
+
+			moodleXML := formatMoodleXML(question, choices, convertedAnswers)
 			writeToFile(fileMoodleXML, moodleXML)
+
+			aiken := formatAiken(question, choices, convertedAnswers)
+			writeToFile(fileAk, aiken)
 
 		})
 
