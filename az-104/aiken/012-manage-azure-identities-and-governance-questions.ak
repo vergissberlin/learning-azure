@@ -1,0 +1,23 @@
+HOTSPOT (Drag and Drop is not supported) You have an Azure subscription named Subscription1 that contains a resource group named RG1. In RG1, you create an internal load balancer named LB1 and a public load balancer named LB2. You need to ensure that an administrator named Admin1 can manage LB1 and LB2. The solution must follow the principle of least privilege.  Which role should you assign to Admin1 for each task? To answer, select the appropriate options in the answer area.  Hot Area:  
+See Explanation section for answer.
+ANSWER: A
+
+You have an Azure subscription that contains an Azure Active Directory (Azure AD) tenant named contoso.com and an Azure Kubernetes Service (AKS) cluster named AKS1.  An administrator reports that she is unable to grant access to AKS1 to the users in contoso.com. You need to ensure that access to AKS1 can be granted to the contoso.com users. What should you do first?
+From contoso.com, modify the Organization relationships settings.
+From contoso.com, create an OAuth 2.0 authorization endpoint.
+Recreate AKS1.
+From AKS1, create a namespace.
+ANSWER: B
+
+You have a Microsoft 365 tenant and an Azure Active Directory (Azure AD) tenant named contoso.com.  You plan to grant three users named User1, User2, and User3 access to a temporary Microsoft SharePoint document library named Library1.  You need to create groups for the users. The solution must ensure that the groups are deleted automatically after 180 days.  Which two groups should you create? Each correct answer presents a complete solution. Note: Each correct selection is worth one point.
+an Office 365 group that uses the Assigned membership type
+a Security group that uses the Assigned membership type
+an Office 365 group that uses the Dynamic User membership type
+a Security group that uses the Dynamic User membership type
+a Security group that uses the Dynamic Device membership type
+ANSWER: A, C
+
+HOTSPOT (Drag and Drop is not supported) You have an Azure Active Directory (Azure AD) tenant named contoso.com that contains the users shown in the following table:     User3 is the owner of Group1. Group2 is a member of Group1. You configure an access review named Review1 as shown in the following exhibit:    For each of the following statements, select Yes if the statement is true. Otherwise, select No. Hot Area:   
+See Explanation section for answer.
+ANSWER: A
+

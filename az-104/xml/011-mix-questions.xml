@@ -1,0 +1,57 @@
+<question type="multichoice">
+<name><text>Your company has an Azure subscription that includes a Recovery Services vault. You want to use Azure Backup to schedule a backup of your company&#39;s virtual machines (VMs) to the Recovery Services vault. Which of the following VMs can you back up? Choose all that apply.</text></name>
+<questiontext format="html"><text><![CDATA[Your company has an Azure subscription that includes a Recovery Services vault.<br/>You want to use Azure Backup to schedule a backup of your company&#39;s virtual machines (VMs) to the Recovery Services vault.<br/>Which of the following VMs can you back up? Choose all that apply.]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="100">
+<text>A. VMs that run Windows 10.</text>
+</answer>
+<answer fraction="100">
+<text>B. VMs that run Windows Server 2012 or higher.</text>
+</answer>
+<answer fraction="100">
+<text>C. VMs that have NOT been shut down.</text>
+</answer>
+<answer fraction="100">
+<text>D. VMs that run Debian 8.2+.</text>
+</answer>
+<answer fraction="100">
+<text>E. VMs that have been shut down.</text>
+</answer>
+</question>
+
+<question type="multichoice">
+<name><text>   You have an Azure Active Directory (Azure AD) tenant named contoso.com. You have a CSV file that contains the names and email addresses of 500 external users. You need to create a guest user account in contoso.com for each of the 500 external users.  Solution: You create a PowerShell script that runs the New-AzureADUser cmdlet for each user. Does this meet the goal?</text></name>
+<questiontext format="html"><text><![CDATA[<br/><br/><br/>You have an Azure Active Directory (Azure AD) tenant named contoso.com.<br/>You have a CSV file that contains the names and email addresses of 500 external users.<br/>You need to create a guest user account in contoso.com for each of the 500 external users.<br/><br/>Solution: You create a PowerShell script that runs the New-AzureADUser cmdlet for each user.<br/>Does this meet the goal?]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="0">
+<text>A. Yes</text>
+</answer>
+<answer fraction="100">
+<text>B. No</text>
+</answer>
+</question>
+
+<question type="multichoice">
+<name><text>   You have an Azure Active Directory (Azure AD) tenant named contoso.com. You have a CSV file that contains the names and email addresses of 500 external users. You need to create a guest user account in contoso.com for each of the 500 external users.  Solution: From Azure AD in the Azure portal, you use the Bulk create user operation. Does this meet the goal?</text></name>
+<questiontext format="html"><text><![CDATA[<br/><br/><br/>You have an Azure Active Directory (Azure AD) tenant named contoso.com.<br/>You have a CSV file that contains the names and email addresses of 500 external users.<br/>You need to create a guest user account in contoso.com for each of the 500 external users.<br/><br/>Solution: From Azure AD in the Azure portal, you use the Bulk create user operation.<br/>Does this meet the goal?]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="0">
+<text>A. Yes</text>
+</answer>
+<answer fraction="100">
+<text>B. No</text>
+</answer>
+</question>
+
+<question type="multichoice">
+<name><text>   You have an Azure Active Directory (Azure AD) tenant named contoso.com. You have a CSV file that contains the names and email addresses of 500 external users. You need to create a guest user account in contoso.com for each of the 500 external users.  Solution: You create a PowerShell script that runs the New-AzureADMSInvitation cmdlet for each external user.  Does this meet the goal?</text></name>
+<questiontext format="html"><text><![CDATA[<br/><br/><br/>You have an Azure Active Directory (Azure AD) tenant named contoso.com.<br/>You have a CSV file that contains the names and email addresses of 500 external users.<br/>You need to create a guest user account in contoso.com for each of the 500 external users.<br/><br/>Solution: You create a PowerShell script that runs the New-AzureADMSInvitation cmdlet for each external user.<br/><br/>Does this meet the goal?]]></text></questiontext>
+<answernumbering>abc</answernumbering>
+<answer fraction="100">
+<text>A. Yes</text>
+</answer>
+<answer fraction="0">
+<text>B. No</text>
+</answer>
+</question>
+
