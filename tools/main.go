@@ -120,9 +120,6 @@ func main() {
 			gift := formatGIFT(questionNumber, question, choices, convertedAnswers)
 			writeToFile(fileGift, gift)
 
-			println("Choices: " + fmt.Sprint(choices))
-			println("Answers: " + fmt.Sprint(convertedAnswers))
-
 			moodleXML := formatMoodleXML(question, choices, convertedAnswers)
 			writeToFile(fileMoodleXML, moodleXML)
 
