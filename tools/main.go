@@ -118,7 +118,6 @@ func main() {
 			aiken := formatAiken(question, choices, convertedAnswers)
 			gift := formatGIFT(questionNumber, question, choices, convertedAnswers)
 			moodleXML := formatMoodleXML(question, choices, convertedAnswers)
-
 			writeToFile(fileAk, aiken)
 			writeToFile(fileGift, gift)
 			writeToFile(fileMoodleXML, moodleXML)
@@ -235,5 +234,6 @@ func formatMoodleXML(question string, choices []string, answers []int) string {
 		formatted += "</answer>\n"
 	}
 	formatted += "</question>\n"
+	formatted = "<?xml version=\"1.0\"?>\n<quiz>\n" + formatted + "</quiz>\n"
 	return formatted
 }
